@@ -1,0 +1,11 @@
+{
+  "name": "opspm-tracker-prototypes",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "python3 -m http.server 4317 --bind 127.0.0.1",
+    "check": "node --check app.js && node --check prototype.js",
+    "test:data": "PYTHONPATH=scripts python3 -m unittest scripts/test_refresh_jobs.py",
+    "build": "python3 scripts/build_site.py"
+  }
+}
