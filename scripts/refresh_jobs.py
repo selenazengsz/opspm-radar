@@ -225,7 +225,7 @@ def parse_summer(source: str) -> list[Job]:
             source_url="https://github.com/NyXkim5/summer-2027-role-index", source_section=section,
             role_family=family, job_type=classify_type(role), posted=posted,
             posted_bucket=posted_bucket(posted), sponsorship="not-stated", sponsorship_scope="source does not state a refusal",
-            sponsorship_evidence="The source does not state that sponsorship is unavailable. Keep under Selena's rule, then verify the employer posting before applying.",
+            sponsorship_evidence="The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
         ))
     return jobs
 

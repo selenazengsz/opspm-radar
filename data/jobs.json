@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-24T23:55:14Z",
+  "generated_at": "2026-09-24T23:58:00Z",
   "count": 106,
   "sources": [
     {
@@ -43,7 +43,7 @@
       "h1b_approvals": 1026,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "a8d29e02e0aabd",
@@ -64,7 +64,7 @@
       "h1b_approvals": 185,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "2b8bc608ca0225",
@@ -85,7 +85,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "3dc915a6874ef8",
@@ -106,7 +106,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "2e7aa7aee896e3",
@@ -127,7 +127,7 @@
       "h1b_approvals": 13,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "6d17dec0f5854f",
@@ -148,7 +148,7 @@
       "h1b_approvals": 8,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "b80eb4ed132a74",
@@ -169,7 +169,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "56ff71b38a9642",
@@ -190,7 +190,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "3f54fe8a2785c8",
@@ -211,7 +211,7 @@
       "h1b_approvals": 35,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "cb457f47ad4136",
@@ -232,7 +232,7 @@
       "h1b_approvals": 8,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "c0cff19c9acc9d",
@@ -253,7 +253,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "e252b2db58779d",
@@ -274,7 +274,7 @@
       "h1b_approvals": 191,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "d1b2ddd7ec0613",
@@ -295,7 +295,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "89c86b34f89df3",
@@ -316,7 +316,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "df8f36b6312ed3",
@@ -337,7 +337,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "5081564b399286",
@@ -358,7 +358,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "20cec03e740bb4",
@@ -379,7 +379,7 @@
       "h1b_approvals": 1026,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "2a1e18390af932",
@@ -400,7 +400,7 @@
       "h1b_approvals": 23139,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "02a844dfda16b7",
@@ -421,7 +421,7 @@
       "h1b_approvals": 133,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "7f026353cb8542",
@@ -438,11 +438,11 @@
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under Selena's rule, then verify the employer posting before applying.",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "c0c832deebdb55",
@@ -459,11 +459,11 @@
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under Selena's rule, then verify the employer posting before applying.",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "f88abcb7b97fdf",
@@ -480,11 +480,11 @@
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under Selena's rule, then verify the employer posting before applying.",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "ce44723f84a608",
@@ -501,11 +501,11 @@
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under Selena's rule, then verify the employer posting before applying.",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "583e776e3cbf1c",
@@ -522,11 +522,11 @@
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under Selena's rule, then verify the employer posting before applying.",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "ea0045bd400590",
@@ -543,11 +543,11 @@
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under Selena's rule, then verify the employer posting before applying.",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "9de84eb04959d6",
@@ -564,11 +564,11 @@
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under Selena's rule, then verify the employer posting before applying.",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "e56260e0caf342",
@@ -585,11 +585,11 @@
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under Selena's rule, then verify the employer posting before applying.",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "b0fdd7c8ae1e94",
@@ -610,7 +610,7 @@
       "h1b_approvals": 28,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "a18c5735c1c3c1",
@@ -627,11 +627,11 @@
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under Selena's rule, then verify the employer posting before applying.",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "0211be6e025073",
@@ -652,7 +652,7 @@
       "h1b_approvals": 291,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "2dfe3edd19f2b8",
@@ -673,7 +673,7 @@
       "h1b_approvals": 291,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "6607341e359544",
@@ -694,7 +694,7 @@
       "h1b_approvals": 37,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "dbe0cb6cb36b6f",
@@ -711,11 +711,11 @@
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under Selena's rule, then verify the employer posting before applying.",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "12d6ff801a7b05",
@@ -732,11 +732,11 @@
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under Selena's rule, then verify the employer posting before applying.",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "3ea6dc2b062c7a",
@@ -757,7 +757,7 @@
       "h1b_approvals": 18,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "6906681c1678f8",
@@ -774,11 +774,11 @@
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under Selena's rule, then verify the employer posting before applying.",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "12fd1b27bfa035",
@@ -795,11 +795,11 @@
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under Selena's rule, then verify the employer posting before applying.",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "b6ee6dfd4268dd",
@@ -820,7 +820,7 @@
       "h1b_approvals": 931,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "8377eee21bb111",
@@ -841,7 +841,7 @@
       "h1b_approvals": 931,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "30cc56d38b0b82",
@@ -858,11 +858,11 @@
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under Selena's rule, then verify the employer posting before applying.",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "c38afcc5c12f1c",
@@ -879,11 +879,11 @@
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under Selena's rule, then verify the employer posting before applying.",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "2fa114dd71bbed",
@@ -904,7 +904,7 @@
       "h1b_approvals": 147,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "3fbf871b58a306",
@@ -921,11 +921,11 @@
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under Selena's rule, then verify the employer posting before applying.",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "047f36c1774dad",
@@ -942,11 +942,11 @@
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under Selena's rule, then verify the employer posting before applying.",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "2b17efad837b9e",
@@ -963,11 +963,11 @@
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under Selena's rule, then verify the employer posting before applying.",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "0f99a5fb5e13bf",
@@ -984,11 +984,11 @@
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under Selena's rule, then verify the employer posting before applying.",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "b6d6d495f8d579",
@@ -1009,7 +1009,7 @@
       "h1b_approvals": 15,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "fcfd92d6920f5d",
@@ -1030,7 +1030,7 @@
       "h1b_approvals": 15,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "1338cc9d0a2076",
@@ -1047,11 +1047,11 @@
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under Selena's rule, then verify the employer posting before applying.",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
       "h1b_approvals": 2,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "8ad54793e69201",
@@ -1072,7 +1072,7 @@
       "h1b_approvals": 70,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "914cf4239932a3",
@@ -1089,11 +1089,11 @@
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under Selena's rule, then verify the employer posting before applying.",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "27b310306ef95d",
@@ -1110,11 +1110,11 @@
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under Selena's rule, then verify the employer posting before applying.",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "b39c84a09b75d5",
@@ -1131,11 +1131,11 @@
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under Selena's rule, then verify the employer posting before applying.",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "a261fc2a7a6ee7",
@@ -1152,11 +1152,11 @@
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under Selena's rule, then verify the employer posting before applying.",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "845f22ebd03aa9",
@@ -1173,11 +1173,11 @@
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under Selena's rule, then verify the employer posting before applying.",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "a57c51f9117d8c",
@@ -1198,7 +1198,7 @@
       "h1b_approvals": 186,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "0cf5da1d714f7b",
@@ -1215,11 +1215,11 @@
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under Selena's rule, then verify the employer posting before applying.",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "ab00dcffe3490f",
@@ -1236,11 +1236,11 @@
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under Selena's rule, then verify the employer posting before applying.",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "516a8472162aca",
@@ -1257,11 +1257,11 @@
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under Selena's rule, then verify the employer posting before applying.",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "90929ff7332eb8",
@@ -1282,7 +1282,7 @@
       "h1b_approvals": 441,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "e4e17d0784758b",
@@ -1303,7 +1303,7 @@
       "h1b_approvals": 441,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "bcaa7d18296d2c",
@@ -1324,7 +1324,7 @@
       "h1b_approvals": 442,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "fbe649c7308dda",
@@ -1345,7 +1345,7 @@
       "h1b_approvals": 442,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "5397c7edc89e02",
@@ -1362,11 +1362,11 @@
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under Selena's rule, then verify the employer posting before applying.",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "8163383d6a09b7",
@@ -1383,11 +1383,11 @@
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under Selena's rule, then verify the employer posting before applying.",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "e7df6b37e0add8",
@@ -1404,11 +1404,11 @@
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under Selena's rule, then verify the employer posting before applying.",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "af561e472599ec",
@@ -1425,11 +1425,11 @@
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under Selena's rule, then verify the employer posting before applying.",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "c06c11c76f2e6c",
@@ -1446,11 +1446,11 @@
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under Selena's rule, then verify the employer posting before applying.",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "b635d3a609e70a",
@@ -1467,11 +1467,11 @@
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under Selena's rule, then verify the employer posting before applying.",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "a59a39a3ae8938",
@@ -1488,11 +1488,11 @@
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under Selena's rule, then verify the employer posting before applying.",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "f628ce34a6dbd8",
@@ -1509,11 +1509,11 @@
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under Selena's rule, then verify the employer posting before applying.",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "814ea32e5640df",
@@ -1530,11 +1530,11 @@
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under Selena's rule, then verify the employer posting before applying.",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "4574555406fc89",
@@ -1555,7 +1555,7 @@
       "h1b_approvals": 133,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "d5c55fbb05088c",
@@ -1572,11 +1572,11 @@
       "posted_bucket": "Date unknown",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under Selena's rule, then verify the employer posting before applying.",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "d6ca9db784dd82",
@@ -1593,11 +1593,11 @@
       "posted_bucket": "Date unknown",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under Selena's rule, then verify the employer posting before applying.",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "97bf4c89acbf52",
@@ -1614,11 +1614,11 @@
       "posted_bucket": "Date unknown",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under Selena's rule, then verify the employer posting before applying.",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "ecf3c220bd694a",
@@ -1639,7 +1639,7 @@
       "h1b_approvals": 44,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "46185a5b22af90",
@@ -1660,7 +1660,7 @@
       "h1b_approvals": 28,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "ba5eb9e79ddb41",
@@ -1681,7 +1681,7 @@
       "h1b_approvals": 308,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "affd776e68bae8",
@@ -1702,7 +1702,7 @@
       "h1b_approvals": 308,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "b4a71aca6aadc2",
@@ -1723,7 +1723,7 @@
       "h1b_approvals": 62,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "f34fad39c011ab",
@@ -1744,7 +1744,7 @@
       "h1b_approvals": 62,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "053d562cfcb3ff",
@@ -1761,11 +1761,11 @@
       "posted_bucket": "Date unknown",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under Selena's rule, then verify the employer posting before applying.",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "7c7f61dff40336",
@@ -1782,11 +1782,11 @@
       "posted_bucket": "Date unknown",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under Selena's rule, then verify the employer posting before applying.",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "35bde60fcb223e",
@@ -1807,7 +1807,7 @@
       "h1b_approvals": 66,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "5107ec15235812",
@@ -1828,7 +1828,7 @@
       "h1b_approvals": 931,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "dd0baa24996084",
@@ -1849,7 +1849,7 @@
       "h1b_approvals": 23,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "76459439832caa",
@@ -1870,7 +1870,7 @@
       "h1b_approvals": 150,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "0239a60c28585a",
@@ -1887,11 +1887,11 @@
       "posted_bucket": "Date unknown",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under Selena's rule, then verify the employer posting before applying.",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "37a41f6f24a443",
@@ -1912,7 +1912,7 @@
       "h1b_approvals": 9275,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "f0c978dc3dbec6",
@@ -1929,11 +1929,11 @@
       "posted_bucket": "Date unknown",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under Selena's rule, then verify the employer posting before applying.",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "44ac97f780ddeb",
@@ -1950,11 +1950,11 @@
       "posted_bucket": "Date unknown",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under Selena's rule, then verify the employer posting before applying.",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "22f7e68cf04832",
@@ -1975,7 +1975,7 @@
       "h1b_approvals": 186,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "9489ef6fd28a19",
@@ -1992,11 +1992,11 @@
       "posted_bucket": "Date unknown",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under Selena's rule, then verify the employer posting before applying.",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "2ac98a02f30628",
@@ -2017,7 +2017,7 @@
       "h1b_approvals": 10,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "fda5c0c6ac24b1",
@@ -2034,11 +2034,11 @@
       "posted_bucket": "Date unknown",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under Selena's rule, then verify the employer posting before applying.",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "83ba7918013735",
@@ -2055,11 +2055,11 @@
       "posted_bucket": "Date unknown",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under Selena's rule, then verify the employer posting before applying.",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "d5ffb0910b6ed0",
@@ -2076,11 +2076,11 @@
       "posted_bucket": "Date unknown",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under Selena's rule, then verify the employer posting before applying.",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "caf597a8b3690b",
@@ -2097,11 +2097,11 @@
       "posted_bucket": "Date unknown",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under Selena's rule, then verify the employer posting before applying.",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "34c4c6d2d2129a",
@@ -2118,11 +2118,11 @@
       "posted_bucket": "Date unknown",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under Selena's rule, then verify the employer posting before applying.",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "c2429a51535c60",
@@ -2139,11 +2139,11 @@
       "posted_bucket": "Date unknown",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under Selena's rule, then verify the employer posting before applying.",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "7baf80d403898f",
@@ -2160,11 +2160,11 @@
       "posted_bucket": "Date unknown",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under Selena's rule, then verify the employer posting before applying.",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "c14b7ad96de4fd",
@@ -2181,11 +2181,11 @@
       "posted_bucket": "Date unknown",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under Selena's rule, then verify the employer posting before applying.",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "a2f569d54c8d0e",
@@ -2202,11 +2202,11 @@
       "posted_bucket": "Date unknown",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under Selena's rule, then verify the employer posting before applying.",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "ecd505661f3039",
@@ -2223,11 +2223,11 @@
       "posted_bucket": "Date unknown",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under Selena's rule, then verify the employer posting before applying.",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     },
     {
       "id": "68b514dce00457",
@@ -2244,11 +2244,11 @@
       "posted_bucket": "Date unknown",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under Selena's rule, then verify the employer posting before applying.",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-24T23:55:14Z"
+      "verified_at": "2026-09-24T23:58:00Z"
     }
   ]
 }
