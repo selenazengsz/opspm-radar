@@ -14,7 +14,7 @@ The production page is `/`. The design archive remains available at:
 
 ## Data model
 
-- Public roles are normalized from Summer 2027 Role Index and New Grad Jobs 2027.
+- Public roles are normalized from Summer 2027 Role Index, New Grad Jobs 2027, and ApplyGuy's frequently reverified 2027 internship feed.
 - Company-level H-1B history comes from a compact index derived from the USCIS Employer Data Hub.
 - “H-1B history” is evidence of past approvals, not a promise for a specific role.
 - Under the default eligibility rule, a role remains visible unless a source explicitly reports no sponsorship or a citizenship restriction.

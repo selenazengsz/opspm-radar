@@ -18,6 +18,7 @@ from typing import Iterable
 
 SUMMER_URL = "https://raw.githubusercontent.com/NyXkim5/summer-2027-role-index/main/index.html"
 NEW_GRAD_URL = "https://raw.githubusercontent.com/zapplyjobs/New-Grad-Jobs-2027/main/README.md"
+APPLYGUY_URL = "https://raw.githubusercontent.com/ApplyGuy/2027-Internships/main/data/internships.json"
 H1B_URL = "https://raw.githubusercontent.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/main/data/h1b.json"
 H1B_THRESHOLD = 10
 
@@ -289,6 +290,35 @@ def parse_new_grad(source: str) -> list[Job]:
     return jobs
 
 
+def parse_applyguy(source: str) -> list[Job]:
+    """Normalize ApplyGuy's frequently reverified open-internship JSON feed."""
+    payload = json.loads(source)
+    jobs: list[Job] = []
+    for item in payload.get("jobs") or []:
+        company = clean_text(str(item.get("company") or ""))
+        role = clean_text(str(item.get("title") or ""))
+        location = clean_text(str(item.get("location") or ""))
+        href = str(item.get("listingUrl") or item.get("url") or "").strip()
+        family = classify_family(role)
+        if not company or not href or not family or not is_relevant(role):
+            continue
+        posted = clean_text(str(item.get("age") or item.get("posted") or "Date unknown"))
+        season = clean_text(str(item.get("season") or "Internships"))
+        jobs.append(Job(
+            id=stable_id(company, role, location), company=company, role=role, location=location,
+            apply_url=href, source_name="ApplyGuy 2027 Internships",
+            source_url="https://github.com/ApplyGuy/2027-Internships", source_section=season,
+            role_family=family, job_type="Internship", posted=posted,
+            posted_bucket=posted_bucket(posted), sponsorship="not-stated",
+            sponsorship_scope="source does not state a refusal",
+            sponsorship_evidence=(
+                "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a "
+                "role-specific sponsorship decision. Verify the employer posting before applying."
+            ),
+        ))
+    return jobs
+
+
 def dedupe(jobs: Iterable[Job]) -> list[Job]:
     by_id: dict[str, Job] = {}
     for job in jobs:
@@ -328,6 +358,7 @@ def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--summer-file", type=Path)
     parser.add_argument("--new-grad-file", type=Path)
+    parser.add_argument("--applyguy-file", type=Path)
     parser.add_argument("--h1b-file", type=Path)
     parser.add_argument("--output", type=Path, default=Path("data/jobs.json"))
     args = parser.parse_args()
@@ -335,6 +366,7 @@ def main() -> int:
     try:
         summer = args.summer_file.read_text(encoding="utf-8") if args.summer_file else fetch(SUMMER_URL)
         new_grad = args.new_grad_file.read_text(encoding="utf-8") if args.new_grad_file else fetch(NEW_GRAD_URL)
+        applyguy = args.applyguy_file.read_text(encoding="utf-8") if args.applyguy_file else fetch(APPLYGUY_URL)
         h1b_index = json.loads(args.h1b_file.read_text(encoding="utf-8")) if args.h1b_file else json.loads(fetch(H1B_URL))
     except Exception as exc:
         print(f"source fetch failed: {exc}", file=sys.stderr)
@@ -342,7 +374,8 @@ def main() -> int:
 
     summer_jobs = parse_summer(summer)
     new_grad_jobs = parse_new_grad(new_grad)
-    normalized = enrich_h1b_history(dedupe([*summer_jobs, *new_grad_jobs]), h1b_index)
+    applyguy_jobs = parse_applyguy(applyguy)
+    normalized = enrich_h1b_history(dedupe([*summer_jobs, *new_grad_jobs, *applyguy_jobs]), h1b_index)
     if not normalized:
         print("refusing to write an empty feed", file=sys.stderr)
         return 3
@@ -355,13 +388,14 @@ def main() -> int:
         "sources": [
             {"name": "Summer 2027 Role Index", "url": "https://github.com/NyXkim5/summer-2027-role-index", "records": len(summer_jobs)},
             {"name": "New Grad Jobs 2027", "url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027", "records": len(new_grad_jobs)},
+            {"name": "ApplyGuy 2027 Internships", "url": "https://github.com/ApplyGuy/2027-Internships", "records": len(applyguy_jobs)},
             {"name": "USCIS H-1B history index", "url": "https://www.uscis.gov/tools/reports-and-studies/h-1b-employer-data-hub", "records": len(h1b_index.get("employers") or {}), "window": h1b_index.get("fiscal_years") or []},
         ],
         "jobs": [asdict(job) | {"verified_at": generated_at} for job in normalized],
     }
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(json.dumps({"output": str(args.output), "count": len(normalized), "summer": len(summer_jobs), "new_grad": len(new_grad_jobs)}))
+    print(json.dumps({"output": str(args.output), "count": len(normalized), "summer": len(summer_jobs), "new_grad": len(new_grad_jobs), "applyguy": len(applyguy_jobs)}))
     return 0
 
 

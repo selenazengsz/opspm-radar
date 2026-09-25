@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-09-25T00:09:31Z",
-  "count": 113,
+  "generated_at": "2026-09-25T00:18:46Z",
+  "count": 185,
   "sources": [
     {
       "name": "Summer 2027 Role Index",
@@ -11,7 +11,12 @@
     {
       "name": "New Grad Jobs 2027",
       "url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
-      "records": 16
+      "records": 19
+    },
+    {
+      "name": "ApplyGuy 2027 Internships",
+      "url": "https://github.com/ApplyGuy/2027-Internships",
+      "records": 69
     },
     {
       "name": "USCIS H-1B history index",
@@ -25,6 +30,27 @@
   ],
   "jobs": [
     {
+      "id": "64eeb05fce588e",
+      "company": "Abb",
+      "role": "Product Management Intern - Summer 2027",
+      "location": "New Berlin, WI",
+      "apply_url": "https://abb.wd3.myworkdayjobs.com/external_career_page/job/New-Berlin-Wisconsin-United-States-of-America/Product-Management-Intern---Summer-2027_JR00047280",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Summer 2027",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "1d",
+      "posted_bucket": "Fresh now",
+      "sponsorship": "history",
+      "sponsorship_scope": "company-level USCIS history",
+      "sponsorship_evidence": "USCIS history shows 69 approved H-1B petitions for a confidently matched employer in FY2022–2023. This is company history, not a promise for this role; no explicit refusal appears in the source listing.",
+      "h1b_approvals": 69,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
       "id": "923e57384b3a49",
       "company": "Adobe",
       "role": "2027 University Graduate - Product Manager",
@@ -35,7 +61,7 @@
       "source_section": "Software Engineering",
       "role_family": "Product",
       "job_type": "New Grad",
-      "posted": "1h",
+      "posted": "2h",
       "posted_bucket": "Fresh now",
       "sponsorship": "source-signal",
       "sponsorship_scope": "company-level source signal",
@@ -43,7 +69,7 @@
       "h1b_approvals": 1026,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "a8d29e02e0aabd",
@@ -56,7 +82,7 @@
       "source_section": "Data, AI & Research",
       "role_family": "Business Ops",
       "job_type": "Entry Level",
-      "posted": "54m",
+      "posted": "1h",
       "posted_bucket": "Fresh now",
       "sponsorship": "source-signal",
       "sponsorship_scope": "company-level source signal",
@@ -64,7 +90,7 @@
       "h1b_approvals": 185,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "2b8bc608ca0225",
@@ -85,7 +111,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "3dc915a6874ef8",
@@ -106,7 +132,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "2e7aa7aee896e3",
@@ -119,7 +145,7 @@
       "source_section": "Data, AI & Research",
       "role_family": "Business Ops",
       "job_type": "Entry Level",
-      "posted": "35m",
+      "posted": "43m",
       "posted_bucket": "Fresh now",
       "sponsorship": "history",
       "sponsorship_scope": "company-level USCIS history",
@@ -127,7 +153,28 @@
       "h1b_approvals": 13,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "be3d2bbc10509b",
+      "company": "Danaher",
+      "role": "Product Management & Marketing Intern (Summer 2027 Intern)",
+      "location": "Logan, UT",
+      "apply_url": "https://danaher.wd1.myworkdayjobs.com/danaherjobs/job/Logan-Utah-United-States/Product-Management---Marketing-Intern--Summer-2027-Intern-_R1317692",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Summer 2027",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "3d",
+      "posted_bucket": "Fresh now",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": 3,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "6d17dec0f5854f",
@@ -148,7 +195,7 @@
       "h1b_approvals": 8,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "56ff71b38a9642",
@@ -169,7 +216,28 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "f87d55b06ecc62",
+      "company": "Google",
+      "role": "Associate Product Manager Intern, Summer 2027",
+      "location": "Multiple U.S. locations",
+      "apply_url": "https://www.google.com/about/careers/applications/jobs/results/134770032394543814-associate-product-manager-intern-summer-2027",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Summer 2027",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "3d",
+      "posted_bucket": "Fresh now",
+      "sponsorship": "history",
+      "sponsorship_scope": "company-level USCIS history",
+      "sponsorship_evidence": "USCIS history shows 10,898 approved H-1B petitions for a confidently matched employer in FY2022–2023. This is company history, not a promise for this role; no explicit refusal appears in the source listing.",
+      "h1b_approvals": 10898,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "3f54fe8a2785c8",
@@ -190,7 +258,28 @@
       "h1b_approvals": 35,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "7780e024d635bd",
+      "company": "Jj",
+      "role": "Product Analyst Co-op",
+      "location": "Shepherdsville, KY",
+      "apply_url": "https://jj.wd5.myworkdayjobs.com/JJ/job/Shepherdsville-Kentucky-United-States-of-America/Product-Analyst-Co-op_R-101018",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Co-op",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "1d",
+      "posted_bucket": "Fresh now",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "cb457f47ad4136",
@@ -203,7 +292,7 @@
       "source_section": "Software Engineering",
       "role_family": "Product",
       "job_type": "Internship",
-      "posted": "1h",
+      "posted": "2h",
       "posted_bucket": "Fresh now",
       "sponsorship": "source-signal",
       "sponsorship_scope": "company-level source signal",
@@ -211,7 +300,7 @@
       "h1b_approvals": 8,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "c0cff19c9acc9d",
@@ -224,7 +313,7 @@
       "source_section": "Data, AI & Research",
       "role_family": "Business Ops",
       "job_type": "Entry Level",
-      "posted": "44m",
+      "posted": "53m",
       "posted_bucket": "Fresh now",
       "sponsorship": "source-signal",
       "sponsorship_scope": "company-level source signal",
@@ -232,7 +321,28 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "fda176bb5bf77d",
+      "company": "Mastercard",
+      "role": "Product Management Intern, Summer 2027 - St. Louis, MO (US)",
+      "location": "O'Fallon, MO",
+      "apply_url": "https://mastercard.wd1.myworkdayjobs.com/CorporateCareers/job/OFallon-Missouri/Product-Management-Intern--Summer-2027---St-Louis--MO--US-_R-287625-1",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Summer 2027",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "2d",
+      "posted_bucket": "Fresh now",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "e252b2db58779d",
@@ -245,7 +355,7 @@
       "source_section": "Data, AI & Research",
       "role_family": "Business Ops",
       "job_type": "Entry Level",
-      "posted": "54m",
+      "posted": "1h",
       "posted_bucket": "Fresh now",
       "sponsorship": "source-signal",
       "sponsorship_scope": "company-level source signal",
@@ -253,7 +363,7 @@
       "h1b_approvals": 191,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "d1b2ddd7ec0613",
@@ -274,7 +384,28 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "3b4397e8ddfd65",
+      "company": "Rhoda AI",
+      "role": "Product Manager- Robot Data Systems Internship",
+      "location": "Mountain View, CA",
+      "apply_url": "https://jobs.ashbyhq.com/rhoda-ai/ecadb13f-b6cd-4070-9a31-80c9fa355fe4",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Not specified",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "3d",
+      "posted_bucket": "Fresh now",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "89c86b34f89df3",
@@ -287,7 +418,7 @@
       "source_section": "Data, AI & Research",
       "role_family": "Business Ops",
       "job_type": "Entry Level",
-      "posted": "24m",
+      "posted": "33m",
       "posted_bucket": "Fresh now",
       "sponsorship": "source-signal",
       "sponsorship_scope": "company-level source signal",
@@ -295,7 +426,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "6438cd38910405",
@@ -308,7 +439,7 @@
       "source_section": "Business & Operations",
       "role_family": "Business Ops",
       "job_type": "Entry Level",
-      "posted": "24m",
+      "posted": "33m",
       "posted_bucket": "Fresh now",
       "sponsorship": "source-signal",
       "sponsorship_scope": "company-level source signal",
@@ -316,7 +447,70 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "d507867f8088ea",
+      "company": "Uline",
+      "role": "Business Analyst - Global Trade",
+      "location": "Pleasant Prairie, WI",
+      "apply_url": "https://zapply.jobs/l/d/workday-uline-uline-careers-R267245?s=gh-new-grad-jobs-2027",
+      "source_name": "New Grad Jobs 2027",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
+      "source_section": "Data, AI & Research",
+      "role_family": "Business Ops",
+      "job_type": "Entry Level",
+      "posted": "1d",
+      "posted_bucket": "Fresh now",
+      "sponsorship": "source-signal",
+      "sponsorship_scope": "company-level source signal",
+      "sponsorship_evidence": "The source marks another current listing from this company with a Sponsor signal. This is company-level evidence only, not proof for this role; verify the employer posting.",
+      "h1b_approvals": 49,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "2d522799febec5",
+      "company": "Uline",
+      "role": "Executive Operations Business Analyst",
+      "location": "Pleasant Prairie, WI",
+      "apply_url": "https://zapply.jobs/l/d/workday-uline-uline-careers-R267457?s=gh-new-grad-jobs-2027",
+      "source_name": "New Grad Jobs 2027",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
+      "source_section": "Data, AI & Research",
+      "role_family": "Business Ops",
+      "job_type": "Entry Level",
+      "posted": "1d",
+      "posted_bucket": "Fresh now",
+      "sponsorship": "source-signal",
+      "sponsorship_scope": "company-level source signal",
+      "sponsorship_evidence": "The source marks another current listing from this company with a Sponsor signal. This is company-level evidence only, not proof for this role; verify the employer posting.",
+      "h1b_approvals": 49,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "8beee3190fee35",
+      "company": "Uline",
+      "role": "Warehouse Operations Analyst",
+      "location": "Braselton, GA",
+      "apply_url": "https://zapply.jobs/l/d/workday-uline-uline-careers-R267728?s=gh-new-grad-jobs-2027",
+      "source_name": "New Grad Jobs 2027",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
+      "source_section": "Business & Operations",
+      "role_family": "Business Ops",
+      "job_type": "Entry Level",
+      "posted": "13m",
+      "posted_bucket": "Fresh now",
+      "sponsorship": "source-signal",
+      "sponsorship_scope": "company-level source signal",
+      "sponsorship_evidence": "The source marks another current listing from this company with a Sponsor signal. This is company-level evidence only, not proof for this role; verify the employer posting.",
+      "h1b_approvals": 49,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "df8f36b6312ed3",
@@ -329,7 +523,7 @@
       "source_section": "Business & Operations",
       "role_family": "Business Ops",
       "job_type": "Entry Level",
-      "posted": "54m",
+      "posted": "1h",
       "posted_bucket": "Fresh now",
       "sponsorship": "source-signal",
       "sponsorship_scope": "company-level source signal",
@@ -337,7 +531,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "5081564b399286",
@@ -350,7 +544,7 @@
       "source_section": "Business & Operations",
       "role_family": "Business Ops",
       "job_type": "Entry Level",
-      "posted": "24m",
+      "posted": "33m",
       "posted_bucket": "Fresh now",
       "sponsorship": "source-signal",
       "sponsorship_scope": "company-level source signal",
@@ -358,7 +552,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "20cec03e740bb4",
@@ -379,7 +573,49 @@
       "h1b_approvals": 1026,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "46b7fa073f0693",
+      "company": "Allegion",
+      "role": "Summer Intern - Product Manager for Allegion Home",
+      "location": "Carmel, IN",
+      "apply_url": "https://allegion.wd5.myworkdayjobs.com/careers/job/Carmel-IN/Summer-Intern---Product-Manager-for-Allegion-Home_JR37493-1",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Summer",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "17d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "ac654e9b4237af",
+      "company": "Alliedsolutions",
+      "role": "Product Management Intern - Risk Management",
+      "location": "St. Paul, MN",
+      "apply_url": "https://alliedsolutions.wd501.myworkdayjobs.com/allied_external/job/St-Paul-MN/Product-Management-Intern---Risk-Management_R-011083",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Not specified",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "23d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "2a1e18390af932",
@@ -400,7 +636,7 @@
       "h1b_approvals": 23139,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "02a844dfda16b7",
@@ -421,7 +657,7 @@
       "h1b_approvals": 133,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "7f026353cb8542",
@@ -442,7 +678,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "c0c832deebdb55",
@@ -463,7 +699,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "4b3d6247fd9914",
@@ -484,7 +720,7 @@
       "h1b_approvals": 44,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "5f243eac5f5371",
@@ -505,7 +741,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "f88abcb7b97fdf",
@@ -526,7 +762,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "ce44723f84a608",
@@ -547,7 +783,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "583e776e3cbf1c",
@@ -568,7 +804,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "ea0045bd400590",
@@ -589,7 +825,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "9de84eb04959d6",
@@ -610,7 +846,28 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "641ad67b03c175",
+      "company": "BERKLEY W R CORP",
+      "role": "Product Management Analyst Intern (Claims)",
+      "location": "Manassas, VA",
+      "apply_url": "https://careers-berkley.icims.com/jobs/14439/product-management-analyst-intern-%28claims%29/job",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Not specified",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "7d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "e56260e0caf342",
@@ -631,7 +888,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "b0fdd7c8ae1e94",
@@ -652,7 +909,28 @@
       "h1b_approvals": 28,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "84618caf0cffbd",
+      "company": "Bound",
+      "role": "Product Management Intern (Summer 2027)",
+      "location": "Ames, IA",
+      "apply_url": "https://ats.rippling.com/bound/jobs/40a62113-cdcc-4fad-a3e6-008597702316",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Summer 2027",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "4d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "a18c5735c1c3c1",
@@ -673,7 +951,49 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "8ddbac27454b8f",
+      "company": "Cheiron",
+      "role": "Technical Product Management Intern (Los Altos)",
+      "location": "Los Altos, CA",
+      "apply_url": "https://jobs.ashbyhq.com/cheiron/e193c411-f175-480e-a341-72e7131e009a",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Not specified",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "10d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "0ef5161379941e",
+      "company": "Cisco",
+      "role": "Engineering Product Management Specialist I (Intern) – United States",
+      "location": "San Jose California",
+      "apply_url": "https://cisco.wd5.myworkdayjobs.com/cisco_careers/job/San-Jose-California-US/Engineering-Product-Management-Specialist-I--Intern----United-States_2026308",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Not specified",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "4d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "0211be6e025073",
@@ -694,7 +1014,28 @@
       "h1b_approvals": 291,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "65b63a37d57b0d",
+      "company": "Coinbase",
+      "role": "Associate Product Manager Intern",
+      "location": "San Francisco, CA",
+      "apply_url": "https://www.coinbase.com/careers/positions/8168322?gh_jid=8168322",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Not specified",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "17d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "history",
+      "sponsorship_scope": "company-level USCIS history",
+      "sponsorship_evidence": "USCIS history shows 291 approved H-1B petitions for a confidently matched employer in FY2022–2023. This is company history, not a promise for this role; no explicit refusal appears in the source listing.",
+      "h1b_approvals": 291,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "2dfe3edd19f2b8",
@@ -715,7 +1056,154 @@
       "h1b_approvals": 291,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "d21f155f31ae64",
+      "company": "Coinbase",
+      "role": "Product Manager (HR Technology) Intern",
+      "location": "New York City, NY",
+      "apply_url": "https://www.coinbase.com/careers/positions/8175504?gh_jid=8175504",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Not specified",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "17d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "history",
+      "sponsorship_scope": "company-level USCIS history",
+      "sponsorship_evidence": "USCIS history shows 291 approved H-1B petitions for a confidently matched employer in FY2022–2023. This is company history, not a promise for this role; no explicit refusal appears in the source listing.",
+      "h1b_approvals": 291,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "4341a970cbbffa",
+      "company": "Copart",
+      "role": "Technology Product Analyst Intern",
+      "location": "Dallas, TX",
+      "apply_url": "https://copart.wd12.myworkdayjobs.com/copart/job/Dallas-TX---Headquarters/Technology-Product-Analyst-Intern_JR111532",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Not specified",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "8d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "history",
+      "sponsorship_scope": "company-level USCIS history",
+      "sponsorship_evidence": "USCIS history shows 83 approved H-1B petitions for a confidently matched employer in FY2022–2023. This is company history, not a promise for this role; no explicit refusal appears in the source listing.",
+      "h1b_approvals": 83,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "1a2d33dc38615d",
+      "company": "Cox",
+      "role": "Product Management Intern - Summer 2027 (Atlanta, GA)",
+      "location": "Atlanta, GA",
+      "apply_url": "https://cox.wd1.myworkdayjobs.com/cox_external_career_site_1/job/Atlanta-GA/Product-Management-Intern---Summer-2027--Atlanta--GA-_R202682174",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Summer 2027",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "17d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "a047f94936029d",
+      "company": "Cox",
+      "role": "Product Management Intern - Summer 2027 (Austin, TX)",
+      "location": "Austin, TX",
+      "apply_url": "https://cox.wd1.myworkdayjobs.com/cox_external_career_site_1/job/Austin-TX/Product-Management-Intern---Summer-2027--Austin--TX-_R202682189",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Summer 2027",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "17d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "a06ab428b1239a",
+      "company": "Cox",
+      "role": "Product Management Intern - Summer 2027 (Burlington, VT)",
+      "location": "Burlington, VT",
+      "apply_url": "https://cox.wd1.myworkdayjobs.com/cox_external_career_site_1/job/Burlington-VT/Product-Management-Intern---Summer-2027--Burlington--VT-_R202682191",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Summer 2027",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "17d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "5c0463a5dc29ac",
+      "company": "Cox",
+      "role": "Product Management Intern - Summer 2027 (Draper, UT)",
+      "location": "Draper, UT",
+      "apply_url": "https://cox.wd1.myworkdayjobs.com/cox_external_career_site_1/job/Draper-UT/Product-Management-Intern---Summer-2027--Draper--UT-_R202682188",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Summer 2027",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "17d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "260ff5abf0502b",
+      "company": "Cox",
+      "role": "Product Management Intern - Summer 2027 (North Hills, NY)",
+      "location": "Long Island, NY",
+      "apply_url": "https://cox.wd1.myworkdayjobs.com/cox_external_career_site_1/job/Long-Island-NY/Product-Management-Intern---Summer-2027--North-Hills--NY-_R202682185",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Summer 2027",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "17d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "6607341e359544",
@@ -736,7 +1224,28 @@
       "h1b_approvals": 37,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "d86c78f596594d",
+      "company": "Digikey",
+      "role": "Product Management & Supplier Development Intern",
+      "location": "Thief River Falls, MN",
+      "apply_url": "https://digikey.wd5.myworkdayjobs.com/digi-key/job/Thief-River-Falls-MN/Product-Management---Supplier-Development-Intern_R5829",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Not specified",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "14d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "dbe0cb6cb36b6f",
@@ -757,7 +1266,49 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "dca0eca25e4f35",
+      "company": "Donaldson",
+      "role": "Product Management Intern",
+      "location": "Bloomington, MN (USA)",
+      "apply_url": "https://donaldson.wd115.myworkdayjobs.com/donaldsoncareers/job/Bloomington-MN-USA/Product-Management-Intern_JR-27835-1",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Not specified",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "16d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": 4,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "7b0af6ab4283b0",
+      "company": "Dowjones",
+      "role": "Summer 2027 Internship Program – Product Strategy Intern",
+      "location": "New York City, NY",
+      "apply_url": "https://dowjones.wd1.myworkdayjobs.com/dow_jones_career/job/New-York-City/Summer-2027-Internship-Program---Product-Strategy-Intern_Job_Req_55317",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Summer 2027",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "10d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "12d6ff801a7b05",
@@ -778,7 +1329,70 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "3a0b198fca791f",
+      "company": "Duolingo",
+      "role": "Associate Product Manager, Intern",
+      "location": "Pittsburgh, PA",
+      "apply_url": "https://careers.duolingo.com/jobs/8806187002?gh_jid=8806187002",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Not specified",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "10d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "history",
+      "sponsorship_scope": "company-level USCIS history",
+      "sponsorship_evidence": "USCIS history shows 22 approved H-1B petitions for a confidently matched employer in FY2022–2023. This is company history, not a promise for this role; no explicit refusal appears in the source listing.",
+      "h1b_approvals": 22,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "0528a16b920370",
+      "company": "Elkay",
+      "role": "Product Management Intern (Summer 2027)",
+      "location": "Paso Robles, CA",
+      "apply_url": "https://elkay.wd1.myworkdayjobs.com/elkay_external/job/Paso-Robles-CA/Product-Management-Intern--Summer-2027-_REQ-020109",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Summer 2027",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "8d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "def96244c06374",
+      "company": "Elkay",
+      "role": "Product Management Intern - Summer 2027",
+      "location": "Erie, PA",
+      "apply_url": "https://elkay.wd1.myworkdayjobs.com/elkay_external/job/Erie-PA/Product-Management-Intern---Summer-2027_REQ-020103-1",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Summer 2027",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "9d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "3ea6dc2b062c7a",
@@ -799,7 +1413,28 @@
       "h1b_approvals": 18,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "7f427bd9b294db",
+      "company": "FIS",
+      "role": "Intern, Product Management, FIS University Program",
+      "location": "Jax 347, FL",
+      "apply_url": "https://fis.wd5.myworkdayjobs.com/searchjobs/job/US-FL-JAX-347/Intern--Product-Management--FIS-University-Program_JR0309691",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Not specified",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "7d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "6906681c1678f8",
@@ -820,7 +1455,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "12fd1b27bfa035",
@@ -841,7 +1476,133 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "5a9725b3c75209",
+      "company": "Gemini",
+      "role": "Product Management Intern (Winter 2027)",
+      "location": "New York City, NY",
+      "apply_url": "https://boards.greenhouse.io/embed/job_app?for=gemini&token=8214332&gh_jid=8214332",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Winter 2027",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "7d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "911438f827cfd5",
+      "company": "Gevernova",
+      "role": "GE Vernova Gas Power Controls Product Management Intern - Summer 2027",
+      "location": "Longmont, CO",
+      "apply_url": "https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Longmont/GE-Vernova-Gas-Power-Controls-Product-Management-Intern---Summer-2027_R5050339-2",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Summer 2027",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "17d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "487a24cdf7ff88",
+      "company": "Gevernova",
+      "role": "GE Vernova Product Management Intern – Controls Lifecare Services - Summer 2027",
+      "location": "Longmont, CO",
+      "apply_url": "https://gevernova.wd5.myworkdayjobs.com/vernova_externalsite/job/Longmont/Product-Management-Intern---Controls-Lifecare-Services_R5050801-2",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Summer 2027",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "25d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "f386d849fd750d",
+      "company": "Gfs",
+      "role": "Digital Product Management Internship",
+      "location": "Wyoming, MI",
+      "apply_url": "https://gfs.wd5.myworkdayjobs.com/usjobs-gen-gfs/job/Wyoming-Michigan/Digital-Product-Management-Internship_R-57336",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Not specified",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "7d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "436384624ec5e0",
+      "company": "Gilead",
+      "role": "Intern - Commercial - Commercial Product Strategy (HIV Prevention)",
+      "location": "Foster City, CA",
+      "apply_url": "https://gilead.wd1.myworkdayjobs.com/gileadcareers/job/United-States---California---Foster-City/Intern---Commercial---Corporate-Affairs---Commercial-Product-Strategy--HIV-Prevention-_R0054483",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Not specified",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "17d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "fc4f4cc294c866",
+      "company": "Gilead",
+      "role": "Intern - Development - DevOps Business Strategy",
+      "location": "Foster City, CA",
+      "apply_url": "https://gilead.wd1.myworkdayjobs.com/gileadcareers/job/United-States---California---Foster-City/Intern---Development---DevOps-Business-Strategy-Leader_R0054772",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Not specified",
+      "role_family": "Strategy & Ops",
+      "job_type": "Internship",
+      "posted": "17d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "b6ee6dfd4268dd",
@@ -862,7 +1623,7 @@
       "h1b_approvals": 931,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "8377eee21bb111",
@@ -883,7 +1644,49 @@
       "h1b_approvals": 931,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "6a76f0cfd510b3",
+      "company": "Guardianlife",
+      "role": "2027 Guardian Summer Intern, Group Benefits Product Management",
+      "location": "Boston, MA",
+      "apply_url": "https://guardianlife.wd5.myworkdayjobs.com/guardian-life-careers/job/Boston/XMLNAME-2027-Guardian-Summer-Intern--Group-Benefits-Product-Management_R000110299",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Summer",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "7d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "dfb808b586a1df",
+      "company": "Harman",
+      "role": "Intern - Product Strategy",
+      "location": "Home Office New York",
+      "apply_url": "https://harman.wd3.myworkdayjobs.com/harman/job/US-Home-Office-New-York/Intern---Product-Strategy_R-55477-2026",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Not specified",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "23d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "30cc56d38b0b82",
@@ -904,7 +1707,49 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "176065c163830f",
+      "company": "HP",
+      "role": "Personal Systems Product Management Intern",
+      "location": "Austin, TX",
+      "apply_url": "https://hp.wd5.myworkdayjobs.com/exteu-ac-careersite/job/Austin-Texas-United-States-of-America/Personal-Systems-Product-Management-Intern_UNI4755",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Not specified",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "23d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "history",
+      "sponsorship_scope": "company-level USCIS history",
+      "sponsorship_evidence": "USCIS history shows 167 approved H-1B petitions for a confidently matched employer in FY2022–2023. This is company history, not a promise for this role; no explicit refusal appears in the source listing.",
+      "h1b_approvals": 167,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "b2c0113508d99c",
+      "company": "Hudl",
+      "role": "Product Management Intern",
+      "location": "Lincoln, NE",
+      "apply_url": "https://job-boards.greenhouse.io/hudl/jobs/8155103",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Not specified",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "15d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": 3,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "c38afcc5c12f1c",
@@ -925,7 +1770,49 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "349f011e384edf",
+      "company": "Labcorp",
+      "role": "Intern - IT Product Manager",
+      "location": "Durham, NC",
+      "apply_url": "https://labcorp.wd1.myworkdayjobs.com/external/job/Durham-NC/Intern---IT-Product-Manager_2632185",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Not specified",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "10d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "e931ca4fa6317d",
+      "company": "Mastercard",
+      "role": "Product Management – Technical Intern, Summer 2027 – St. Louis, MO, US",
+      "location": "O'Fallon, MO",
+      "apply_url": "https://mastercard.wd1.myworkdayjobs.com/campus/job/OFallon-Missouri/Product-Management---Technical-Intern--Summer-2027---St-Louis--MO--US_R-284711",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Summer 2027",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "23d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "2fa114dd71bbed",
@@ -946,7 +1833,7 @@
       "h1b_approvals": 147,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "3fbf871b58a306",
@@ -967,7 +1854,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "047f36c1774dad",
@@ -988,7 +1875,28 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "b90878d31879f9",
+      "company": "Momentive",
+      "role": "Summer 2027 Product Management Intern",
+      "location": "Friendly, WV",
+      "apply_url": "https://momentive.wd1.myworkdayjobs.com/MC/job/US-WV-Friendly/Summer-2027-Product-Management-Intern_R9816",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Summer 2027",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "14d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "history",
+      "sponsorship_scope": "company-level USCIS history",
+      "sponsorship_evidence": "USCIS history shows 44 approved H-1B petitions for a confidently matched employer in FY2022–2023. This is company history, not a promise for this role; no explicit refusal appears in the source listing.",
+      "h1b_approvals": 44,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "2b17efad837b9e",
@@ -1009,7 +1917,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "0f99a5fb5e13bf",
@@ -1030,7 +1938,28 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "0bb081ade3568f",
+      "company": "NVIDIA",
+      "role": "Product Management MBA Intern, Data Center GPU - Summer 2027",
+      "location": "Santa Clara, CA",
+      "apply_url": "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/Product-Management-MBA-Intern--Data-Center-GPU---Summer-2027_JR2025670-1",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Summer 2027",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "9d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "history",
+      "sponsorship_scope": "company-level USCIS history",
+      "sponsorship_evidence": "USCIS history shows 1,526 approved H-1B petitions for a confidently matched employer in FY2022–2023. This is company history, not a promise for this role; no explicit refusal appears in the source listing.",
+      "h1b_approvals": 1526,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "6e9e0ff90b12dd",
@@ -1051,7 +1980,7 @@
       "h1b_approvals": 229,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "b6d6d495f8d579",
@@ -1072,7 +2001,7 @@
       "h1b_approvals": 15,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "fcfd92d6920f5d",
@@ -1093,7 +2022,7 @@
       "h1b_approvals": 15,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "1338cc9d0a2076",
@@ -1114,7 +2043,70 @@
       "h1b_approvals": 2,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "20b019462811a5",
+      "company": "Oshkoshcorporation",
+      "role": "Product Management Intern",
+      "location": "Hagerstown, MD",
+      "apply_url": "https://oshkoshcorporation.wd5.myworkdayjobs.com/oshkosh/job/Hagerstown-Maryland-United-States/Product-Management-Intern_R49414",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Not specified",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "11d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "8412733e965168",
+      "company": "Oshkoshcorporation",
+      "role": "Product Management Intern (Summer 2027)",
+      "location": "Dodge Center, MN",
+      "apply_url": "https://oshkoshcorporation.wd5.myworkdayjobs.com/oshkosh/job/Dodge-Center-Minnesota-United-States/Product-Management-Intern--Summer-2027-_R49796",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Summer 2027",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "24d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "eb8fd08b84891d",
+      "company": "Oshkoshcorporation",
+      "role": "Product Management Intern (Summer 2027)",
+      "location": "Appleton, WI",
+      "apply_url": "https://oshkoshcorporation.wd5.myworkdayjobs.com/oshkosh/job/Appleton-Wisconsin-United-States/Product-Management-Intern--Summer-2027-_R49746",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Summer 2027",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "24d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "b9ad62f7736c6a",
@@ -1135,7 +2127,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "8ad54793e69201",
@@ -1156,7 +2148,28 @@
       "h1b_approvals": 70,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "4098c8d9010bb9",
+      "company": "Philips",
+      "role": "Co-op – Software Engineering (APM) - Cambridge, MA - Jan - Aug 2027",
+      "location": "Cambridge, MA",
+      "apply_url": "https://philips.wd3.myworkdayjobs.com/jobs-and-careers/job/Cambridge-US-Massachusetts-United-States/Co-op---Software-Engineering--APM----Cambridge--MA---Jan---Aug-2027_590097",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "2027",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "23d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "914cf4239932a3",
@@ -1177,7 +2190,49 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "719fafad3645a0",
+      "company": "Redhat",
+      "role": "Product Manager Intern",
+      "location": "Raleigh, NC",
+      "apply_url": "https://redhat.wd5.myworkdayjobs.com/jobs/job/Raleigh/Product-Manager-Intern_R-059060",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Not specified",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "17d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "5201d3c0c60df9",
+      "company": "RF-SMART",
+      "role": "Product Strategy Intern - Summer 2027",
+      "location": "Jacksonville, FL",
+      "apply_url": "https://job-boards.greenhouse.io/rfsmart/jobs/5409030008",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Summer 2027",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "17d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "27b310306ef95d",
@@ -1198,7 +2253,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "b39c84a09b75d5",
@@ -1219,7 +2274,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "a261fc2a7a6ee7",
@@ -1240,7 +2295,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "845f22ebd03aa9",
@@ -1261,7 +2316,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "a57c51f9117d8c",
@@ -1282,7 +2337,70 @@
       "h1b_approvals": 186,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "4178f3b0da9871",
+      "company": "Roblox",
+      "role": "[Summer 2027] Product Management Intern",
+      "location": "San Mateo, CA",
+      "apply_url": "https://careers.roblox.com/jobs/8143981?gh_jid=8143981",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Summer 2027",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "23d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "history",
+      "sponsorship_scope": "company-level USCIS history",
+      "sponsorship_evidence": "USCIS history shows 186 approved H-1B petitions for a confidently matched employer in FY2022–2023. This is company history, not a promise for this role; no explicit refusal appears in the source listing.",
+      "h1b_approvals": 186,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "f1df59c6a03a50",
+      "company": "Rockwellautomation",
+      "role": "Intern, Product Management",
+      "location": "Mequon, WI",
+      "apply_url": "https://rockwellautomation.wd1.myworkdayjobs.com/external-rockwell-automation-early-careers/job/Mequon-Wisconsin-United-States/Intern--Product-Management_R26-6971",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Not specified",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "8d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "b3e8bf53d048bd",
+      "company": "Rundoo",
+      "role": "Product Manager Intern",
+      "location": "Redwood City, CA",
+      "apply_url": "https://jobs.ashbyhq.com/rundoo/b7d71a5a-4a88-4e97-a6db-e0446eefb389",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Not specified",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "8d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "0cf5da1d714f7b",
@@ -1303,7 +2421,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "ab00dcffe3490f",
@@ -1324,7 +2442,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "d03b24e99e1a33",
@@ -1345,7 +2463,7 @@
       "h1b_approvals": 26,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "653fa392689538",
@@ -1366,7 +2484,7 @@
       "h1b_approvals": 26,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "60fbd65bc82eea",
@@ -1387,7 +2505,28 @@
       "h1b_approvals": 26,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "a1374836850e20",
+      "company": "Smarty",
+      "role": "Product Management Intern",
+      "location": "Orem, UT",
+      "apply_url": "https://ats.rippling.com/smarty/jobs/e47afb29-f488-466b-ad29-11280c68f749",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Not specified",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "9d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "516a8472162aca",
@@ -1408,7 +2547,28 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "3f4ffcb50db97b",
+      "company": "Stirista LLC",
+      "role": "Product Management Intern",
+      "location": "Remote, U.S.",
+      "apply_url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4503589",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Not specified",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "11d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "90929ff7332eb8",
@@ -1429,7 +2589,7 @@
       "h1b_approvals": 441,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "e4e17d0784758b",
@@ -1450,7 +2610,91 @@
       "h1b_approvals": 441,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "6b8ed2ede73ad6",
+      "company": "Synnex",
+      "role": "Summer 2027 Internship Program | Commercial, High Growth Track: • Sales • Marketing • Vendor Management • Business Development • Product Management • Data Analytics",
+      "location": "Greenville, SC",
+      "apply_url": "https://synnex.wd5.myworkdayjobs.com/tdsynnexcareers/job/Greenville-SC/Summer-2027-Internship-Program---Commercial--High-Growth-Track----Sales---Marketing---Vendor-Management---Business-Development----Product-Management----Data-Analytics_R56570",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Summer 2027",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "4d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": 4,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "578e13b63d27f1",
+      "company": "TELUS Digital",
+      "role": "Product Analyst Intern (US) - Summer 2027",
+      "location": "Columbus, OH",
+      "apply_url": "https://jobs.ashbyhq.com/telus-digital/e1dfd8b7-fb8a-4ce9-957f-0706b13195c7",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Summer 2027",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "29d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "88c9582e568b0a",
+      "company": "Tencent",
+      "role": "Tencent Cloud CPaaS Product Management Intern",
+      "location": "Palo Alto, CA",
+      "apply_url": "https://tencent.wd1.myworkdayjobs.com/tencent_careers/job/US-California-Palo-Alto/Tencent-Cloud-CPaaS-Product-Management-Intern_R108019",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Not specified",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "23d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "ceb8b7409db743",
+      "company": "Tencent",
+      "role": "Tencent Cloud CPaaS Product Management Intern",
+      "location": "Los Angeles, CA",
+      "apply_url": "https://tencent.wd1.myworkdayjobs.com/tencent_careers/job/US-California-Los-Angeles/Tencent-Cloud-CPaaS-Product-Management-Intern_R108020",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Not specified",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "23d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "bcaa7d18296d2c",
@@ -1471,7 +2715,7 @@
       "h1b_approvals": 442,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "fbe649c7308dda",
@@ -1492,7 +2736,175 @@
       "h1b_approvals": 442,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "d0aef473475ab4",
+      "company": "Travelers",
+      "role": "Product Management Development Program (PMDP) Intern",
+      "location": "Hartford, CT",
+      "apply_url": "https://travelers.wd5.myworkdayjobs.com/external/job/CT---Hartford/Product-Management-Development-Program--PMDP--Intern_R-52317",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Not specified",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "23d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "71dda4d027918c",
+      "company": "Trimble",
+      "role": "Product Management Intern",
+      "location": "Westminster, CO",
+      "apply_url": "https://trimble.wd1.myworkdayjobs.com/trimblecareers/job/US---CO-Westminster/Product-Management-Intern_R57675-1",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Not specified",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "16d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "history",
+      "sponsorship_scope": "company-level USCIS history",
+      "sponsorship_evidence": "USCIS history shows 72 approved H-1B petitions for a confidently matched employer in FY2022–2023. This is company history, not a promise for this role; no explicit refusal appears in the source listing.",
+      "h1b_approvals": 72,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "caad62bc3a688f",
+      "company": "U.S. Bank",
+      "role": "2027 Product Management Summer Intern",
+      "location": "Minneapolis, MN",
+      "apply_url": "https://usbank.wd1.myworkdayjobs.com/us_bank_careers/job/Minneapolis-MN/XMLNAME-2027-Product-Management-Summer-Intern_2026-0026766",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Summer",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "17d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "bd91b297762bdf",
+      "company": "Usfoods",
+      "role": "Intern – Product Analyst, Digital Commerce (Hybrid: Onsite & Remote)",
+      "location": "Rosemont, IL",
+      "apply_url": "https://usfoods.wd1.myworkdayjobs.com/usfoodscareersexternal/job/Rosemont-IL/Intern---Product-Analyst--Digital-Commerce--Hybrid--Onsite---Remote-_R282105",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Not specified",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "23d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "4d592496eb8239",
+      "company": "Usfoods",
+      "role": "Intern – Product Analyst, Supply Chain Technology (Hybrid: Onsite & Remote)",
+      "location": "Rosemont, IL",
+      "apply_url": "https://usfoods.wd1.myworkdayjobs.com/usfoodscareersexternal/job/Rosemont-IL/Intern---Product-Analyst--Supply-Chain-Technology--Hybrid--Onsite---Remote-_R282104",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Not specified",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "23d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "33cf05eb8bf23d",
+      "company": "Vanguard",
+      "role": "College to Corporate IT Internship - Technical Product Manager",
+      "location": "Malvern, PA",
+      "apply_url": "https://vanguard.wd5.myworkdayjobs.com/vanguard_external/job/Malvern-PA/College-to-Corporate-IT-Internship---Technical-Product-Manager_181969",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Not specified",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "23d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "48b368361c762e",
+      "company": "Visa",
+      "role": "Associate Product Manager (APM) Intern - Summer 2027",
+      "location": "Foster City, CA",
+      "apply_url": "https://visa.wd5.myworkdayjobs.com/visa/job/US---Foster-City-CA/Associate-Product-Manager--APM--Intern---Summer-2027_REF088603W-1",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Summer 2027",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "8d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "3436238ddfd0da",
+      "company": "Visa",
+      "role": "Associate Product Manager (APM) Intern - Summer 2027",
+      "location": "Austin, TX",
+      "apply_url": "https://visa.wd5.myworkdayjobs.com/visa/job/US---Austin-TX/Job-Posting-Title-Associate-Product-Manager--APM--Intern---Summer-2027_REF088604W",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Summer 2027",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "8d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "5397c7edc89e02",
@@ -1513,7 +2925,28 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "5e5321cbc0db73",
+      "company": "Walmart",
+      "role": "2026 Intern Conversion: 2027 APD Product Manager III",
+      "location": "(USA) Together Building AR Bentonville Home Office",
+      "apply_url": "https://walmart.wd504.myworkdayjobs.com/WalmartExternal/job/USA-Together-Building-AR-Bentonville-Home-Office/XMLNAME-2026-Intern-Conversion--2027-APD-Product-Manager-III_R-2630077",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "2026",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "16d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "8163383d6a09b7",
@@ -1534,7 +2967,91 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "4ed32ff1ca856a",
+      "company": "Workiva",
+      "role": "Spring & Summer 2027 Intern - Product Management",
+      "location": "Remote, U.S.",
+      "apply_url": "https://workiva.wd503.myworkdayjobs.com/careers/job/USA---Remote/Spring---Summer-2027-Intern---Product-Management_R12355",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Summer 2027",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "29d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": 3,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "d34e6f304548cd",
+      "company": "Xcelenergy",
+      "role": "Residential Energy Product Strategy Intern - MN",
+      "location": "Minneapolis, MN",
+      "apply_url": "https://xcelenergy.wd1.myworkdayjobs.com/external/job/Minneapolis-MN-55401/Residential-Energy-Product-Strategy-Intern---MN_JR115811",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Not specified",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "11d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "dfe76242bfbed5",
+      "company": "Xcelenergy",
+      "role": "Residential Energy Product Strategy Intern - MN, WI",
+      "location": "Minnesota",
+      "apply_url": "https://xcelenergy.wd1.myworkdayjobs.com/external/job/Minneapolis-MN-55401/Residential-Energy-Product-Strategy-Intern---MN--WI_JR116323-1",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Not specified",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "11d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
+    },
+    {
+      "id": "9292f2bc993374",
+      "company": "Xcelenergy",
+      "role": "Residential Energy Product Strategy Intern- CO",
+      "location": "Denver, CO",
+      "apply_url": "https://xcelenergy.wd1.myworkdayjobs.com/external/job/Denver-CO-80205/Residential-Energy-Product-Strategy-Intern--CO_JR115817-1",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Not specified",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "16d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "e7df6b37e0add8",
@@ -1555,7 +3072,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "af561e472599ec",
@@ -1576,7 +3093,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "c06c11c76f2e6c",
@@ -1597,7 +3114,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "b635d3a609e70a",
@@ -1618,7 +3135,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "a59a39a3ae8938",
@@ -1639,7 +3156,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "f628ce34a6dbd8",
@@ -1660,7 +3177,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "814ea32e5640df",
@@ -1681,7 +3198,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "4574555406fc89",
@@ -1702,7 +3219,7 @@
       "h1b_approvals": 133,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "d5c55fbb05088c",
@@ -1723,7 +3240,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "d6ca9db784dd82",
@@ -1744,7 +3261,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "97bf4c89acbf52",
@@ -1765,7 +3282,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "ecf3c220bd694a",
@@ -1786,7 +3303,7 @@
       "h1b_approvals": 44,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "46185a5b22af90",
@@ -1807,7 +3324,7 @@
       "h1b_approvals": 28,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "ba5eb9e79ddb41",
@@ -1828,7 +3345,7 @@
       "h1b_approvals": 308,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "affd776e68bae8",
@@ -1849,7 +3366,7 @@
       "h1b_approvals": 308,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "b4a71aca6aadc2",
@@ -1870,7 +3387,7 @@
       "h1b_approvals": 62,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "f34fad39c011ab",
@@ -1891,7 +3408,7 @@
       "h1b_approvals": 62,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "053d562cfcb3ff",
@@ -1912,7 +3429,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "7c7f61dff40336",
@@ -1933,7 +3450,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "35bde60fcb223e",
@@ -1954,7 +3471,7 @@
       "h1b_approvals": 66,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "5107ec15235812",
@@ -1975,7 +3492,7 @@
       "h1b_approvals": 931,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "dd0baa24996084",
@@ -1996,7 +3513,7 @@
       "h1b_approvals": 23,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "76459439832caa",
@@ -2017,7 +3534,7 @@
       "h1b_approvals": 150,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "0239a60c28585a",
@@ -2038,7 +3555,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "37a41f6f24a443",
@@ -2059,7 +3576,7 @@
       "h1b_approvals": 9275,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "f0c978dc3dbec6",
@@ -2080,7 +3597,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "44ac97f780ddeb",
@@ -2101,7 +3618,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "22f7e68cf04832",
@@ -2122,7 +3639,7 @@
       "h1b_approvals": 186,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "9489ef6fd28a19",
@@ -2143,7 +3660,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "2ac98a02f30628",
@@ -2164,7 +3681,7 @@
       "h1b_approvals": 10,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "fda5c0c6ac24b1",
@@ -2185,7 +3702,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "83ba7918013735",
@@ -2206,7 +3723,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "d5ffb0910b6ed0",
@@ -2227,7 +3744,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "caf597a8b3690b",
@@ -2248,7 +3765,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "34c4c6d2d2129a",
@@ -2269,7 +3786,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "c2429a51535c60",
@@ -2290,7 +3807,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "7baf80d403898f",
@@ -2311,7 +3828,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "c14b7ad96de4fd",
@@ -2332,7 +3849,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "a2f569d54c8d0e",
@@ -2353,7 +3870,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "ecd505661f3039",
@@ -2374,7 +3891,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     },
     {
       "id": "68b514dce00457",
@@ -2395,7 +3912,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-09-25T00:09:31Z"
+      "verified_at": "2026-09-25T00:18:46Z"
     }
   ]
 }

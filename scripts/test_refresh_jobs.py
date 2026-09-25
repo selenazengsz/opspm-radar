@@ -1,6 +1,6 @@
 import unittest
 
-from refresh_jobs import Job, classify_family, enrich_h1b_history, is_relevant, parse_new_grad, parse_summer, stable_id
+from refresh_jobs import Job, classify_family, enrich_h1b_history, is_relevant, parse_applyguy, parse_new_grad, parse_summer, stable_id
 
 
 class RefreshJobsTests(unittest.TestCase):
@@ -46,6 +46,19 @@ class RefreshJobsTests(unittest.TestCase):
         self.assertEqual(len(jobs), 1)
         self.assertEqual(jobs[0].status, "closed")
         self.assertEqual(jobs[0].job_type, "Internship")
+
+    def test_applyguy_only_keeps_relevant_open_roles(self):
+        source = """{
+          "jobs": [
+            {"company": "Example", "title": "Product Management Intern - Summer 2027", "category": "Product", "location": "Austin, TX", "season": "Summer 2027", "age": "Today", "listingUrl": "https://example.com/pm"},
+            {"company": "Example", "title": "Software Engineer Intern", "category": "Software Engineering", "location": "Austin, TX", "age": "Today", "listingUrl": "https://example.com/swe"}
+          ]
+        }"""
+        jobs = parse_applyguy(source)
+        self.assertEqual(len(jobs), 1)
+        self.assertEqual(jobs[0].job_type, "Internship")
+        self.assertEqual(jobs[0].posted_bucket, "Fresh now")
+        self.assertEqual(jobs[0].apply_url, "https://example.com/pm")
 
     def test_ids_are_stable(self):
         self.assertEqual(stable_id("A", "B", "C"), stable_id("A", "B", "C"))
