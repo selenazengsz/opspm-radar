@@ -1,6 +1,6 @@
 import unittest
 
-from refresh_jobs import Job, classify_family, enrich_h1b_history, is_relevant, parse_new_grad, stable_id
+from refresh_jobs import Job, classify_family, enrich_h1b_history, is_relevant, parse_new_grad, parse_summer, stable_id
 
 
 class RefreshJobsTests(unittest.TestCase):
@@ -36,6 +36,16 @@ class RefreshJobsTests(unittest.TestCase):
         self.assertEqual(len(jobs), 1)
         self.assertEqual(jobs[0].sponsorship_scope, "company-level source signal")
         self.assertIn("not proof for this role", jobs[0].sponsorship_evidence)
+
+    def test_closed_summer_role_is_kept_and_labeled(self):
+        source = """
+<h2>Business / Ops</h2>
+<table><tr class="closed"><td>Example Co</td><td>Business Analyst Intern — Summer 2027 closed</td><td>New York, NY</td></tr></table>
+"""
+        jobs = parse_summer(source)
+        self.assertEqual(len(jobs), 1)
+        self.assertEqual(jobs[0].status, "closed")
+        self.assertEqual(jobs[0].job_type, "Internship")
 
     def test_ids_are_stable(self):
         self.assertEqual(stable_id("A", "B", "C"), stable_id("A", "B", "C"))

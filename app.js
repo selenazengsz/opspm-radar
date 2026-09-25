@@ -14,6 +14,7 @@ const ui = {
   sponsorship: "eligible",
   remoteOnly: false,
   savedOnly: false,
+  hideClosed: true,
   hideSkipped: true,
   sheetOpen: false,
   loading: true,
@@ -61,6 +62,7 @@ function normalizeJob(job) {
   normalized.apply_url = safeUrl(job.apply_url);
   normalized.source_url = safeUrl(job.source_url);
   normalized.h1b_approvals = Number.isFinite(Number(job.h1b_approvals)) ? Number(job.h1b_approvals) : 0;
+  normalized.status = job.status === "closed" ? "closed" : "open";
   return normalized;
 }
 
@@ -106,6 +108,7 @@ function readHash() {
   ui.type = params.get("type") || "All";
   ui.sponsorship = params.get("sponsor") || "eligible";
   ui.remoteOnly = params.get("remote") === "1";
+  ui.hideClosed = params.get("closed") !== "show";
   ui.hideSkipped = params.get("skipped") !== "show";
 }
 
@@ -117,6 +120,7 @@ function writeHash() {
   if (ui.type !== "All") params.set("type", ui.type);
   if (ui.sponsorship !== "eligible") params.set("sponsor", ui.sponsorship);
   if (ui.remoteOnly) params.set("remote", "1");
+  if (!ui.hideClosed) params.set("closed", "show");
   if (!ui.hideSkipped) params.set("skipped", "show");
   history.replaceState(null, "", params.size ? `#${params}` : location.pathname);
 }
@@ -144,6 +148,7 @@ function jobMatches(job, ignoreFacet = "") {
     (ignoreFacet === "sponsorship" || matchesSponsor(job)) &&
     (!ui.remoteOnly || /remote/i.test(job.location)) &&
     (!ui.savedOnly || record.saved) &&
+    (!ui.hideClosed || job.status !== "closed") &&
     (!ui.hideSkipped || record.status !== "Skipped");
 }
 
@@ -162,7 +167,7 @@ function facetCount(facet, value) {
 function filteredJobs() {
   return ui.jobs.filter((job) => jobMatches(job)).sort((a, b) => {
     const sponsorOrder = { offers: 0, "source-signal": 1, history: 2, "not-stated": 3, no: 4, "citizens-only": 5 };
-    return sponsorOrder[a.sponsorship] - sponsorOrder[b.sponsorship] || a.company.localeCompare(b.company);
+    return Number(a.status === "closed") - Number(b.status === "closed") || sponsorOrder[a.sponsorship] - sponsorOrder[b.sponsorship] || a.company.localeCompare(b.company);
   });
 }
 
@@ -186,7 +191,7 @@ function facetButton(facet, value, label, active, countValue = value) {
 function facetRows() {
   const families = ["All", "Product", "Product Ops", "Growth Ops", "Business Ops", "Strategy & Ops", "Program Management"];
   const terms = ["All", "Summer 2027", "Spring 2027", "Winter 2027", "2027 / Unspecified"];
-  const types = ["All", "New Grad", "Internship", "Entry Level"];
+  const types = ["All", "Internship", "New Grad", "Entry Level"];
   const sponsorship = [
     ["eligible", "No explicit refusal"], ["history", "✓ H-1B history"], ["source-signal", "● Source signal"],
     ["not-stated", "○ Not stated"], ["all", "All evidence"],
@@ -195,7 +200,7 @@ function facetRows() {
     <div class="facet-row"><b>Term</b><div class="chip-row">${terms.map((value) => facetButton("term", value, value, ui.term === value)).join("")}</div></div>
     <div class="facet-row"><b>Type</b><div class="chip-row">${types.map((value) => facetButton("type", value, value, ui.type === value)).join("")}</div></div>
     <div class="facet-row"><b>Sponsorship</b><div class="chip-row">${sponsorship.map(([value, label]) => facetButton("sponsor", value, label, ui.sponsorship === value, value)).join("")}</div></div>
-    <div class="facet-row"><b>Status</b><div class="chip-row status-chips"><button class="active" disabled>Open only<span>${ui.jobs.length}</span></button><button data-toggle-skipped class="${ui.hideSkipped ? "active" : ""}">Hide skipped</button><button data-remote class="${ui.remoteOnly ? "active" : ""}">Remote only</button><button data-saved-only class="${ui.savedOnly ? "active" : ""}">Saved only</button></div></div>`;
+    <div class="facet-row"><b>Status</b><div class="chip-row status-chips"><button data-toggle-closed class="${ui.hideClosed ? "active" : ""}">Hide closed</button><button data-toggle-skipped class="${ui.hideSkipped ? "active" : ""}">Hide dismissed</button><button data-remote class="${ui.remoteOnly ? "active" : ""}">Remote only</button><button data-saved-only class="${ui.savedOnly ? "active" : ""}">Saved only</button></div></div>`;
 }
 
 function renderFilters(mobile = false) {
@@ -204,11 +209,12 @@ function renderFilters(mobile = false) {
 
 function jobRow(job) {
   const record = recordFor(job.id);
-  return `<article class="job-row" data-job="${job.id}" tabindex="0">
+  return `<article class="job-row ${job.status === "closed" ? "job-closed" : ""}" data-job="${job.id}" tabindex="0">
     <div class="company-mark">${job.company.slice(0, 2).toUpperCase()}</div>
     <div class="job-copy"><small>${job.company} · ${job.posted}</small><h3>${job.role}</h3><p>${job.location} · ${job.job_type}</p></div>
     <span class="family-pill">${job.role_family}</span>
     ${sponsorBadge(job, true)}
+    ${job.status === "closed" ? `<span class="closed-pill">Closed</span>` : ""}
     ${record.saved ? `<span class="status-pill">${record.status}</span>` : ""}
     <button class="quick-save ${record.saved ? "saved" : ""}" data-save="${job.id}" aria-label="${record.saved ? "Remove saved role" : "Save role"}">${record.saved ? "★" : "☆"}</button>
   </article>`;
@@ -220,10 +226,10 @@ function detailPanel(job) {
   return `<div class="drawer-backdrop" data-close></div><aside class="detail-drawer" role="dialog" aria-modal="true" aria-labelledby="drawer-title">
     <button class="drawer-close" data-close aria-label="Close details">×</button>
     <div class="detail-company"><div class="company-mark large">${job.company.slice(0, 2).toUpperCase()}</div><div><small>${job.company}</small><h2 id="drawer-title">${job.role}</h2></div></div>
-    <div class="detail-tags"><span>${job.job_type}</span><span>${job.role_family}</span><span>${job.location}</span></div>
+    <div class="detail-tags"><span>${job.job_type}</span><span>${job.role_family}</span><span>${job.location}</span>${job.status === "closed" ? `<span class="closed-pill">Closed</span>` : ""}</div>
     <section class="evidence-card sponsor-${job.sponsorship}"><p>SPONSORSHIP EVIDENCE</p>${sponsorBadge(job)}<blockquote>${job.sponsorship_evidence}</blockquote><dl><div><dt>Evidence scope</dt><dd>${job.sponsorship_scope}</dd></div>${job.h1b_approvals ? `<div><dt>Historical approvals</dt><dd>${job.h1b_approvals.toLocaleString()} · ${job.h1b_window}</dd></div>` : ""}<div><dt>Source</dt><dd><a href="${job.source_url}" target="_blank" rel="noopener">${job.source_name} ↗</a></dd></div><div><dt>Feed checked</dt><dd>${formatGeneratedAt(job.verified_at)}</dd></div></dl><b class="evidence-warning">Past sponsorship is not a promise. Always verify the employer's own posting.</b></section>
     <section class="tracking-card"><p>YOUR TRACKER</p><label>Status<select data-status="${job.id}">${["Saved", "Reviewing", "Ready to apply", "Applying", "Submitted", "Interview", "Rejected", "Offer", "Skipped"].map((value) => `<option ${record.status === value ? "selected" : ""}>${value}</option>`).join("")}</select></label><label>Notes<textarea data-notes="${job.id}" placeholder="Add requirements, recruiter notes, or a follow-up date…">${escapeHtml(record.notes || "")}</textarea></label><small>Saved only in this browser. It is not published with the website.</small></section>
-    <div class="detail-actions"><button class="save-action ${record.saved ? "saved" : ""}" data-save="${job.id}">${record.saved ? "★ Saved to tracker" : "☆ Save to tracker"}</button><a class="apply-action" href="${job.apply_url}" target="_blank" rel="noopener">View original role ↗</a></div>
+    <div class="detail-actions"><button class="save-action ${record.saved ? "saved" : ""}" data-save="${job.id}">${record.saved ? "★ Saved to tracker" : "☆ Save to tracker"}</button>${job.status === "closed" ? `<span class="apply-action closed-action">Role closed</span>` : `<a class="apply-action" href="${job.apply_url}" target="_blank" rel="noopener">View original role ↗</a>`}</div>
   </aside>`;
 }
 
@@ -242,7 +248,7 @@ function render() {
     <header class="topbar"><a class="brand" href="./"><span>O/P</span><strong>OpsPM</strong></a><div class="top-title"><b>Opportunity Radar</b><span>Early-career product + operations</span></div><div class="top-actions"><span class="refresh-status"><i></i>Updated ${formatGeneratedAt(ui.meta.generated_at)}</span><button class="saved-counter" data-toggle-saved>★ ${savedCount}</button></div></header>
     <main class="page-main">
       <section class="hero"><p class="eyebrow">2027 OPS + PRODUCT ROLES</p><h1>Know what is open.<br>Know what needs proof.</h1><p>A focused opportunity radar with transparent sponsorship evidence—not guesses.</p></section>
-      <section class="filter-deck"><div class="filter-top"><label class="search-control"><span>⌕</span><input type="search" value="${ui.query}" placeholder="Search company, role, or city" aria-label="Search roles"></label><strong>${results.length} of ${ui.jobs.length}</strong><button class="reset-button" data-clear>Reset</button><button class="filter-button" data-sheet>☷ Filters <b>${[ui.family !== "All", ui.term !== "All", ui.type !== "All", ui.sponsorship !== "eligible", ui.remoteOnly, ui.savedOnly, !ui.hideSkipped].filter(Boolean).length || ""}</b></button></div><div class="desktop-facets">${facetRows()}</div><a class="design-archive" href="./design/">Design archive ↗</a></section>
+      <section class="filter-deck"><div class="filter-top"><label class="search-control"><span>⌕</span><input type="search" value="${ui.query}" placeholder="Search company, role, or city" aria-label="Search roles"></label><strong>${results.length} of ${ui.jobs.length}</strong><button class="reset-button" data-clear>Reset</button><button class="filter-button" data-sheet>☷ Filters <b>${[ui.family !== "All", ui.term !== "All", ui.type !== "All", ui.sponsorship !== "eligible", ui.remoteOnly, ui.savedOnly, !ui.hideClosed, !ui.hideSkipped].filter(Boolean).length || ""}</b></button></div><div class="desktop-facets">${facetRows()}</div><a class="design-archive" href="./design/">Design archive ↗</a></section>
       <section class="timeline">${groups.map((group) => {
         const groupJobs = results.filter((job) => job.posted_bucket === group);
         if (!groupJobs.length) return "";
@@ -279,10 +285,11 @@ function bind() {
   document.querySelector("input[type='search']")?.addEventListener("input", (event) => { ui.query = event.target.value; writeHash(); render(); preserveSearchFocus(); });
   document.querySelectorAll("[data-remote]").forEach((control) => control.addEventListener("click", () => { ui.remoteOnly = !ui.remoteOnly; writeHash(); render(); }));
   document.querySelectorAll("[data-saved-only]").forEach((control) => control.addEventListener("click", () => { ui.savedOnly = !ui.savedOnly; render(); }));
+  document.querySelectorAll("[data-toggle-closed]").forEach((control) => control.addEventListener("click", () => { ui.hideClosed = !ui.hideClosed; writeHash(); render(); }));
   document.querySelectorAll("[data-toggle-skipped]").forEach((control) => control.addEventListener("click", () => { ui.hideSkipped = !ui.hideSkipped; writeHash(); render(); }));
   document.querySelectorAll("[data-sheet]").forEach((button) => button.addEventListener("click", () => { ui.sheetOpen = !ui.sheetOpen; render(); }));
   document.querySelector("[data-toggle-saved]")?.addEventListener("click", () => { ui.savedOnly = !ui.savedOnly; render(); });
-  document.querySelectorAll("[data-clear]").forEach((control) => control.addEventListener("click", () => { Object.assign(ui, { query: "", family: "All", term: "All", type: "All", sponsorship: "eligible", remoteOnly: false, savedOnly: false, hideSkipped: true }); writeHash(); render(); }));
+  document.querySelectorAll("[data-clear]").forEach((control) => control.addEventListener("click", () => { Object.assign(ui, { query: "", family: "All", term: "All", type: "All", sponsorship: "eligible", remoteOnly: false, savedOnly: false, hideClosed: true, hideSkipped: true }); writeHash(); render(); }));
   document.querySelectorAll("[data-job]").forEach((row) => {
     const open = (event) => { if (event.target.closest("[data-save]")) return; ui.selectedId = row.dataset.job; render(); };
     row.addEventListener("click", open);

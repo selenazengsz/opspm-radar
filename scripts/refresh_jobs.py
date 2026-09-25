@@ -215,9 +215,11 @@ def parse_summer(source: str) -> list[Job]:
             role_with_date,
             flags=re.I,
         ).strip()
+        role = re.sub(r"\s+closed\b.*$", "", role, flags=re.I).strip()
         posted = date_match.group(0) if date_match else "Date unknown"
         family = classify_family(role)
-        if closed or re.search(r"\bclosed\b", role_with_date, re.I) or not href or not family or not is_relevant(role):
+        is_closed = closed or bool(re.search(r"\bclosed\b", role_with_date, re.I))
+        if (not href and not is_closed) or not family or not is_relevant(role):
             continue
         jobs.append(Job(
             id=stable_id(company, role, location), company=company, role=role, location=location,
@@ -226,6 +228,7 @@ def parse_summer(source: str) -> list[Job]:
             role_family=family, job_type=classify_type(role), posted=posted,
             posted_bucket=posted_bucket(posted), sponsorship="not-stated", sponsorship_scope="source does not state a refusal",
             sponsorship_evidence="The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
+            status="closed" if is_closed else "open",
         ))
     return jobs
 

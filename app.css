@@ -54,15 +54,18 @@ a { color:inherit; }
 .timeline-group > header h2 { margin:5px 0; font:600 28px "Newsreader"; }
 .timeline-group > header b { color:#7c8581; font-size:11px; }
 .job-list { border-left:1px solid var(--line); padding:14px 0 34px 18px; }
-.job-row { display:grid; grid-template-columns:44px minmax(230px,1fr) auto auto auto 34px; gap:12px; align-items:center; margin:8px 0; border:1px solid transparent; border-radius:15px; padding:14px; background:white; box-shadow:0 5px 16px rgba(30,50,43,.04); cursor:pointer; transition:.18s ease; }
+.job-row { display:grid; grid-template-columns:44px minmax(230px,1fr) auto auto auto auto 34px; gap:12px; align-items:center; margin:8px 0; border:1px solid transparent; border-radius:15px; padding:14px; background:white; box-shadow:0 5px 16px rgba(30,50,43,.04); cursor:pointer; transition:.18s ease; }
 .job-row:hover { border-color:#7fa99b; transform:translateX(3px); }
+.job-row.job-closed { border-color:#d8d3ce; background:#f0f0ed; opacity:.76; }
+.job-row.job-closed:hover { border-color:#9d877b; opacity:1; }
 .company-mark { display:grid; width:42px; height:42px; place-items:center; border-radius:12px; background:#def0df; font-size:11px; font-weight:800; }
 .company-mark.large { width:50px; height:50px; flex:0 0 50px; }
 .job-copy small { color:#7a8580; font-size:11px; }
 .job-copy h3 { margin:3px 0; font:700 14px/1.35 "Manrope"; }
 .job-copy p { margin:0; color:#707a76; font-size:11px; }
-.family-pill,.status-pill { border-radius:999px; padding:6px 9px; background:#f0f2ee; font-size:10px; font-weight:800; white-space:nowrap; }
+.family-pill,.status-pill,.closed-pill { border-radius:999px; padding:6px 9px; background:#f0f2ee; font-size:10px; font-weight:800; white-space:nowrap; }
 .status-pill { background:#e8e2ff; color:#514479; }
+.closed-pill { background:#e7ded8; color:#714b3b; }
 .sponsor-badge { display:inline-flex; gap:6px; align-items:center; width:max-content; border-radius:999px; padding:6px 9px; font-size:10px; font-weight:800; white-space:nowrap; }
 .sponsor-badge i { font-style:normal; }
 .sponsor-source-signal,.sponsor-offers { background:#d5f1dd; color:#21613c; }
@@ -70,6 +73,7 @@ a { color:inherit; }
 .sponsor-not-stated { background:#fff0bc; color:#6e5310; }
 .sponsor-no,.sponsor-citizens-only { background:#ffe0dc; color:#91372e; }
 .quick-save { display:grid; width:32px; height:32px; place-items:center; border:1px solid var(--line); border-radius:50%; background:white; font-size:16px; }
+.job-row .quick-save { grid-column:-1; }
 .quick-save.saved { border-color:var(--green); background:var(--green); color:white; }
 .drawer-backdrop { position:fixed; inset:0; z-index:60; background:rgba(15,31,27,.24); }
 .detail-drawer { position:fixed; inset:18px 18px 18px auto; z-index:61; width:min(450px,calc(100% - 36px)); overflow:auto; border:1px solid #d0d6d2; border-radius:24px; padding:26px; background:#fbfcf8; box-shadow:0 24px 70px rgba(25,42,37,.2); }
@@ -96,6 +100,7 @@ a { color:inherit; }
 .save-action,.apply-action { display:grid; min-height:48px; place-items:center; border:1px solid var(--green); border-radius:12px; padding:10px; text-align:center; text-decoration:none; font-size:12px; font-weight:800; }
 .save-action { background:white; }
 .save-action.saved,.apply-action { background:var(--green); color:white; }
+.closed-action { border-color:#9e8b80; background:#9e8b80; cursor:not-allowed; }
 .mobile-sheet { display:none; }
 .filters p { margin:0 0 9px; font-size:10px; font-weight:800; letter-spacing:.1em; text-transform:uppercase; }
 .filter-block { margin:22px 0; }
@@ -128,6 +133,7 @@ a { color:inherit; }
   .company-mark { width:38px; height:38px; }
   .job-row .family-pill,.job-row .status-pill { display:none; }
   .job-row .sponsor-badge { grid-column:2; }
+  .job-row .closed-pill { grid-column:2; }
   .job-row .quick-save { grid-column:3; grid-row:1; }
   .mobile-sheet { position:fixed; inset:0; z-index:80; display:grid; align-items:end; background:rgba(15,31,27,.28); opacity:0; pointer-events:none; transition:.2s; }
   .mobile-sheet.open { opacity:1; pointer-events:auto; }
