@@ -10,6 +10,7 @@ import json
 import re
 import sys
 import urllib.request
+import urllib.parse
 from dataclasses import dataclass, asdict
 from datetime import datetime, timezone
 from html.parser import HTMLParser
@@ -21,6 +22,7 @@ NEW_GRAD_URL = "https://raw.githubusercontent.com/zapplyjobs/New-Grad-Jobs-2027/
 APPLYGUY_URL = "https://raw.githubusercontent.com/ApplyGuy/2027-Internships/main/data/internships.json"
 JOBRIGHT_PM_URL = "https://raw.githubusercontent.com/jobright-ai/2026-Product-Management-New-Grad/master/README.md"
 JOBRIGHT_BA_URL = "https://raw.githubusercontent.com/jobright-ai/2026-Business-Analyst-New-Grad/master/README.md"
+SEARCHTERN_URL = "https://raw.githubusercontent.com/KSaifStack/SearchTern-Listings/main/pages/listings.json"
 H1B_URL = "https://raw.githubusercontent.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/main/data/h1b.json"
 H1B_THRESHOLD = 10
 
@@ -60,6 +62,41 @@ EXPLICIT_NEW_GRAD_PATTERN = re.compile(
     r"early career|rotational|rotation program|junior)\b",
     re.I,
 )
+
+NO_SPONSOR_PATTERN = re.compile(
+    r"\b(?:will not|does not|do not|unable to|cannot)\s+(?:provide\s+)?(?:visa\s+)?sponsor|"
+    r"\bno\s+(?:visa\s+)?sponsorship|sponsorship\s+(?:is\s+)?not\s+available|"
+    r"without\s+(?:current\s+or\s+future\s+)?(?:visa\s+)?sponsorship",
+    re.I,
+)
+
+CITIZENSHIP_RESTRICTION_PATTERN = re.compile(
+    r"\b(?:must\s+be\s+(?:a\s+)?u\.?s\.?\s+citizen|u\.?s\.?\s+citizenship\s+(?:is\s+)?required|"
+    r"requires?\s+u\.?s\.?\s+citizenship|active\s+(?:security\s+)?clearance)\b",
+    re.I,
+)
+
+SEARCHTERN_COMPANY_ALIASES = {
+    "andurilindustries": "Anduril",
+    "boschgroup": "Bosch",
+    "directagents": "Direct Agents",
+    "dtcc candidate experience site": "DTCC",
+    "egup": "Vertiv",
+    "fisglobal": "FIS",
+    "flyzipline": "Zipline",
+    "fortunebrands": "Fortune Brands",
+    "harpercollins": "HarperCollins",
+    "hereio": "HERE",
+    "hpe": "HPE",
+    "id": "ID.me",
+    "klaviyocampus": "Klaviyo",
+    "rfsmart": "RF-SMART",
+    "springswindowfashions": "Springs Window Fashions",
+    "us erac": "Enterprise Mobility",
+    "usbank": "U.S. Bank",
+    "uscampus pepsico": "PepsiCo",
+    "zimmerbiomet": "Zimmer Biomet",
+}
 
 
 def now_iso() -> str:
@@ -112,9 +149,41 @@ def posted_bucket(posted: str) -> str:
     return "Open roles"
 
 
+def source_date_label(value: str) -> str:
+    """Turn an ISO source timestamp into a compact, stable display label."""
+    if not value:
+        return "Date unknown"
+    try:
+        parsed = datetime.fromisoformat(value.replace("Z", "+00:00"))
+    except ValueError:
+        return clean_text(value) or "Date unknown"
+    current = datetime.now(timezone.utc)
+    if parsed.tzinfo is None:
+        parsed = parsed.replace(tzinfo=timezone.utc)
+    days = (current.date() - parsed.astimezone(timezone.utc).date()).days
+    if days <= 0:
+        return "Today"
+    if days <= 3:
+        return f"{days}d"
+    return f"{parsed.strftime('%b')} {parsed.day}"
+
+
 def stable_id(company: str, role: str, location: str) -> str:
     key = "|".join(re.sub(r"\W+", " ", part.lower()).strip() for part in (company, role, location))
     return hashlib.sha1(key.encode("utf-8")).hexdigest()[:14]
+
+
+def canonical_apply_key(url: str) -> str:
+    """Normalize tracking parameters so the same ATS posting dedupes across feeds."""
+    parsed = urllib.parse.urlsplit(url)
+    kept_query = [
+        (key, value)
+        for key, value in urllib.parse.parse_qsl(parsed.query)
+        if key.casefold() in {"gh_jid", "jobid"}
+    ]
+    host = parsed.netloc.casefold().removeprefix("www.")
+    path = parsed.path.rstrip("/").casefold()
+    return urllib.parse.urlunsplit(("https", host, path, urllib.parse.urlencode(kept_query), ""))
 
 
 def normalize_company(name: str) -> str:
@@ -390,12 +459,69 @@ def parse_jobright_ba(source: str) -> list[Job]:
     )
 
 
+def parse_searchtern(source: str) -> list[Job]:
+    """Keep current U.S. Ops/PM internships and new-grad roles with direct ATS links."""
+    payload = json.loads(source)
+    jobs: list[Job] = []
+    for item in payload:
+        role = clean_text(str(item.get("role") or ""))
+        description = clean_text(str(item.get("description") or ""))
+        source_type = str(item.get("job_type") or "").casefold()
+        family = classify_family(role)
+        if (
+            item.get("country_iso") != "US"
+            or source_type not in {"internship", "new_grad"}
+            or not family
+            or not is_relevant(role)
+            or (re.search(r"\b202[56]\b", role) and not re.search(r"\b2027\b", role))
+            or re.search(r"\b(group product manager|product manager\s+(?:ii|iii|iv|2|3|4))\b", role, re.I)
+            or NO_SPONSOR_PATTERN.search(description)
+            or CITIZENSHIP_RESTRICTION_PATTERN.search(description)
+        ):
+            continue
+        company_raw = clean_text(str(item.get("company") or ""))
+        company = SEARCHTERN_COMPANY_ALIASES.get(company_raw.casefold(), company_raw)
+        location = clean_text(str(item.get("location") or "")) or "United States"
+        if str(item.get("is_remote") or "").casefold() == "true" and "remote" not in location.casefold():
+            location = f"{location} · Remote"
+        href = str(item.get("link") or "").strip()
+        if not company or not href.startswith("http"):
+            continue
+        posted = source_date_label(str(item.get("date") or item.get("observed_at") or ""))
+        job_type = "Internship" if source_type == "internship" else "New Grad"
+        jobs.append(Job(
+            id=stable_id(company, role, location), company=company, role=role, location=location,
+            apply_url=href, source_name="SearchTern ATS Feed",
+            source_url="https://github.com/KSaifStack/SearchTern-Listings",
+            source_section="U.S. internships and new-grad roles", role_family=family,
+            job_type=job_type, posted=posted, posted_bucket=posted_bucket(posted),
+            sponsorship="not-stated", sponsorship_scope="source does not state a refusal",
+            sponsorship_evidence=(
+                "SearchTern links directly to the employer ATS. Its captured description does not state a "
+                "sponsorship refusal or U.S.-citizenship requirement; verify the live posting before applying."
+            ),
+        ))
+    return jobs
+
+
 def dedupe(jobs: Iterable[Job]) -> list[Job]:
     by_id: dict[str, Job] = {}
+    by_apply_url: dict[str, str] = {}
     for job in jobs:
+        apply_key = canonical_apply_key(job.apply_url)
+        existing_id = by_apply_url.get(apply_key) if apply_key else None
+        if existing_id:
+            existing = by_id[existing_id]
+            if job.sponsorship == "source-signal" and existing.sponsorship != "source-signal":
+                del by_id[existing_id]
+                by_id[job.id] = job
+                by_apply_url[apply_key] = job.id
+            continue
         existing = by_id.get(job.id)
         if not existing or (job.sponsorship == "source-signal" and existing.sponsorship != "source-signal"):
             by_id[job.id] = job
+            if apply_key:
+                by_apply_url[apply_key] = job.id
     bucket_order = {"Fresh now": 0, "Open roles": 1, "Date unknown": 2}
     return sorted(by_id.values(), key=lambda item: (bucket_order[item.posted_bucket], item.company.lower(), item.role.lower()))
 
@@ -432,6 +558,7 @@ def main() -> int:
     parser.add_argument("--applyguy-file", type=Path)
     parser.add_argument("--jobright-pm-file", type=Path)
     parser.add_argument("--jobright-ba-file", type=Path)
+    parser.add_argument("--searchtern-file", type=Path)
     parser.add_argument("--h1b-file", type=Path)
     parser.add_argument("--output", type=Path, default=Path("data/jobs.json"))
     args = parser.parse_args()
@@ -442,6 +569,7 @@ def main() -> int:
         applyguy = args.applyguy_file.read_text(encoding="utf-8") if args.applyguy_file else fetch(APPLYGUY_URL)
         jobright_pm = args.jobright_pm_file.read_text(encoding="utf-8") if args.jobright_pm_file else fetch(JOBRIGHT_PM_URL)
         jobright_ba = args.jobright_ba_file.read_text(encoding="utf-8") if args.jobright_ba_file else fetch(JOBRIGHT_BA_URL)
+        searchtern = args.searchtern_file.read_text(encoding="utf-8") if args.searchtern_file else fetch(SEARCHTERN_URL)
         h1b_index = json.loads(args.h1b_file.read_text(encoding="utf-8")) if args.h1b_file else json.loads(fetch(H1B_URL))
     except Exception as exc:
         print(f"source fetch failed: {exc}", file=sys.stderr)
@@ -452,7 +580,8 @@ def main() -> int:
     applyguy_jobs = parse_applyguy(applyguy)
     jobright_pm_jobs = parse_jobright_pm(jobright_pm)
     jobright_ba_jobs = parse_jobright_ba(jobright_ba)
-    normalized = enrich_h1b_history(dedupe([*summer_jobs, *new_grad_jobs, *applyguy_jobs, *jobright_pm_jobs, *jobright_ba_jobs]), h1b_index)
+    searchtern_jobs = parse_searchtern(searchtern)
+    normalized = enrich_h1b_history(dedupe([*summer_jobs, *new_grad_jobs, *applyguy_jobs, *jobright_pm_jobs, *jobright_ba_jobs, *searchtern_jobs]), h1b_index)
     if not normalized:
         print("refusing to write an empty feed", file=sys.stderr)
         return 3
@@ -468,13 +597,14 @@ def main() -> int:
             {"name": "ApplyGuy 2027 Internships", "url": "https://github.com/ApplyGuy/2027-Internships", "records": len(applyguy_jobs)},
             {"name": "Jobright Product Management New Grad", "url": "https://github.com/jobright-ai/2026-Product-Management-New-Grad", "records": len(jobright_pm_jobs)},
             {"name": "Jobright Business Analyst New Grad", "url": "https://github.com/jobright-ai/2026-Business-Analyst-New-Grad", "records": len(jobright_ba_jobs)},
+            {"name": "SearchTern ATS Feed", "url": "https://github.com/KSaifStack/SearchTern-Listings", "records": len(searchtern_jobs)},
             {"name": "USCIS H-1B history index", "url": "https://www.uscis.gov/tools/reports-and-studies/h-1b-employer-data-hub", "records": len(h1b_index.get("employers") or {}), "window": h1b_index.get("fiscal_years") or []},
         ],
         "jobs": [asdict(job) | {"verified_at": generated_at} for job in normalized],
     }
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(json.dumps({"output": str(args.output), "count": len(normalized), "summer": len(summer_jobs), "new_grad": len(new_grad_jobs), "applyguy": len(applyguy_jobs), "jobright_pm": len(jobright_pm_jobs), "jobright_ba": len(jobright_ba_jobs)}))
+    print(json.dumps({"output": str(args.output), "count": len(normalized), "summer": len(summer_jobs), "new_grad": len(new_grad_jobs), "applyguy": len(applyguy_jobs), "jobright_pm": len(jobright_pm_jobs), "jobright_ba": len(jobright_ba_jobs), "searchtern": len(searchtern_jobs)}))
     return 0
 
 

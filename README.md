@@ -14,7 +14,8 @@ The production page is `/`. The design archive remains available at:
 
 ## Data model
 
-- Public roles are normalized from Summer 2027 Role Index, New Grad Jobs 2027, ApplyGuy's frequently reverified 2027 internship feed, and strict early-career subsets of Jobright's Product Management and Business Analyst New Grad feeds.
+- Public roles are normalized from Summer 2027 Role Index, New Grad Jobs 2027, ApplyGuy's frequently reverified 2027 internship feed, strict early-career subsets of Jobright's Product Management and Business Analyst New Grad feeds, and SearchTern's direct-ATS U.S. internship/new-grad feed.
+- SearchTern rows are filtered to Ops/PM families and excluded when the captured employer description explicitly refuses sponsorship or requires U.S. citizenship/active clearance.
 - Company-level H-1B history comes from a compact index derived from the USCIS Employer Data Hub.
 - “H-1B history” is evidence of past approvals, not a promise for a specific role.
 - Under the default eligibility rule, a role remains visible unless a source explicitly reports no sponsorship or a citizenship restriction.

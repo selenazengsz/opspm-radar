@@ -1,6 +1,6 @@
 import unittest
 
-from refresh_jobs import Job, classify_family, classify_type, enrich_h1b_history, is_relevant, parse_applyguy, parse_jobright_ba, parse_jobright_pm, parse_new_grad, parse_summer, stable_id
+from refresh_jobs import Job, canonical_apply_key, classify_family, classify_type, dedupe, enrich_h1b_history, is_relevant, parse_applyguy, parse_jobright_ba, parse_jobright_pm, parse_new_grad, parse_searchtern, parse_summer, stable_id
 
 
 class RefreshJobsTests(unittest.TestCase):
@@ -90,6 +90,24 @@ class RefreshJobsTests(unittest.TestCase):
         jobs = parse_jobright_ba(source)
         self.assertEqual(len(jobs), 2)
         self.assertTrue(all(job.job_type == "New Grad" for job in jobs))
+
+    def test_searchtern_keeps_us_early_career_roles_and_rejects_refusals(self):
+        source = """[
+          {"company":"Example","role":"Product Management Intern - Summer 2027","location":"Austin, TX","date":"2026-09-24T01:00:00+00:00","link":"https://example.com/pm?utm_source=x","country_iso":"US","job_type":"internship","is_remote":"false","description":"Students are welcome."},
+          {"company":"Blocked","role":"Junior Business Analyst","location":"New York, NY","date":"2026-09-24T01:00:00+00:00","link":"https://example.com/ba","country_iso":"US","job_type":"new_grad","is_remote":"false","description":"We cannot provide visa sponsorship."},
+          {"company":"Old","role":"Product Manager Intern - 2026 Start","location":"Seattle, WA","date":"2026-09-24T01:00:00+00:00","link":"https://example.com/old","country_iso":"US","job_type":"internship","is_remote":"false","description":""},
+          {"company":"Canada","role":"Associate Product Manager, New Grad","location":"Toronto","date":"2026-09-24T01:00:00+00:00","link":"https://example.com/ca","country_iso":"CA","job_type":"new_grad","is_remote":"false","description":""}
+        ]"""
+        jobs = parse_searchtern(source)
+        self.assertEqual(len(jobs), 1)
+        self.assertEqual(jobs[0].job_type, "Internship")
+        self.assertEqual(jobs[0].source_name, "SearchTern ATS Feed")
+
+    def test_dedupe_ignores_tracking_parameters_on_same_ats_url(self):
+        first = Job("1", "Example", "Product Analyst Intern", "NY", "https://example.com/job/1?utm_source=a", "one", "https://one", "section", "Product", "Internship", "Today", "Fresh now", "not-stated", "not provided", "")
+        second = Job("2", "Example Inc", "Product Analyst Intern", "New York", "https://example.com/job/1?ref=tracker", "two", "https://two", "section", "Product", "Internship", "Today", "Fresh now", "not-stated", "not provided", "")
+        self.assertEqual(canonical_apply_key(first.apply_url), canonical_apply_key(second.apply_url))
+        self.assertEqual(len(dedupe([first, second])), 1)
 
     def test_ids_are_stable(self):
         self.assertEqual(stable_id("A", "B", "C"), stable_id("A", "B", "C"))
