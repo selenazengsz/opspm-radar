@@ -19,6 +19,8 @@ from typing import Iterable
 SUMMER_URL = "https://raw.githubusercontent.com/NyXkim5/summer-2027-role-index/main/index.html"
 NEW_GRAD_URL = "https://raw.githubusercontent.com/zapplyjobs/New-Grad-Jobs-2027/main/README.md"
 APPLYGUY_URL = "https://raw.githubusercontent.com/ApplyGuy/2027-Internships/main/data/internships.json"
+JOBRIGHT_PM_URL = "https://raw.githubusercontent.com/jobright-ai/2026-Product-Management-New-Grad/master/README.md"
+JOBRIGHT_BA_URL = "https://raw.githubusercontent.com/jobright-ai/2026-Business-Analyst-New-Grad/master/README.md"
 H1B_URL = "https://raw.githubusercontent.com/zshah101/Automated-List-Of-Summer-2027-and-Fall-2026-Tech-Internships/main/data/h1b.json"
 H1B_THRESHOLD = 10
 
@@ -53,6 +55,12 @@ EARLY_PATTERN = re.compile(
 
 SENIOR_PATTERN = re.compile(r"\b(senior|sr\.?|principal|director|vice president|vp|head of|lead|staff|mid|mid-level|experienced)\b", re.I)
 
+EXPLICIT_NEW_GRAD_PATTERN = re.compile(
+    r"\b(2027|new grad(?:uate)?|new college grad(?:uate)?|university graduate|graduate|entry[ -]level|"
+    r"early career|rotational|rotation program|junior)\b",
+    re.I,
+)
+
 
 def now_iso() -> str:
     return datetime.now(timezone.utc).replace(microsecond=0).isoformat().replace("+00:00", "Z")
@@ -78,7 +86,7 @@ def classify_type(role: str) -> str:
     lowered = role.lower()
     if "intern" in lowered or "co-op" in lowered:
         return "Internship"
-    if re.search(r"new grad|new college grad|university graduate|graduate program|2027", lowered):
+    if EXPLICIT_NEW_GRAD_PATTERN.search(lowered):
         return "New Grad"
     return "Entry Level"
 
@@ -319,6 +327,69 @@ def parse_applyguy(source: str) -> list[Job]:
     return jobs
 
 
+def parse_jobright_feed(source: str, source_name: str, source_url: str, source_section: str) -> list[Job]:
+    """Keep only explicitly early-career Ops/PM roles from a recent Jobright feed."""
+    jobs: list[Job] = []
+    previous_company = ""
+    for line in source.splitlines():
+        if not line.startswith("|") or "---" in line:
+            continue
+        cells = markdown_cells(line)
+        if len(cells) < 5 or cells[0].lower() == "company":
+            continue
+        raw_company, raw_role, raw_location, work_model, posted = cells[:5]
+        company = clean_text(raw_company)
+        if company == "↳":
+            company = previous_company
+        elif company:
+            previous_company = company
+        role = clean_text(raw_role)
+        role = re.sub(r"\]\(https?://[^)]+\)", "", role)
+        role = role.replace("[", "").replace("]", "").strip()
+        location = clean_text(raw_location)
+        if clean_text(work_model).casefold() == "remote" and "remote" not in location.casefold():
+            location = f"{location} · Remote" if location else "Remote"
+        hrefs = re.findall(r"\]\((https?://[^)]+)\)", raw_role)
+        href = hrefs[-1] if hrefs else ""
+        family = classify_family(role)
+        if (
+            not company or not href or not family or not EXPLICIT_NEW_GRAD_PATTERN.search(role)
+            or SENIOR_PATTERN.search(role)
+        ):
+            continue
+        posted = clean_text(posted) or "Date unknown"
+        jobs.append(Job(
+            id=stable_id(company, role, location), company=company, role=role, location=location,
+            apply_url=href, source_name=source_name, source_url=source_url,
+            source_section=source_section, role_family=family, job_type="New Grad",
+            posted=posted, posted_bucket=posted_bucket(posted), sponsorship="not-stated",
+            sponsorship_scope="source does not state a refusal",
+            sponsorship_evidence=(
+                "Jobright includes this role in its recent Product Management new-grad feed. Sponsorship is not "
+                "stated; verify the employer posting and role requirements before applying."
+            ),
+        ))
+    return jobs
+
+
+def parse_jobright_pm(source: str) -> list[Job]:
+    return parse_jobright_feed(
+        source,
+        "Jobright Product Management New Grad",
+        "https://github.com/jobright-ai/2026-Product-Management-New-Grad",
+        "Recent product new-grad roles",
+    )
+
+
+def parse_jobright_ba(source: str) -> list[Job]:
+    return parse_jobright_feed(
+        source,
+        "Jobright Business Analyst New Grad",
+        "https://github.com/jobright-ai/2026-Business-Analyst-New-Grad",
+        "Recent business analyst new-grad roles",
+    )
+
+
 def dedupe(jobs: Iterable[Job]) -> list[Job]:
     by_id: dict[str, Job] = {}
     for job in jobs:
@@ -359,6 +430,8 @@ def main() -> int:
     parser.add_argument("--summer-file", type=Path)
     parser.add_argument("--new-grad-file", type=Path)
     parser.add_argument("--applyguy-file", type=Path)
+    parser.add_argument("--jobright-pm-file", type=Path)
+    parser.add_argument("--jobright-ba-file", type=Path)
     parser.add_argument("--h1b-file", type=Path)
     parser.add_argument("--output", type=Path, default=Path("data/jobs.json"))
     args = parser.parse_args()
@@ -367,6 +440,8 @@ def main() -> int:
         summer = args.summer_file.read_text(encoding="utf-8") if args.summer_file else fetch(SUMMER_URL)
         new_grad = args.new_grad_file.read_text(encoding="utf-8") if args.new_grad_file else fetch(NEW_GRAD_URL)
         applyguy = args.applyguy_file.read_text(encoding="utf-8") if args.applyguy_file else fetch(APPLYGUY_URL)
+        jobright_pm = args.jobright_pm_file.read_text(encoding="utf-8") if args.jobright_pm_file else fetch(JOBRIGHT_PM_URL)
+        jobright_ba = args.jobright_ba_file.read_text(encoding="utf-8") if args.jobright_ba_file else fetch(JOBRIGHT_BA_URL)
         h1b_index = json.loads(args.h1b_file.read_text(encoding="utf-8")) if args.h1b_file else json.loads(fetch(H1B_URL))
     except Exception as exc:
         print(f"source fetch failed: {exc}", file=sys.stderr)
@@ -375,7 +450,9 @@ def main() -> int:
     summer_jobs = parse_summer(summer)
     new_grad_jobs = parse_new_grad(new_grad)
     applyguy_jobs = parse_applyguy(applyguy)
-    normalized = enrich_h1b_history(dedupe([*summer_jobs, *new_grad_jobs, *applyguy_jobs]), h1b_index)
+    jobright_pm_jobs = parse_jobright_pm(jobright_pm)
+    jobright_ba_jobs = parse_jobright_ba(jobright_ba)
+    normalized = enrich_h1b_history(dedupe([*summer_jobs, *new_grad_jobs, *applyguy_jobs, *jobright_pm_jobs, *jobright_ba_jobs]), h1b_index)
     if not normalized:
         print("refusing to write an empty feed", file=sys.stderr)
         return 3
@@ -389,13 +466,15 @@ def main() -> int:
             {"name": "Summer 2027 Role Index", "url": "https://github.com/NyXkim5/summer-2027-role-index", "records": len(summer_jobs)},
             {"name": "New Grad Jobs 2027", "url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027", "records": len(new_grad_jobs)},
             {"name": "ApplyGuy 2027 Internships", "url": "https://github.com/ApplyGuy/2027-Internships", "records": len(applyguy_jobs)},
+            {"name": "Jobright Product Management New Grad", "url": "https://github.com/jobright-ai/2026-Product-Management-New-Grad", "records": len(jobright_pm_jobs)},
+            {"name": "Jobright Business Analyst New Grad", "url": "https://github.com/jobright-ai/2026-Business-Analyst-New-Grad", "records": len(jobright_ba_jobs)},
             {"name": "USCIS H-1B history index", "url": "https://www.uscis.gov/tools/reports-and-studies/h-1b-employer-data-hub", "records": len(h1b_index.get("employers") or {}), "window": h1b_index.get("fiscal_years") or []},
         ],
         "jobs": [asdict(job) | {"verified_at": generated_at} for job in normalized],
     }
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-    print(json.dumps({"output": str(args.output), "count": len(normalized), "summer": len(summer_jobs), "new_grad": len(new_grad_jobs), "applyguy": len(applyguy_jobs)}))
+    print(json.dumps({"output": str(args.output), "count": len(normalized), "summer": len(summer_jobs), "new_grad": len(new_grad_jobs), "applyguy": len(applyguy_jobs), "jobright_pm": len(jobright_pm_jobs), "jobright_ba": len(jobright_ba_jobs)}))
     return 0
 
 

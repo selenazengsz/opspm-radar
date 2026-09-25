@@ -1,6 +1,6 @@
 import unittest
 
-from refresh_jobs import Job, classify_family, enrich_h1b_history, is_relevant, parse_applyguy, parse_new_grad, parse_summer, stable_id
+from refresh_jobs import Job, classify_family, classify_type, enrich_h1b_history, is_relevant, parse_applyguy, parse_jobright_ba, parse_jobright_pm, parse_new_grad, parse_summer, stable_id
 
 
 class RefreshJobsTests(unittest.TestCase):
@@ -8,6 +8,10 @@ class RefreshJobsTests(unittest.TestCase):
         self.assertEqual(classify_family("Associate Product Manager — 2027"), "Product")
         self.assertEqual(classify_family("Product Operations Analyst"), "Product Ops")
         self.assertEqual(classify_family("Growth Operations Associate"), "Growth Ops")
+
+    def test_new_grad_type_includes_rotational_and_entry_level(self):
+        self.assertEqual(classify_type("Operations Analyst - Rotational Development Program"), "New Grad")
+        self.assertEqual(classify_type("Entry Level Product Manager - 2027"), "New Grad")
 
     def test_senior_role_is_rejected(self):
         self.assertFalse(is_relevant("Senior Product Manager"))
@@ -59,6 +63,33 @@ class RefreshJobsTests(unittest.TestCase):
         self.assertEqual(jobs[0].job_type, "Internship")
         self.assertEqual(jobs[0].posted_bucket, "Fresh now")
         self.assertEqual(jobs[0].apply_url, "https://example.com/pm")
+
+    def test_jobright_pm_requires_an_explicit_early_career_signal(self):
+        source = """
+| Company | Job Title | Location | Work Model | Date Posted |
+| ----- | --------- | --------- | ---- | ------- |
+| **[IBM](https://ibm.example)** | **[Entry Level Product Management 2027](https://example.com/ibm-pm)** | Austin, TX | Hybrid | Sep 23 |
+| ↳ | **[Senior Product Manager](https://example.com/senior)** | Austin, TX | Hybrid | Sep 23 |
+| **[Example](https://example.com)** | **[Product Demonstrator](https://example.com/demo)** | Remote | Remote | Sep 23 |
+| **[Roblox](https://roblox.example)** | **[[2027] Associate Product Manager, Early Career](https://example.com/roblox)** | San Mateo, CA | On Site | Sep 23 |
+"""
+        jobs = parse_jobright_pm(source)
+        self.assertEqual(len(jobs), 2)
+        self.assertEqual(jobs[0].company, "IBM")
+        self.assertEqual(jobs[0].job_type, "New Grad")
+        self.assertEqual(jobs[1].role, "2027 Associate Product Manager, Early Career")
+
+    def test_jobright_business_analyst_keeps_junior_and_graduate_roles(self):
+        source = """
+| Company | Job Title | Location | Work Model | Date Posted |
+| ----- | --------- | --------- | ---- | ------- |
+| **[Example](https://example.com)** | **[Junior Business Analyst](https://example.com/junior)** | Remote | Remote | Sep 22 |
+| **[Example](https://example.com)** | **[Business Analyst Graduate Programme](https://example.com/grad)** | New York, NY | Hybrid | Sep 21 |
+| **[Example](https://example.com)** | **[Business Analyst](https://example.com/general)** | New York, NY | Hybrid | Sep 21 |
+"""
+        jobs = parse_jobright_ba(source)
+        self.assertEqual(len(jobs), 2)
+        self.assertTrue(all(job.job_type == "New Grad" for job in jobs))
 
     def test_ids_are_stable(self):
         self.assertEqual(stable_id("A", "B", "C"), stable_id("A", "B", "C"))
