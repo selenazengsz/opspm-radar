@@ -9,10 +9,12 @@ const ui = {
   selectedId: null,
   query: "",
   family: "All",
+  term: "All",
   type: "All",
   sponsorship: "eligible",
   remoteOnly: false,
   savedOnly: false,
+  hideSkipped: true,
   sheetOpen: false,
   loading: true,
   error: null,
@@ -42,6 +44,12 @@ function safeUrl(value) {
   } catch {
     return "#";
   }
+}
+
+function plainText(value) {
+  const textarea = document.createElement("textarea");
+  textarea.innerHTML = String(value ?? "");
+  return textarea.value;
 }
 
 function normalizeJob(job) {
@@ -94,32 +102,65 @@ function readHash() {
   const params = new URLSearchParams(location.hash.replace(/^#/, ""));
   ui.query = params.get("q") || "";
   ui.family = params.get("family") || "All";
+  ui.term = params.get("term") || "All";
   ui.type = params.get("type") || "All";
   ui.sponsorship = params.get("sponsor") || "eligible";
   ui.remoteOnly = params.get("remote") === "1";
+  ui.hideSkipped = params.get("skipped") !== "show";
 }
 
 function writeHash() {
   const params = new URLSearchParams();
   if (ui.query) params.set("q", ui.query);
   if (ui.family !== "All") params.set("family", ui.family);
+  if (ui.term !== "All") params.set("term", ui.term);
   if (ui.type !== "All") params.set("type", ui.type);
   if (ui.sponsorship !== "eligible") params.set("sponsor", ui.sponsorship);
   if (ui.remoteOnly) params.set("remote", "1");
+  if (!ui.hideSkipped) params.set("skipped", "show");
   history.replaceState(null, "", params.size ? `#${params}` : location.pathname);
 }
 
-function filteredJobs() {
+function termFor(job) {
+  const text = plainText(`${job.role} ${job.source_section}`).toLowerCase();
+  if (text.includes("summer 2027")) return "Summer 2027";
+  if (text.includes("spring 2027")) return "Spring 2027";
+  if (text.includes("winter 2027")) return "Winter 2027";
+  if (text.includes("fall 2026")) return "Fall 2026";
+  return "2027 / Unspecified";
+}
+
+function matchesSponsor(job, value = ui.sponsorship) {
+  return value === "all" || (value === "eligible" && !["no", "citizens-only"].includes(job.sponsorship)) || job.sponsorship === value;
+}
+
+function jobMatches(job, ignoreFacet = "") {
+  const haystack = plainText(`${job.company} ${job.role} ${job.location} ${job.role_family}`).toLowerCase();
+  const record = recordFor(job.id);
+  return haystack.includes(ui.query.toLowerCase()) &&
+    (ignoreFacet === "family" || ui.family === "All" || plainText(job.role_family) === ui.family) &&
+    (ignoreFacet === "term" || ui.term === "All" || termFor(job) === ui.term) &&
+    (ignoreFacet === "type" || ui.type === "All" || job.job_type === ui.type) &&
+    (ignoreFacet === "sponsorship" || matchesSponsor(job)) &&
+    (!ui.remoteOnly || /remote/i.test(job.location)) &&
+    (!ui.savedOnly || record.saved) &&
+    (!ui.hideSkipped || record.status !== "Skipped");
+}
+
+function facetCount(facet, value) {
   return ui.jobs.filter((job) => {
-    const haystack = `${job.company} ${job.role} ${job.location} ${job.role_family}`.toLowerCase();
-    const record = recordFor(job.id);
-    return haystack.includes(ui.query.toLowerCase()) &&
-      (ui.family === "All" || job.role_family === ui.family) &&
-      (ui.type === "All" || job.job_type === ui.type) &&
-      (ui.sponsorship === "all" || (ui.sponsorship === "eligible" && !["no", "citizens-only"].includes(job.sponsorship)) || job.sponsorship === ui.sponsorship) &&
-      (!ui.remoteOnly || /remote/i.test(job.location)) &&
-      (!ui.savedOnly || record.saved);
-  }).sort((a, b) => {
+    if (!jobMatches(job, facet)) return false;
+    if (value === "All" || value === "all" || value === "eligible") return value === "eligible" ? matchesSponsor(job, value) : true;
+    if (facet === "family") return plainText(job.role_family) === value;
+    if (facet === "term") return termFor(job) === value;
+    if (facet === "type") return job.job_type === value;
+    if (facet === "sponsorship") return job.sponsorship === value;
+    return true;
+  }).length;
+}
+
+function filteredJobs() {
+  return ui.jobs.filter((job) => jobMatches(job)).sort((a, b) => {
     const sponsorOrder = { offers: 0, "source-signal": 1, history: 2, "not-stated": 3, no: 4, "citizens-only": 5 };
     return sponsorOrder[a.sponsorship] - sponsorOrder[b.sponsorship] || a.company.localeCompare(b.company);
   });
@@ -137,14 +178,28 @@ function formatGeneratedAt(value) {
   return new Intl.DateTimeFormat("en-US", { month: "short", day: "numeric", hour: "numeric", minute: "2-digit" }).format(date);
 }
 
-function renderFilters(mobile = false) {
+function facetButton(facet, value, label, active, countValue = value) {
+  const countFacet = facet === "sponsor" ? "sponsorship" : facet;
+  return `<button data-${facet}="${value}" class="${active ? "active" : ""}">${label}<span>${facetCount(countFacet, countValue)}</span></button>`;
+}
+
+function facetRows() {
   const families = ["All", "Product", "Product Ops", "Growth Ops", "Business Ops", "Strategy & Ops", "Program Management"];
+  const terms = ["All", "Summer 2027", "Spring 2027", "Winter 2027", "2027 / Unspecified"];
   const types = ["All", "New Grad", "Internship", "Entry Level"];
-  return `<div class="filters ${mobile ? "mobile-filters" : ""}">
-    <div class="filter-block"><p>Role family</p><div class="chip-row">${families.map((family) => `<button data-family="${family}" class="${ui.family === family ? "active" : ""}">${family}</button>`).join("")}</div></div>
-    <div class="filter-block split"><div><p>Level</p><div class="chip-row">${types.map((type) => `<button data-type="${type}" class="${ui.type === type ? "active" : ""}">${type}</button>`).join("")}</div></div><div><p>Sponsorship evidence</p><div class="chip-row"><button data-sponsor="eligible" class="${ui.sponsorship === "eligible" ? "active" : ""}">No explicit refusal</button><button data-sponsor="all" class="${ui.sponsorship === "all" ? "active" : ""}">All</button>${["source-signal", "history", "not-stated", "no"].map((key) => `<button data-sponsor="${key}" class="${ui.sponsorship === key ? "active" : ""}">${sponsorMeta[key].icon} ${sponsorMeta[key].short}</button>`).join("")}</div></div></div>
-    <div class="filter-toggles"><label><input type="checkbox" data-remote ${ui.remoteOnly ? "checked" : ""}> Remote only</label><label><input type="checkbox" data-saved-only ${ui.savedOnly ? "checked" : ""}> Saved only</label></div>
-  </div>`;
+  const sponsorship = [
+    ["eligible", "No explicit refusal"], ["history", "✓ H-1B history"], ["source-signal", "● Source signal"],
+    ["not-stated", "○ Not stated"], ["all", "All evidence"],
+  ];
+  return `<div class="facet-row"><b>Field</b><div class="chip-row">${families.map((value) => facetButton("family", value, value === "All" ? "All roles" : value, ui.family === value)).join("")}</div></div>
+    <div class="facet-row"><b>Term</b><div class="chip-row">${terms.map((value) => facetButton("term", value, value, ui.term === value)).join("")}</div></div>
+    <div class="facet-row"><b>Type</b><div class="chip-row">${types.map((value) => facetButton("type", value, value, ui.type === value)).join("")}</div></div>
+    <div class="facet-row"><b>Sponsorship</b><div class="chip-row">${sponsorship.map(([value, label]) => facetButton("sponsor", value, label, ui.sponsorship === value, value)).join("")}</div></div>
+    <div class="facet-row"><b>Status</b><div class="chip-row status-chips"><button class="active" disabled>Open only<span>${ui.jobs.length}</span></button><button data-toggle-skipped class="${ui.hideSkipped ? "active" : ""}">Hide skipped</button><button data-remote class="${ui.remoteOnly ? "active" : ""}">Remote only</button><button data-saved-only class="${ui.savedOnly ? "active" : ""}">Saved only</button></div></div>`;
+}
+
+function renderFilters(mobile = false) {
+  return `<div class="filters ${mobile ? "mobile-filters" : ""}">${facetRows()}</div>`;
 }
 
 function jobRow(job) {
@@ -187,8 +242,7 @@ function render() {
     <header class="topbar"><a class="brand" href="./"><span>O/P</span><strong>OpsPM</strong></a><div class="top-title"><b>Opportunity Radar</b><span>Early-career product + operations</span></div><div class="top-actions"><span class="refresh-status"><i></i>Updated ${formatGeneratedAt(ui.meta.generated_at)}</span><button class="saved-counter" data-toggle-saved>★ ${savedCount}</button></div></header>
     <main class="page-main">
       <section class="hero"><p class="eyebrow">2027 OPS + PRODUCT ROLES</p><h1>Know what is open.<br>Know what needs proof.</h1><p>A focused opportunity radar with transparent sponsorship evidence—not guesses.</p></section>
-      <section class="filter-bar"><label class="search-control"><span>⌕</span><input type="search" value="${ui.query}" placeholder="Search roles, companies, or locations" aria-label="Search roles"></label><button class="filter-button" data-sheet>☷ Filters <b>${[ui.family !== "All", ui.type !== "All", ui.sponsorship !== "eligible", ui.remoteOnly, ui.savedOnly].filter(Boolean).length || ""}</b></button><div class="desktop-filter-summary"><button data-family="All" class="${ui.family === "All" ? "active" : ""}">All roles</button>${["Product", "Product Ops", "Growth Ops", "Business Ops", "Strategy & Ops"].map((family) => `<button data-family="${family}" class="${ui.family === family ? "active" : ""}">${family}</button>`).join("")}</div></section>
-      <div class="evidence-rail"><button data-sponsor="eligible" class="${ui.sponsorship === "eligible" ? "active" : ""}">No explicit refusal</button><button data-sponsor="history" class="${ui.sponsorship === "history" ? "active" : ""}">✓ H-1B history</button><button data-sponsor="source-signal" class="${ui.sponsorship === "source-signal" ? "active" : ""}">● Source signal</button><button data-sponsor="not-stated" class="${ui.sponsorship === "not-stated" ? "active" : ""}">○ Not stated</button><span>${results.length} of ${ui.jobs.length} roles</span><a href="./design/">Design archive ↗</a></div>
+      <section class="filter-deck"><div class="filter-top"><label class="search-control"><span>⌕</span><input type="search" value="${ui.query}" placeholder="Search company, role, or city" aria-label="Search roles"></label><strong>${results.length} of ${ui.jobs.length}</strong><button class="reset-button" data-clear>Reset</button><button class="filter-button" data-sheet>☷ Filters <b>${[ui.family !== "All", ui.term !== "All", ui.type !== "All", ui.sponsorship !== "eligible", ui.remoteOnly, ui.savedOnly, !ui.hideSkipped].filter(Boolean).length || ""}</b></button></div><div class="desktop-facets">${facetRows()}</div><a class="design-archive" href="./design/">Design archive ↗</a></section>
       <section class="timeline">${groups.map((group) => {
         const groupJobs = results.filter((job) => job.posted_bucket === group);
         if (!groupJobs.length) return "";
@@ -219,14 +273,16 @@ async function toggleSaved(jobId) {
 function bind() {
   document.querySelector("[data-retry]")?.addEventListener("click", boot);
   document.querySelectorAll("[data-family]").forEach((button) => button.addEventListener("click", () => { ui.family = button.dataset.family; writeHash(); render(); }));
+  document.querySelectorAll("[data-term]").forEach((button) => button.addEventListener("click", () => { ui.term = button.dataset.term; writeHash(); render(); }));
   document.querySelectorAll("[data-type]").forEach((button) => button.addEventListener("click", () => { ui.type = button.dataset.type; writeHash(); render(); }));
   document.querySelectorAll("[data-sponsor]").forEach((button) => button.addEventListener("click", () => { ui.sponsorship = button.dataset.sponsor; writeHash(); render(); }));
   document.querySelector("input[type='search']")?.addEventListener("input", (event) => { ui.query = event.target.value; writeHash(); render(); preserveSearchFocus(); });
-  document.querySelectorAll("[data-remote]").forEach((input) => input.addEventListener("change", () => { ui.remoteOnly = input.checked; writeHash(); render(); }));
-  document.querySelectorAll("[data-saved-only]").forEach((input) => input.addEventListener("change", () => { ui.savedOnly = input.checked; render(); }));
+  document.querySelectorAll("[data-remote]").forEach((control) => control.addEventListener("click", () => { ui.remoteOnly = !ui.remoteOnly; writeHash(); render(); }));
+  document.querySelectorAll("[data-saved-only]").forEach((control) => control.addEventListener("click", () => { ui.savedOnly = !ui.savedOnly; render(); }));
+  document.querySelectorAll("[data-toggle-skipped]").forEach((control) => control.addEventListener("click", () => { ui.hideSkipped = !ui.hideSkipped; writeHash(); render(); }));
   document.querySelectorAll("[data-sheet]").forEach((button) => button.addEventListener("click", () => { ui.sheetOpen = !ui.sheetOpen; render(); }));
   document.querySelector("[data-toggle-saved]")?.addEventListener("click", () => { ui.savedOnly = !ui.savedOnly; render(); });
-  document.querySelector("[data-clear]")?.addEventListener("click", () => { Object.assign(ui, { query: "", family: "All", type: "All", sponsorship: "eligible", remoteOnly: false, savedOnly: false }); writeHash(); render(); });
+  document.querySelectorAll("[data-clear]").forEach((control) => control.addEventListener("click", () => { Object.assign(ui, { query: "", family: "All", term: "All", type: "All", sponsorship: "eligible", remoteOnly: false, savedOnly: false, hideSkipped: true }); writeHash(); render(); }));
   document.querySelectorAll("[data-job]").forEach((row) => {
     const open = (event) => { if (event.target.closest("[data-save]")) return; ui.selectedId = row.dataset.job; render(); };
     row.addEventListener("click", open);
