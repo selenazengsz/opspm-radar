@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-10T00:15:32Z",
-  "count": 230,
+  "generated_at": "2026-11-10T21:49:01Z",
+  "count": 225,
   "sources": [
     {
       "name": "Summer 2027 Role Index",
@@ -11,27 +11,27 @@
     {
       "name": "New Grad Jobs 2027",
       "url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
-      "records": 13
+      "records": 9
     },
     {
       "name": "ApplyGuy 2027 Internships",
       "url": "https://github.com/ApplyGuy/2027-Internships",
-      "records": 59
+      "records": 62
     },
     {
       "name": "Jobright Product Management New Grad",
       "url": "https://github.com/jobright-ai/2026-Product-Management-New-Grad",
-      "records": 13
+      "records": 12
     },
     {
       "name": "Jobright Business Analyst New Grad",
       "url": "https://github.com/jobright-ai/2026-Business-Analyst-New-Grad",
-      "records": 6
+      "records": 5
     },
     {
       "name": "SearchTern ATS Feed",
       "url": "https://github.com/KSaifStack/SearchTern-Listings",
-      "records": 45
+      "records": 44
     },
     {
       "name": "USCIS H-1B history index",
@@ -63,7 +63,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "094c079ab0e94d",
@@ -76,7 +76,7 @@
       "source_section": "Data, AI & Research",
       "role_family": "Business Ops",
       "job_type": "Internship",
-      "posted": "36m",
+      "posted": "1d",
       "posted_bucket": "Fresh now",
       "sponsorship": "source-signal",
       "sponsorship_scope": "company-level source signal",
@@ -84,7 +84,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "c77056b4fbb6c8",
@@ -105,7 +105,28 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
+    },
+    {
+      "id": "1a5b7d42374f1b",
+      "company": "Cisco",
+      "role": "Business Analyst I (Intern) United States",
+      "location": "San Jose, California, United States of America",
+      "apply_url": "https://careers.cisco.com/job/2024552",
+      "source_name": "SearchTern ATS Feed",
+      "source_url": "https://github.com/KSaifStack/SearchTern-Listings",
+      "source_section": "U.S. internships and new-grad roles",
+      "role_family": "Business Ops",
+      "job_type": "Internship",
+      "posted": "1d",
+      "posted_bucket": "Fresh now",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "SearchTern links directly to the employer ATS. Its captured description does not state a sponsorship refusal or U.S.-citizenship requirement; verify the live posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "f614338f821764",
@@ -126,104 +147,125 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
-      "id": "9bd67deda5b21b",
-      "company": "EliseAI",
-      "role": "Revenue Operations Associate",
-      "location": "New York City",
-      "apply_url": "https://zapply.jobs/l/d/ashby-eliseai-a9f880a6-6dfd-4e12-91a4-87ae2d491285?s=gh-new-grad-jobs-2027",
+      "id": "89e8006a8aca51",
+      "company": "Micron Technology",
+      "role": "Intern - Revenue Operations",
+      "location": "Boise, ID - Main Site",
+      "apply_url": "https://zapply.jobs/l/d/workday-micron-external-JR117383?s=gh-new-grad-jobs-2027",
       "source_name": "New Grad Jobs 2027",
       "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
       "source_section": "Business & Operations",
       "role_family": "Growth Ops",
-      "job_type": "Entry Level",
-      "posted": "1h",
+      "job_type": "Internship",
+      "posted": "34m",
       "posted_bucket": "Fresh now",
-      "sponsorship": "not-stated",
-      "sponsorship_scope": "not provided",
-      "sponsorship_evidence": "No sponsorship signal is provided by this source. Verify the employer posting before applying.",
-      "h1b_approvals": null,
+      "sponsorship": "source-signal",
+      "sponsorship_scope": "company-level source signal",
+      "sponsorship_evidence": "The source marks another current listing from this company with a Sponsor signal. This is company-level evidence only, not proof for this role; verify the employer posting.",
+      "h1b_approvals": 489,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
-      "id": "38e78c239e6ee3",
-      "company": "HPE",
-      "role": "Campus Switching Product Manager Graduate",
-      "location": "Roseville California",
-      "apply_url": "https://zapply.jobs/l/d/workday-hpe-acjobsite-1214267?s=gh-new-grad-jobs-2027",
-      "source_name": "New Grad Jobs 2027",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
-      "source_section": "Software Engineering",
+      "id": "094ec545b9ebdf",
+      "company": "NVIDIA",
+      "role": "Product Management Space Compute MBA Intern - Summer 2027",
+      "location": "Santa Clara, CA",
+      "apply_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Product-Management-Space-Compute-MBA-Intern---Summer-2027_JR2029628",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Summer 2027",
       "role_family": "Product",
-      "job_type": "New Grad",
-      "posted": "3d",
+      "job_type": "Internship",
+      "posted": "Today",
       "posted_bucket": "Fresh now",
       "sponsorship": "history",
       "sponsorship_scope": "company-level USCIS history",
-      "sponsorship_evidence": "USCIS history shows 499 approved H-1B petitions for a confidently matched employer in FY2022–2023. This is company history, not a promise for this role; no explicit refusal appears in the source listing.",
-      "h1b_approvals": 499,
+      "sponsorship_evidence": "USCIS history shows 1,526 approved H-1B petitions for a confidently matched employer in FY2022–2023. This is company history, not a promise for this role; no explicit refusal appears in the source listing.",
+      "h1b_approvals": 1526,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
-      "id": "e455b7083ed3db",
-      "company": "HPE (University)",
-      "role": "Campus Switching Product Manager Graduate",
-      "location": "Roseville California",
-      "apply_url": "https://zapply.jobs/l/d/workday-hpe-jobsathpe-1214267?s=gh-new-grad-jobs-2027",
-      "source_name": "New Grad Jobs 2027",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
-      "source_section": "Software Engineering",
-      "role_family": "Product",
-      "job_type": "New Grad",
-      "posted": "3d",
-      "posted_bucket": "Fresh now",
-      "sponsorship": "source-signal",
-      "sponsorship_scope": "company-level source signal",
-      "sponsorship_evidence": "The source marks another current listing from this company with a Sponsor signal. This is company-level evidence only, not proof for this role; verify the employer posting.",
-      "h1b_approvals": null,
-      "h1b_window": "FY2022–2023",
-      "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
-    },
-    {
-      "id": "2b8303eaf94e43",
-      "company": "Warner Bros. Discovery",
-      "role": "WB Games Product Management Co-op: Needham, MA - January-May 2027",
-      "location": "MA Needham 117 Kendrick St",
-      "apply_url": "https://zapply.jobs/l/d/workday-warnerbros-global-R000109850?s=gh-new-grad-jobs-2027",
-      "source_name": "New Grad Jobs 2027",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
-      "source_section": "Other Jobs",
+      "id": "1911c40817d10d",
+      "company": "Parspec",
+      "role": "Product Management Intern, Agentic AI",
+      "location": "San Mateo, CA",
+      "apply_url": "https://jobs.ashbyhq.com/parspec/aa7b7f63-b31f-47fa-a711-b76d93028e56",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Not specified",
       "role_family": "Product",
       "job_type": "Internship",
-      "posted": "6m",
+      "posted": "Today",
       "posted_bucket": "Fresh now",
-      "sponsorship": "source-signal",
-      "sponsorship_scope": "company-level source signal",
-      "sponsorship_evidence": "The source marks another current listing from this company with a Sponsor signal. This is company-level evidence only, not proof for this role; verify the employer posting.",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
-      "id": "c22a98e54c1e61",
+      "id": "c7383ac4324ea8",
+      "company": "Rubrik Job Board",
+      "role": "Product Management Intern (RCV), Summer 2027",
+      "location": "Palo Alto, CA",
+      "apply_url": "https://www.rubrik.com/company/careers/departments/job.8350601?gh_jid=8350601",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Summer 2027",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "Today",
+      "posted_bucket": "Fresh now",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-11-10T21:49:01Z"
+    },
+    {
+      "id": "c6f41b5571f9a2",
+      "company": "Wbd",
+      "role": "WB Games Product Management Co-op: Needham, MA - January-May 2027",
+      "location": "Needham, Massachusetts, United States of America",
+      "apply_url": "https://careers.wbd.com/job/R000109850",
+      "source_name": "SearchTern ATS Feed",
+      "source_url": "https://github.com/KSaifStack/SearchTern-Listings",
+      "source_section": "U.S. internships and new-grad roles",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "1d",
+      "posted_bucket": "Fresh now",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "SearchTern links directly to the employer ATS. Its captured description does not state a sponsorship refusal or U.S.-citizenship requirement; verify the live posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-11-10T21:49:01Z"
+    },
+    {
+      "id": "d73d28b0572e6b",
       "company": "Wells Fargo",
-      "role": "Branch Operations Coordinator Anacortes WA",
-      "location": "ANACORTES, WA",
-      "apply_url": "https://zapply.jobs/l/d/workday-wf-wellsfargojobs-R-578629?s=gh-new-grad-jobs-2027",
+      "role": "Branch Operations Coordinator Payson",
+      "location": "PAYSON, AZ",
+      "apply_url": "https://zapply.jobs/l/d/workday-wf-wellsfargojobs-R-583638?s=gh-new-grad-jobs-2027",
       "source_name": "New Grad Jobs 2027",
       "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
       "source_section": "Business & Operations",
       "role_family": "Business Ops",
       "job_type": "Entry Level",
-      "posted": "6m",
+      "posted": "5m",
       "posted_bucket": "Fresh now",
       "sponsorship": "source-signal",
       "sponsorship_scope": "company-level source signal",
@@ -231,49 +273,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
-    },
-    {
-      "id": "20e34c48d0d138",
-      "company": "Wells Fargo",
-      "role": "Branch Operations Coordinator Highlands of Flower Mound",
-      "location": "FLOWER MOUND, TX",
-      "apply_url": "https://zapply.jobs/l/d/workday-wf-wellsfargojobs-R-586294?s=gh-new-grad-jobs-2027",
-      "source_name": "New Grad Jobs 2027",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
-      "source_section": "Business & Operations",
-      "role_family": "Business Ops",
-      "job_type": "Entry Level",
-      "posted": "6m",
-      "posted_bucket": "Fresh now",
-      "sponsorship": "source-signal",
-      "sponsorship_scope": "company-level source signal",
-      "sponsorship_evidence": "The source marks another current listing from this company with a Sponsor signal. This is company-level evidence only, not proof for this role; verify the employer posting.",
-      "h1b_approvals": null,
-      "h1b_window": "FY2022–2023",
-      "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
-    },
-    {
-      "id": "2bde4377054f67",
-      "company": "Wells Fargo",
-      "role": "Branch Operations Coordinator Skillman and Abrams",
-      "location": "DALLAS, TX",
-      "apply_url": "https://zapply.jobs/l/d/workday-wf-wellsfargojobs-R-579067?s=gh-new-grad-jobs-2027",
-      "source_name": "New Grad Jobs 2027",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
-      "source_section": "Business & Operations",
-      "role_family": "Business Ops",
-      "job_type": "Entry Level",
-      "posted": "6m",
-      "posted_bucket": "Fresh now",
-      "sponsorship": "source-signal",
-      "sponsorship_scope": "company-level source signal",
-      "sponsorship_evidence": "The source marks another current listing from this company with a Sponsor signal. This is company-level evidence only, not proof for this role; verify the employer posting.",
-      "h1b_approvals": null,
-      "h1b_window": "FY2022–2023",
-      "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "d6d19b917eb44c",
@@ -294,7 +294,7 @@
       "h1b_approvals": 100,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "79ec2e8f5fe10e",
@@ -315,7 +315,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "46957518674f98",
@@ -336,7 +336,7 @@
       "h1b_approvals": 69,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "26b796ecfd7f1c",
@@ -357,7 +357,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "12b3052bbb7794",
@@ -378,28 +378,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
-    },
-    {
-      "id": "20cec03e740bb4",
-      "company": "Adobe",
-      "role": "2027 MBA University Graduate - Product Manager",
-      "location": "San Jose, CA",
-      "apply_url": "https://www.linkedin.com/jobs/view/2027-mba-university-graduate-product-manager-at-adobe-4469403767",
-      "source_name": "Summer 2027 Role Index",
-      "source_url": "https://github.com/NyXkim5/summer-2027-role-index",
-      "source_section": "Deep sweep auto-added, unvetted, wider net than the trackers",
-      "role_family": "Product",
-      "job_type": "New Grad",
-      "posted": "5 Nov",
-      "posted_bucket": "Open roles",
-      "sponsorship": "history",
-      "sponsorship_scope": "company-level USCIS history",
-      "sponsorship_evidence": "USCIS history shows 1,026 approved H-1B petitions for a confidently matched employer in FY2022–2023. This is company history, not a promise for this role; no explicit refusal appears in the source listing.",
-      "h1b_approvals": 1026,
-      "h1b_window": "FY2022–2023",
-      "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "9c292c83db0f28",
@@ -420,7 +399,7 @@
       "h1b_approvals": 1026,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "ac654e9b4237af",
@@ -441,7 +420,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "ecc5f97b779d11",
@@ -454,7 +433,7 @@
       "source_section": "Data, AI & Research",
       "role_family": "Business Ops",
       "job_type": "Internship",
-      "posted": "6d",
+      "posted": "1w",
       "posted_bucket": "Open roles",
       "sponsorship": "history",
       "sponsorship_scope": "company-level USCIS history",
@@ -462,7 +441,7 @@
       "h1b_approvals": 10,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "0776e921295bd1",
@@ -483,7 +462,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "2a1e18390af932",
@@ -504,7 +483,7 @@
       "h1b_approvals": 23139,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "fe955b81492b8e",
@@ -525,7 +504,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "02a844dfda16b7",
@@ -546,7 +525,7 @@
       "h1b_approvals": 133,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "80ea3aa99a8475",
@@ -567,7 +546,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "84792f0ab0ceb6",
@@ -588,7 +567,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "7509c081612f7e",
@@ -609,7 +588,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "4d3e4076f7e9d5",
@@ -630,7 +609,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "651a0b98a5a89b",
@@ -651,7 +630,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "7f026353cb8542",
@@ -672,7 +651,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "0857c413c65b8e",
@@ -693,7 +672,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "c0c832deebdb55",
@@ -714,7 +693,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "c5beefc8ab4c27",
@@ -735,7 +714,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "4b3d6247fd9914",
@@ -756,7 +735,7 @@
       "h1b_approvals": 44,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "c2749c1667584f",
@@ -777,7 +756,7 @@
       "h1b_approvals": 650,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "40cfb20ad78b52",
@@ -798,7 +777,7 @@
       "h1b_approvals": 650,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "b9fe3cadca73b2",
@@ -819,7 +798,7 @@
       "h1b_approvals": 650,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "259ffb16f76e76",
@@ -840,7 +819,7 @@
       "h1b_approvals": 11,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "6032ff50cd42f2",
@@ -861,7 +840,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "b77cfa33b34c59",
@@ -882,7 +861,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "5f243eac5f5371",
@@ -903,7 +882,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "f88abcb7b97fdf",
@@ -924,7 +903,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "ce44723f84a608",
@@ -945,7 +924,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "b9d0b1e92c05f2",
@@ -966,7 +945,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "2cea09e75c8b9c",
@@ -987,7 +966,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "583e776e3cbf1c",
@@ -1008,7 +987,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "ea0045bd400590",
@@ -1029,7 +1008,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "9de84eb04959d6",
@@ -1050,7 +1029,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "fd2a82ac21f058",
@@ -1071,7 +1050,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "19b2c918946f5f",
@@ -1092,7 +1071,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "8c813bce94fcc0",
@@ -1113,7 +1092,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "e56260e0caf342",
@@ -1134,7 +1113,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "82953b6c2de95e",
@@ -1155,7 +1134,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "5bfe5f345d0375",
@@ -1176,7 +1155,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "b0fdd7c8ae1e94",
@@ -1197,7 +1176,7 @@
       "h1b_approvals": 28,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "5a7156ebc97cb7",
@@ -1218,7 +1197,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "af420df9926f2a",
@@ -1239,7 +1218,7 @@
       "h1b_approvals": 170,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "2a952b7b6a1b31",
@@ -1260,7 +1239,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "a18c5735c1c3c1",
@@ -1281,7 +1260,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "eb67e4d8a39d7a",
@@ -1302,7 +1281,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "dcb468caf70d92",
@@ -1315,7 +1294,7 @@
       "source_section": "Data, AI & Research",
       "role_family": "Business Ops",
       "job_type": "Internship",
-      "posted": "6d",
+      "posted": "1w",
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "not provided",
@@ -1323,7 +1302,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "2e620d876007dc",
@@ -1344,7 +1323,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "d356aa33b8d860",
@@ -1365,7 +1344,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "8abaf7711893f1",
@@ -1386,7 +1365,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "8675ab19a2b47c",
@@ -1407,7 +1386,7 @@
       "h1b_approvals": 112,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "fb60ba506803b4",
@@ -1428,7 +1407,7 @@
       "h1b_approvals": 112,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "ddf45ebed20a35",
@@ -1449,7 +1428,7 @@
       "h1b_approvals": 112,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "0211be6e025073",
@@ -1470,7 +1449,7 @@
       "h1b_approvals": 291,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "2dfe3edd19f2b8",
@@ -1491,7 +1470,7 @@
       "h1b_approvals": 291,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "b371e9865c4769",
@@ -1512,7 +1491,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "a7eccdc081f49f",
@@ -1525,7 +1504,7 @@
       "source_section": "Recent product new-grad roles",
       "role_family": "Product",
       "job_type": "New Grad",
-      "posted": "Nov 07",
+      "posted": "Nov 10",
       "posted_bucket": "Open roles",
       "sponsorship": "history",
       "sponsorship_scope": "company-level USCIS history",
@@ -1533,7 +1512,7 @@
       "h1b_approvals": 308,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "b4a71aca6aadc2",
@@ -1554,7 +1533,7 @@
       "h1b_approvals": 62,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "f34fad39c011ab",
@@ -1575,7 +1554,7 @@
       "h1b_approvals": 62,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "7c7f61dff40336",
@@ -1596,7 +1575,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "af38415c9d45fd",
@@ -1617,7 +1596,7 @@
       "h1b_approvals": 86,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "dbe0cb6cb36b6f",
@@ -1638,7 +1617,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "bb3ed6ef03a00d",
@@ -1659,7 +1638,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "12d6ff801a7b05",
@@ -1680,7 +1659,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "23667ee8ab7ad9",
@@ -1701,7 +1680,7 @@
       "h1b_approvals": 22,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "d0c20dbe05e76c",
@@ -1722,7 +1701,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "d283b5926872ef",
@@ -1743,7 +1722,7 @@
       "h1b_approvals": 18,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "4b844c03f2f565",
@@ -1764,7 +1743,7 @@
       "h1b_approvals": 28,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "29798cc9926c5f",
@@ -1785,7 +1764,7 @@
       "h1b_approvals": 28,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "cab319df5dd256",
@@ -1806,7 +1785,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "e77ff01bcb8790",
@@ -1827,70 +1806,7 @@
       "h1b_approvals": 39,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T00:15:32Z"
-    },
-    {
-      "id": "2deabaa80ed1f7",
-      "company": "Fortune Brands",
-      "role": "Product Management Intern, B2B Security",
-      "location": "Deerfield, ILLINOIS, States",
-      "apply_url": "https://jobs.smartrecruiters.com/fortunebrands/744000149058098",
-      "source_name": "SearchTern ATS Feed",
-      "source_url": "https://github.com/KSaifStack/SearchTern-Listings",
-      "source_section": "U.S. internships and new-grad roles",
-      "role_family": "Product",
-      "job_type": "Internship",
-      "posted": "Sep 11",
-      "posted_bucket": "Open roles",
-      "sponsorship": "not-stated",
-      "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "SearchTern links directly to the employer ATS. Its captured description does not state a sponsorship refusal or U.S.-citizenship requirement; verify the live posting before applying.",
-      "h1b_approvals": null,
-      "h1b_window": "FY2022–2023",
-      "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
-    },
-    {
-      "id": "67740d3657a209",
-      "company": "Fortune Brands",
-      "role": "Product Manager Intern",
-      "location": "Deerfield, ILLINOIS, States",
-      "apply_url": "https://jobs.smartrecruiters.com/fortunebrands/744000152963619",
-      "source_name": "SearchTern ATS Feed",
-      "source_url": "https://github.com/KSaifStack/SearchTern-Listings",
-      "source_section": "U.S. internships and new-grad roles",
-      "role_family": "Product",
-      "job_type": "Internship",
-      "posted": "Oct 1",
-      "posted_bucket": "Open roles",
-      "sponsorship": "not-stated",
-      "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "SearchTern links directly to the employer ATS. Its captured description does not state a sponsorship refusal or U.S.-citizenship requirement; verify the live posting before applying.",
-      "h1b_approvals": null,
-      "h1b_window": "FY2022–2023",
-      "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
-    },
-    {
-      "id": "d564ccb0e7f715",
-      "company": "GAF",
-      "role": "Product Management Rotational Associate",
-      "location": "Parsippany, NJ, United States",
-      "apply_url": "https://jobright.ai/jobs/info/6aea37f0913589212b1f4acf?utm_campaign=Product%20Management&utm_source=1103",
-      "source_name": "Jobright Product Management New Grad",
-      "source_url": "https://github.com/jobright-ai/2026-Product-Management-New-Grad",
-      "source_section": "Recent product new-grad roles",
-      "role_family": "Product",
-      "job_type": "New Grad",
-      "posted": "Nov 03",
-      "posted_bucket": "Open roles",
-      "sponsorship": "not-stated",
-      "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "Jobright includes this role in its recent Product Management new-grad feed. Sponsorship is not stated; verify the employer posting and role requirements before applying.",
-      "h1b_approvals": 5,
-      "h1b_window": "FY2022–2023",
-      "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "12fd1b27bfa035",
@@ -1911,28 +1827,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
-    },
-    {
-      "id": "2a0d7da55419be",
-      "company": "Globus Medical",
-      "role": "Associate Product Manager",
-      "location": "Audubon, PA",
-      "apply_url": "https://zapply.jobs/l/d/workday-globusmedical-gmed-careers-JR107912?s=gh-new-grad-jobs-2027",
-      "source_name": "New Grad Jobs 2027",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
-      "source_section": "Software Engineering",
-      "role_family": "Product",
-      "job_type": "Entry Level",
-      "posted": "4d",
-      "posted_bucket": "Open roles",
-      "sponsorship": "history",
-      "sponsorship_scope": "company-level USCIS history",
-      "sponsorship_evidence": "USCIS history shows 10 approved H-1B petitions for a confidently matched employer in FY2022–2023. This is company history, not a promise for this role; no explicit refusal appears in the source listing.",
-      "h1b_approvals": 10,
-      "h1b_window": "FY2022–2023",
-      "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "d0717e663c9ad9",
@@ -1953,7 +1848,7 @@
       "h1b_approvals": 11,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "b6ee6dfd4268dd",
@@ -1974,7 +1869,7 @@
       "h1b_approvals": 931,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "8377eee21bb111",
@@ -1995,49 +1890,7 @@
       "h1b_approvals": 931,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
-    },
-    {
-      "id": "a44b5b88a265e2",
-      "company": "Hewlett Packard Enterprise",
-      "role": "Campus Switching Product Manager Graduate",
-      "location": "San Jose, CA",
-      "apply_url": "https://www.linkedin.com/jobs/view/campus-switching-product-manager-graduate-at-hewlett-packard-enterprise-4488448901",
-      "source_name": "Summer 2027 Role Index",
-      "source_url": "https://github.com/NyXkim5/summer-2027-role-index",
-      "source_section": "Deep sweep auto-added, unvetted, wider net than the trackers",
-      "role_family": "Product",
-      "job_type": "New Grad",
-      "posted": "7 Nov",
-      "posted_bucket": "Open roles",
-      "sponsorship": "history",
-      "sponsorship_scope": "company-level USCIS history",
-      "sponsorship_evidence": "USCIS history shows 499 approved H-1B petitions for a confidently matched employer in FY2022–2023. This is company history, not a promise for this role; no explicit refusal appears in the source listing.",
-      "h1b_approvals": 499,
-      "h1b_window": "FY2022–2023",
-      "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
-    },
-    {
-      "id": "f014f763cc588a",
-      "company": "Hewlett Packard Enterprise",
-      "role": "Campus Switching Product Manager Graduate",
-      "location": "Roseville, CA, United States",
-      "apply_url": "https://jobright.ai/jobs/info/6aee20ac5c81f621d31121ae?utm_campaign=Product%20Management&utm_source=1103",
-      "source_name": "Jobright Product Management New Grad",
-      "source_url": "https://github.com/jobright-ai/2026-Product-Management-New-Grad",
-      "source_section": "Recent product new-grad roles",
-      "role_family": "Product",
-      "job_type": "New Grad",
-      "posted": "Nov 06",
-      "posted_bucket": "Open roles",
-      "sponsorship": "history",
-      "sponsorship_scope": "company-level USCIS history",
-      "sponsorship_evidence": "USCIS history shows 499 approved H-1B petitions for a confidently matched employer in FY2022–2023. This is company history, not a promise for this role; no explicit refusal appears in the source listing.",
-      "h1b_approvals": 499,
-      "h1b_window": "FY2022–2023",
-      "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "2425e4cfdfe7e5",
@@ -2058,7 +1911,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "30cc56d38b0b82",
@@ -2079,7 +1932,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "f8e6d52b25f645",
@@ -2100,7 +1953,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "8940647a0a813b",
@@ -2121,7 +1974,7 @@
       "h1b_approvals": 167,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "a5d8d3969e4791",
@@ -2142,7 +1995,28 @@
       "h1b_approvals": 167,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
+    },
+    {
+      "id": "38e78c239e6ee3",
+      "company": "HPE",
+      "role": "Campus Switching Product Manager Graduate",
+      "location": "Roseville California",
+      "apply_url": "https://zapply.jobs/l/d/workday-hpe-acjobsite-1214267?s=gh-new-grad-jobs-2027",
+      "source_name": "New Grad Jobs 2027",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
+      "source_section": "Software Engineering",
+      "role_family": "Product",
+      "job_type": "New Grad",
+      "posted": "4d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "history",
+      "sponsorship_scope": "company-level USCIS history",
+      "sponsorship_evidence": "USCIS history shows 499 approved H-1B petitions for a confidently matched employer in FY2022–2023. This is company history, not a promise for this role; no explicit refusal appears in the source listing.",
+      "h1b_approvals": 499,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "b6c0d582fef584",
@@ -2163,7 +2037,7 @@
       "h1b_approvals": 499,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "aaadf4b2a5d3a4",
@@ -2184,7 +2058,28 @@
       "h1b_approvals": 499,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
+    },
+    {
+      "id": "e455b7083ed3db",
+      "company": "HPE (University)",
+      "role": "Campus Switching Product Manager Graduate",
+      "location": "Roseville California",
+      "apply_url": "https://zapply.jobs/l/d/workday-hpe-jobsathpe-1214267?s=gh-new-grad-jobs-2027",
+      "source_name": "New Grad Jobs 2027",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
+      "source_section": "Software Engineering",
+      "role_family": "Product",
+      "job_type": "New Grad",
+      "posted": "4d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "source-signal",
+      "sponsorship_scope": "company-level source signal",
+      "sponsorship_evidence": "The source marks another current listing from this company with a Sponsor signal. This is company-level evidence only, not proof for this role; verify the employer posting.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "37329bd656a7f3",
@@ -2205,7 +2100,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "81654e9a72f5f5",
@@ -2226,7 +2121,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "c38afcc5c12f1c",
@@ -2247,7 +2142,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "bef3018c486840",
@@ -2268,7 +2163,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "02c21f3355eb6a",
@@ -2289,7 +2184,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "e24485dac036d4",
@@ -2310,7 +2205,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "e0623422b80642",
@@ -2331,7 +2226,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "cc4c236f4076f1",
@@ -2352,28 +2247,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
-    },
-    {
-      "id": "083e64e0cb60a0",
-      "company": "Itw",
-      "role": "Product Management Intern",
-      "location": "San Luis Obispo, California, United States of America",
-      "apply_url": "https://careers.itw.com/job/JR10112",
-      "source_name": "SearchTern ATS Feed",
-      "source_url": "https://github.com/KSaifStack/SearchTern-Listings",
-      "source_section": "U.S. internships and new-grad roles",
-      "role_family": "Product",
-      "job_type": "Internship",
-      "posted": "Sep 15",
-      "posted_bucket": "Open roles",
-      "sponsorship": "not-stated",
-      "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "SearchTern links directly to the employer ATS. Its captured description does not state a sponsorship refusal or U.S.-citizenship requirement; verify the live posting before applying.",
-      "h1b_approvals": null,
-      "h1b_window": "FY2022–2023",
-      "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "810924af25b2bf",
@@ -2394,7 +2268,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "dd0baa24996084",
@@ -2415,7 +2289,7 @@
       "h1b_approvals": 23,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "e97e2f494e24cf",
@@ -2436,7 +2310,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "a9f2a7341e23c7",
@@ -2457,7 +2331,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "28ced2a1238c81",
@@ -2478,7 +2352,7 @@
       "h1b_approvals": 5,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "f2c22deb0269ce",
@@ -2499,20 +2373,20 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
-      "id": "fec04fb132fdc3",
-      "company": "LightFeather",
-      "role": "Junior Business Analyst",
-      "location": "Arlington, VA, United States",
-      "apply_url": "https://jobright.ai/jobs/info/6aeca195465e3d2371380106?utm_campaign=Business%20Analyst&utm_source=1103",
+      "id": "9e5d15abc1bc29",
+      "company": "Linamar Corporation",
+      "role": "Business Analyst, Junior",
+      "location": "Guelph, ON, Canada",
+      "apply_url": "https://jobright.ai/jobs/info/6af354b110c7aed778619686?utm_campaign=Business%20Analyst&utm_source=1103",
       "source_name": "Jobright Business Analyst New Grad",
       "source_url": "https://github.com/jobright-ai/2026-Business-Analyst-New-Grad",
       "source_section": "Recent business analyst new-grad roles",
       "role_family": "Business Ops",
       "job_type": "New Grad",
-      "posted": "Nov 05",
+      "posted": "Nov 10",
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
@@ -2520,7 +2394,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "3fbf871b58a306",
@@ -2541,28 +2415,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
-    },
-    {
-      "id": "87bdb3dc9fd1e1",
-      "company": "MUFG Capital Analytics",
-      "role": "Junior IT Business Operations Analyst",
-      "location": "Dallas, Texas, United States · Remote",
-      "apply_url": "https://jobright.ai/jobs/info/6aea0f44fc85f3a39432fad0?utm_campaign=Business%20Analyst&utm_source=1103",
-      "source_name": "Jobright Business Analyst New Grad",
-      "source_url": "https://github.com/jobright-ai/2026-Business-Analyst-New-Grad",
-      "source_section": "Recent business analyst new-grad roles",
-      "role_family": "Business Ops",
-      "job_type": "New Grad",
-      "posted": "Nov 03",
-      "posted_bucket": "Open roles",
-      "sponsorship": "not-stated",
-      "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "Jobright includes this role in its recent Product Management new-grad feed. Sponsorship is not stated; verify the employer posting and role requirements before applying.",
-      "h1b_approvals": null,
-      "h1b_window": "FY2022–2023",
-      "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "2bef2300737971",
@@ -2583,7 +2436,7 @@
       "h1b_approvals": 2,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "8d15a43bb028f4",
@@ -2604,7 +2457,7 @@
       "h1b_approvals": 2,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "5bcfc0f02ab370",
@@ -2625,7 +2478,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "2b17efad837b9e",
@@ -2646,7 +2499,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "0f99a5fb5e13bf",
@@ -2667,7 +2520,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "0bb081ade3568f",
@@ -2688,7 +2541,7 @@
       "h1b_approvals": 1526,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "acc9c917055ee6",
@@ -2709,7 +2562,7 @@
       "h1b_approvals": 1526,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "e30ef5f318428e",
@@ -2730,20 +2583,20 @@
       "h1b_approvals": 1526,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "06adb83092c940",
       "company": "NVIDIA",
       "role": "Product Manager MBA Intern, Enterprise AI - Summer 2027",
       "location": "Santa Clara, CA",
-      "apply_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Product-Manager-MBA-Intern--Enterprise-AI---Summer-2027_JR2026707",
-      "source_name": "ApplyGuy 2027 Internships",
-      "source_url": "https://github.com/ApplyGuy/2027-Internships",
-      "source_section": "Summer 2027",
+      "apply_url": "https://www.linkedin.com/jobs/view/product-manager-mba-intern-enterprise-ai-summer-2027-at-nvidia-4480410020",
+      "source_name": "Summer 2027 Role Index",
+      "source_url": "https://github.com/NyXkim5/summer-2027-role-index",
+      "source_section": "Deep sweep auto-added, unvetted, wider net than the trackers",
       "role_family": "Product",
       "job_type": "Internship",
-      "posted": "22d",
+      "posted": "10 Nov",
       "posted_bucket": "Open roles",
       "sponsorship": "history",
       "sponsorship_scope": "company-level USCIS history",
@@ -2751,7 +2604,7 @@
       "h1b_approvals": 1526,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "5d65188c20dafa",
@@ -2772,7 +2625,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "6e9e0ff90b12dd",
@@ -2793,7 +2646,28 @@
       "h1b_approvals": 229,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
+    },
+    {
+      "id": "3d9fb03b0ef0e5",
+      "company": "One Big Circle",
+      "role": "Graduate/Junior Product Manager",
+      "location": "Bristol, England, United Kingdom",
+      "apply_url": "https://jobright.ai/jobs/info/6a7da1d7ad9ff00c26ba85f3?utm_campaign=Product%20Management&utm_source=1103",
+      "source_name": "Jobright Product Management New Grad",
+      "source_url": "https://github.com/jobright-ai/2026-Product-Management-New-Grad",
+      "source_section": "Recent product new-grad roles",
+      "role_family": "Product",
+      "job_type": "New Grad",
+      "posted": "Nov 10",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "Jobright includes this role in its recent Product Management new-grad feed. Sponsorship is not stated; verify the employer posting and role requirements before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "b6d6d495f8d579",
@@ -2814,7 +2688,7 @@
       "h1b_approvals": 15,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "fcfd92d6920f5d",
@@ -2835,7 +2709,7 @@
       "h1b_approvals": 15,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "674e674bac43c9",
@@ -2856,7 +2730,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "1338cc9d0a2076",
@@ -2877,7 +2751,7 @@
       "h1b_approvals": 2,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "f0c978dc3dbec6",
@@ -2898,7 +2772,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "b9ad62f7736c6a",
@@ -2919,7 +2793,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "44ac97f780ddeb",
@@ -2940,7 +2814,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "e42b9be8348ca7",
@@ -2961,7 +2835,7 @@
       "h1b_approvals": 2,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "4e234e46bf2278",
@@ -2982,7 +2856,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "6ad25f60a02bad",
@@ -3003,7 +2877,7 @@
       "h1b_approvals": 22,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "c0ccb302f52e9c",
@@ -3024,7 +2898,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "f0ed3f36325124",
@@ -3045,7 +2919,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "5d0feda0779c30",
@@ -3066,7 +2940,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "cae1567719c5ff",
@@ -3087,7 +2961,7 @@
       "h1b_approvals": 343,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "3f0d4e0ddf6ca4",
@@ -3108,7 +2982,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "fd68296de13aef",
@@ -3129,7 +3003,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "e9b936729e05eb",
@@ -3150,7 +3024,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "d7f3ad0658375d",
@@ -3171,7 +3045,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "7ca7dacf071d14",
@@ -3192,7 +3066,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "27b310306ef95d",
@@ -3213,7 +3087,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "a261fc2a7a6ee7",
@@ -3234,7 +3108,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "845f22ebd03aa9",
@@ -3255,7 +3129,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "a5819b92cbb972",
@@ -3276,7 +3150,7 @@
       "h1b_approvals": 186,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "a57c51f9117d8c",
@@ -3297,7 +3171,7 @@
       "h1b_approvals": 186,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "9489ef6fd28a19",
@@ -3318,7 +3192,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "216ea6da248e0c",
@@ -3339,7 +3213,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "c107482bb19279",
@@ -3360,7 +3234,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "afdf1d9d5dd06d",
@@ -3381,7 +3255,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "ab00dcffe3490f",
@@ -3402,7 +3276,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "2ac98a02f30628",
@@ -3423,7 +3297,7 @@
       "h1b_approvals": 10,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "44108d1bb996c0",
@@ -3444,7 +3318,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "4a87fa93d57af0",
@@ -3465,7 +3339,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "0f87afda26f760",
@@ -3486,7 +3360,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "18983127136fbc",
@@ -3507,7 +3381,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "09196fb31ea82b",
@@ -3528,7 +3402,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "d936b0fac2b6a2",
@@ -3549,7 +3423,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "d03b24e99e1a33",
@@ -3570,7 +3444,7 @@
       "h1b_approvals": 26,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "653fa392689538",
@@ -3591,7 +3465,7 @@
       "h1b_approvals": 26,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "60fbd65bc82eea",
@@ -3612,7 +3486,7 @@
       "h1b_approvals": 26,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "eaf0c6fe6c3c8b",
@@ -3633,7 +3507,7 @@
       "h1b_approvals": 322,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "17f434378d069e",
@@ -3654,7 +3528,7 @@
       "h1b_approvals": 322,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "c9a6a661e65412",
@@ -3675,7 +3549,7 @@
       "h1b_approvals": 54,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "516a8472162aca",
@@ -3696,7 +3570,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "c2429a51535c60",
@@ -3717,7 +3591,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "46ed31cc8fb4de",
@@ -3738,7 +3612,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "90929ff7332eb8",
@@ -3759,7 +3633,7 @@
       "h1b_approvals": 441,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "b35f7fc8581078",
@@ -3780,7 +3654,28 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
+    },
+    {
+      "id": "40b32c638b16cf",
+      "company": "The Campbell's Company",
+      "role": "Business Analyst (Co-op), DA&AI",
+      "location": "United States",
+      "apply_url": "https://www.linkedin.com/jobs/view/business-analyst-co-op-da-ai-at-the-campbell-s-company-4428125608",
+      "source_name": "Summer 2027 Role Index",
+      "source_url": "https://github.com/NyXkim5/summer-2027-role-index",
+      "source_section": "Deep sweep auto-added, unvetted, wider net than the trackers",
+      "role_family": "Business Ops",
+      "job_type": "Internship",
+      "posted": "10 Nov",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "ee9f1c2635d025",
@@ -3801,7 +3696,7 @@
       "h1b_approvals": 52,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "cb83a8af4a99a6",
@@ -3822,7 +3717,7 @@
       "h1b_approvals": 2,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "bcaa7d18296d2c",
@@ -3843,7 +3738,7 @@
       "h1b_approvals": 442,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "fbe649c7308dda",
@@ -3864,7 +3759,7 @@
       "h1b_approvals": 442,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "f83f9a18f7a9a8",
@@ -3885,7 +3780,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "7e57ff64068390",
@@ -3906,7 +3801,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "030116e7ebbfb9",
@@ -3927,7 +3822,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "b0cab5d6192cd9",
@@ -3948,7 +3843,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "4c47e96ba93de0",
@@ -3969,7 +3864,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "61f992403ce515",
@@ -3990,7 +3885,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "c2233ad8a8e997",
@@ -4011,7 +3906,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "5a7a673e208341",
@@ -4032,7 +3927,7 @@
       "h1b_approvals": 73,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "fb14f00d9a0783",
@@ -4053,7 +3948,7 @@
       "h1b_approvals": 73,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "21b1b12c1bbb04",
@@ -4074,7 +3969,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "e6867413e6af4d",
@@ -4095,28 +3990,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
-    },
-    {
-      "id": "8163383d6a09b7",
-      "company": "WebstaurantStore",
-      "role": "2027 Technical Business Analyst Summer Internship",
-      "location": "Lititz, PA",
-      "apply_url": "https://www.linkedin.com/jobs/view/2027-technical-business-analyst-summer-internship-at-webstaurantstore-4485729842",
-      "source_name": "Summer 2027 Role Index",
-      "source_url": "https://github.com/NyXkim5/summer-2027-role-index",
-      "source_section": "Deep sweep auto-added, unvetted, wider net than the trackers",
-      "role_family": "Business Ops",
-      "job_type": "Internship",
-      "posted": "2 Nov",
-      "posted_bucket": "Open roles",
-      "sponsorship": "not-stated",
-      "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
-      "h1b_approvals": null,
-      "h1b_window": "FY2022–2023",
-      "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "d34e6f304548cd",
@@ -4137,7 +4011,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "f8fc3c0a0f008c",
@@ -4158,7 +4032,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "b553258fb09617",
@@ -4179,7 +4053,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "e7df6b37e0add8",
@@ -4200,7 +4074,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "af561e472599ec",
@@ -4221,7 +4095,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "c06c11c76f2e6c",
@@ -4242,7 +4116,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "b635d3a609e70a",
@@ -4263,7 +4137,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "a59a39a3ae8938",
@@ -4284,7 +4158,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "f628ce34a6dbd8",
@@ -4305,7 +4179,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "814ea32e5640df",
@@ -4325,8 +4199,29 @@
       "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
-      "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "status": "closed",
+      "verified_at": "2026-11-10T21:49:01Z"
+    },
+    {
+      "id": "68b514dce00457",
+      "company": "Zipline",
+      "role": "Technical Program Manager Intern, Summer 2027",
+      "location": "South San Francisco",
+      "apply_url": "https://www.zipline.com/open-roles?gh_jid=7904471003",
+      "source_name": "Summer 2027 Role Index",
+      "source_url": "https://github.com/NyXkim5/summer-2027-role-index",
+      "source_section": "Business, strategy & operations new grad, associate and analyst reqs",
+      "role_family": "Program Management",
+      "job_type": "Internship",
+      "posted": "10 Nov",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "closed",
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "d01917f375d506",
@@ -4347,7 +4242,7 @@
       "h1b_approvals": 280,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "4574555406fc89",
@@ -4368,7 +4263,7 @@
       "h1b_approvals": 133,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "d5c55fbb05088c",
@@ -4389,7 +4284,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "d6ca9db784dd82",
@@ -4410,7 +4305,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "97bf4c89acbf52",
@@ -4431,7 +4326,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "ecf3c220bd694a",
@@ -4452,7 +4347,7 @@
       "h1b_approvals": 44,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "46185a5b22af90",
@@ -4473,7 +4368,7 @@
       "h1b_approvals": 28,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "affd776e68bae8",
@@ -4494,7 +4389,7 @@
       "h1b_approvals": 308,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "053d562cfcb3ff",
@@ -4515,7 +4410,28 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
+    },
+    {
+      "id": "cb8573578dd11c",
+      "company": "Dedalus Labs",
+      "role": "Systems Engineer / Product Manager Intern (Summer 2027)",
+      "location": "San Francisco, CA",
+      "apply_url": "https://www.ycombinator.com/companies/dedalus-labs/jobs/YtbvXM8-systems-engineer-summer-2027-intern",
+      "source_name": "Summer 2027 Role Index",
+      "source_url": "https://github.com/NyXkim5/summer-2027-role-index",
+      "source_section": "Deep sweep auto-added, unvetted, wider net than the trackers",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "Date unknown",
+      "posted_bucket": "Date unknown",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "35bde60fcb223e",
@@ -4536,7 +4452,7 @@
       "h1b_approvals": 66,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "5107ec15235812",
@@ -4557,7 +4473,7 @@
       "h1b_approvals": 931,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "76459439832caa",
@@ -4578,7 +4494,7 @@
       "h1b_approvals": 150,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "0239a60c28585a",
@@ -4599,7 +4515,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "37a41f6f24a443",
@@ -4620,7 +4536,7 @@
       "h1b_approvals": 9275,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "fcd39f483457b4",
@@ -4641,7 +4557,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "22f7e68cf04832",
@@ -4662,7 +4578,7 @@
       "h1b_approvals": 186,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "fda5c0c6ac24b1",
@@ -4683,7 +4599,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "83ba7918013735",
@@ -4704,7 +4620,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "d5ffb0910b6ed0",
@@ -4725,7 +4641,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "caf597a8b3690b",
@@ -4746,7 +4662,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "34c4c6d2d2129a",
@@ -4767,7 +4683,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "7baf80d403898f",
@@ -4788,7 +4704,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "c14b7ad96de4fd",
@@ -4809,7 +4725,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "a2f569d54c8d0e",
@@ -4830,7 +4746,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     },
     {
       "id": "ecd505661f3039",
@@ -4851,28 +4767,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
-    },
-    {
-      "id": "68b514dce00457",
-      "company": "Zipline",
-      "role": "Technical Program Manager Intern, Summer 2027",
-      "location": "South San Francisco",
-      "apply_url": "https://www.zipline.com/open-roles?gh_jid=7904471003",
-      "source_name": "Summer 2027 Role Index",
-      "source_url": "https://github.com/NyXkim5/summer-2027-role-index",
-      "source_section": "Business, strategy & operations new grad, associate and analyst reqs",
-      "role_family": "Program Management",
-      "job_type": "Internship",
-      "posted": "Date unknown",
-      "posted_bucket": "Date unknown",
-      "sponsorship": "not-stated",
-      "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
-      "h1b_approvals": null,
-      "h1b_window": "FY2022–2023",
-      "status": "open",
-      "verified_at": "2026-11-10T00:15:32Z"
+      "verified_at": "2026-11-10T21:49:01Z"
     }
   ]
 }
