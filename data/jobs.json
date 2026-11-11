@@ -1,37 +1,37 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-10T21:49:01Z",
-  "count": 225,
+  "generated_at": "2026-11-11T22:42:33Z",
+  "count": 244,
   "sources": [
     {
       "name": "Summer 2027 Role Index",
       "url": "https://github.com/NyXkim5/summer-2027-role-index",
-      "records": 109
+      "records": 105
     },
     {
       "name": "New Grad Jobs 2027",
       "url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
-      "records": 9
+      "records": 10
     },
     {
       "name": "ApplyGuy 2027 Internships",
       "url": "https://github.com/ApplyGuy/2027-Internships",
-      "records": 62
+      "records": 59
     },
     {
       "name": "Jobright Product Management New Grad",
       "url": "https://github.com/jobright-ai/2026-Product-Management-New-Grad",
-      "records": 12
+      "records": 16
     },
     {
       "name": "Jobright Business Analyst New Grad",
       "url": "https://github.com/jobright-ai/2026-Business-Analyst-New-Grad",
-      "records": 5
+      "records": 8
     },
     {
       "name": "SearchTern ATS Feed",
       "url": "https://github.com/KSaifStack/SearchTern-Listings",
-      "records": 44
+      "records": 68
     },
     {
       "name": "USCIS H-1B history index",
@@ -45,6 +45,48 @@
   ],
   "jobs": [
     {
+      "id": "c9c310da717317",
+      "company": "Alo Yoga",
+      "role": "Security Operations Analyst",
+      "location": "San Ramon Office, San Ramon, CA (LO-SF)",
+      "apply_url": "https://boards.greenhouse.io/aloyoga/jobs/6253711004?gh_jid=6253711004",
+      "source_name": "SearchTern ATS Feed",
+      "source_url": "https://github.com/KSaifStack/SearchTern-Listings",
+      "source_section": "U.S. internships and new-grad roles",
+      "role_family": "Business Ops",
+      "job_type": "Internship",
+      "posted": "1d",
+      "posted_bucket": "Fresh now",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "SearchTern links directly to the employer ATS. Its captured description does not state a sponsorship refusal or U.S.-citizenship requirement; verify the live posting before applying.",
+      "h1b_approvals": 2,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-11-11T22:42:33Z"
+    },
+    {
+      "id": "1bca5ebdbafede",
+      "company": "apexanalytix",
+      "role": "Product Management Intern (Summer 2027)",
+      "location": "Greensboro, NC",
+      "apply_url": "https://ats.rippling.com/apexanalytix-careers/jobs/116e13fe-7202-45ba-a119-a81af4fcb4b9",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Summer 2027",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "Today",
+      "posted_bucket": "Fresh now",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-11-11T22:42:33Z"
+    },
+    {
       "id": "3989b2a924d2f5",
       "company": "Badgermeter",
       "role": "Product Management Intern",
@@ -55,7 +97,7 @@
       "source_section": "Not specified",
       "role_family": "Product",
       "job_type": "Internship",
-      "posted": "1d",
+      "posted": "2d",
       "posted_bucket": "Fresh now",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
@@ -63,7 +105,49 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
+    },
+    {
+      "id": "683373fd0889e4",
+      "company": "BAE Systems",
+      "role": "Business Analyst Intern III, Summer 2027 (Remote)",
+      "location": "Endicott, New York",
+      "apply_url": "https://zapply.jobs/l/d/phenom-bae-systems-129379BR?s=gh-new-grad-jobs-2027",
+      "source_name": "New Grad Jobs 2027",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
+      "source_section": "Data, AI & Research",
+      "role_family": "Business Ops",
+      "job_type": "Internship",
+      "posted": "22h",
+      "posted_bucket": "Fresh now",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "not provided",
+      "sponsorship_evidence": "No sponsorship signal is provided by this source. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-11-11T22:42:33Z"
+    },
+    {
+      "id": "af420df9926f2a",
+      "company": "Boston Scientific",
+      "role": "Technical Communications & Project Management Intern",
+      "location": "Arden Hills, MN, States",
+      "apply_url": "https://bostonscientific.eightfold.ai/careers/job/563602813563529",
+      "source_name": "SearchTern ATS Feed",
+      "source_url": "https://github.com/KSaifStack/SearchTern-Listings",
+      "source_section": "U.S. internships and new-grad roles",
+      "role_family": "Program Management",
+      "job_type": "Internship",
+      "posted": "1d",
+      "posted_bucket": "Fresh now",
+      "sponsorship": "history",
+      "sponsorship_scope": "company-level USCIS history",
+      "sponsorship_evidence": "USCIS history shows 170 approved H-1B petitions for a confidently matched employer in FY2022–2023. This is company history, not a promise for this role; no explicit refusal appears in the source listing.",
+      "h1b_approvals": 170,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "094c079ab0e94d",
@@ -76,7 +160,7 @@
       "source_section": "Data, AI & Research",
       "role_family": "Business Ops",
       "job_type": "Internship",
-      "posted": "1d",
+      "posted": "2d",
       "posted_bucket": "Fresh now",
       "sponsorship": "source-signal",
       "sponsorship_scope": "company-level source signal",
@@ -84,7 +168,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "c77056b4fbb6c8",
@@ -97,7 +181,7 @@
       "source_section": "Data, AI & Research",
       "role_family": "Business Ops",
       "job_type": "Internship",
-      "posted": "1d",
+      "posted": "2d",
       "posted_bucket": "Fresh now",
       "sponsorship": "source-signal",
       "sponsorship_scope": "company-level source signal",
@@ -105,7 +189,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "1a5b7d42374f1b",
@@ -118,7 +202,7 @@
       "source_section": "U.S. internships and new-grad roles",
       "role_family": "Business Ops",
       "job_type": "Internship",
-      "posted": "1d",
+      "posted": "2d",
       "posted_bucket": "Fresh now",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
@@ -126,7 +210,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "f614338f821764",
@@ -139,7 +223,7 @@
       "source_section": "Not specified",
       "role_family": "Product",
       "job_type": "Internship",
-      "posted": "1d",
+      "posted": "2d",
       "posted_bucket": "Fresh now",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
@@ -147,98 +231,14 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
-      "id": "89e8006a8aca51",
-      "company": "Micron Technology",
-      "role": "Intern - Revenue Operations",
-      "location": "Boise, ID - Main Site",
-      "apply_url": "https://zapply.jobs/l/d/workday-micron-external-JR117383?s=gh-new-grad-jobs-2027",
-      "source_name": "New Grad Jobs 2027",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
-      "source_section": "Business & Operations",
-      "role_family": "Growth Ops",
-      "job_type": "Internship",
-      "posted": "34m",
-      "posted_bucket": "Fresh now",
-      "sponsorship": "source-signal",
-      "sponsorship_scope": "company-level source signal",
-      "sponsorship_evidence": "The source marks another current listing from this company with a Sponsor signal. This is company-level evidence only, not proof for this role; verify the employer posting.",
-      "h1b_approvals": 489,
-      "h1b_window": "FY2022–2023",
-      "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
-    },
-    {
-      "id": "094ec545b9ebdf",
-      "company": "NVIDIA",
-      "role": "Product Management Space Compute MBA Intern - Summer 2027",
-      "location": "Santa Clara, CA",
-      "apply_url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Product-Management-Space-Compute-MBA-Intern---Summer-2027_JR2029628",
-      "source_name": "ApplyGuy 2027 Internships",
-      "source_url": "https://github.com/ApplyGuy/2027-Internships",
-      "source_section": "Summer 2027",
-      "role_family": "Product",
-      "job_type": "Internship",
-      "posted": "Today",
-      "posted_bucket": "Fresh now",
-      "sponsorship": "history",
-      "sponsorship_scope": "company-level USCIS history",
-      "sponsorship_evidence": "USCIS history shows 1,526 approved H-1B petitions for a confidently matched employer in FY2022–2023. This is company history, not a promise for this role; no explicit refusal appears in the source listing.",
-      "h1b_approvals": 1526,
-      "h1b_window": "FY2022–2023",
-      "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
-    },
-    {
-      "id": "1911c40817d10d",
-      "company": "Parspec",
-      "role": "Product Management Intern, Agentic AI",
-      "location": "San Mateo, CA",
-      "apply_url": "https://jobs.ashbyhq.com/parspec/aa7b7f63-b31f-47fa-a711-b76d93028e56",
-      "source_name": "ApplyGuy 2027 Internships",
-      "source_url": "https://github.com/ApplyGuy/2027-Internships",
-      "source_section": "Not specified",
-      "role_family": "Product",
-      "job_type": "Internship",
-      "posted": "Today",
-      "posted_bucket": "Fresh now",
-      "sponsorship": "not-stated",
-      "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
-      "h1b_approvals": null,
-      "h1b_window": "FY2022–2023",
-      "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
-    },
-    {
-      "id": "c7383ac4324ea8",
-      "company": "Rubrik Job Board",
-      "role": "Product Management Intern (RCV), Summer 2027",
-      "location": "Palo Alto, CA",
-      "apply_url": "https://www.rubrik.com/company/careers/departments/job.8350601?gh_jid=8350601",
-      "source_name": "ApplyGuy 2027 Internships",
-      "source_url": "https://github.com/ApplyGuy/2027-Internships",
-      "source_section": "Summer 2027",
-      "role_family": "Product",
-      "job_type": "Internship",
-      "posted": "Today",
-      "posted_bucket": "Fresh now",
-      "sponsorship": "not-stated",
-      "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
-      "h1b_approvals": null,
-      "h1b_window": "FY2022–2023",
-      "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
-    },
-    {
-      "id": "c6f41b5571f9a2",
-      "company": "Wbd",
-      "role": "WB Games Product Management Co-op: Needham, MA - January-May 2027",
-      "location": "Needham, Massachusetts, United States of America",
-      "apply_url": "https://careers.wbd.com/job/R000109850",
+      "id": "83cf3134f38235",
+      "company": "Iadugs",
+      "role": "Product Management Intern",
+      "location": "Syracuse, NY, United States",
+      "apply_url": "https://iadugs.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/job/1837",
       "source_name": "SearchTern ATS Feed",
       "source_url": "https://github.com/KSaifStack/SearchTern-Listings",
       "source_section": "U.S. internships and new-grad roles",
@@ -252,20 +252,230 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
-      "id": "d73d28b0572e6b",
-      "company": "Wells Fargo",
-      "role": "Branch Operations Coordinator Payson",
-      "location": "PAYSON, AZ",
-      "apply_url": "https://zapply.jobs/l/d/workday-wf-wellsfargojobs-R-583638?s=gh-new-grad-jobs-2027",
+      "id": "0859437f0802a1",
+      "company": "Ipt Associates",
+      "role": "Cybersecurity Operations Analyst (Junior)",
+      "location": "Huntsville, AL, States",
+      "apply_url": "https://ipta.isolvedhire.com/jobs/1902244",
+      "source_name": "SearchTern ATS Feed",
+      "source_url": "https://github.com/KSaifStack/SearchTern-Listings",
+      "source_section": "U.S. internships and new-grad roles",
+      "role_family": "Business Ops",
+      "job_type": "New Grad",
+      "posted": "2d",
+      "posted_bucket": "Fresh now",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "SearchTern links directly to the employer ATS. Its captured description does not state a sponsorship refusal or U.S.-citizenship requirement; verify the live posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-11-11T22:42:33Z"
+    },
+    {
+      "id": "a115d7b18a35a3",
+      "company": "IXL Learning",
+      "role": "IXL Associate Product Manager",
+      "location": "San Mateo, CA",
+      "apply_url": "https://zapply.jobs/l/d/greenhouse-ixllearning-8936808002?s=gh-new-grad-jobs-2027",
+      "source_name": "New Grad Jobs 2027",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
+      "source_section": "Software Engineering",
+      "role_family": "Product",
+      "job_type": "Entry Level",
+      "posted": "5h",
+      "posted_bucket": "Fresh now",
+      "sponsorship": "history",
+      "sponsorship_scope": "company-level USCIS history",
+      "sponsorship_evidence": "USCIS history shows 23 approved H-1B petitions for a confidently matched employer in FY2022–2023. This is company history, not a promise for this role; no explicit refusal appears in the source listing.",
+      "h1b_approvals": 23,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-11-11T22:42:33Z"
+    },
+    {
+      "id": "c0014e3719ea55",
+      "company": "Northrop Grumman",
+      "role": "Supply Chain Operations Coordinator 1 (Mon.-Thurs. 2nd Shift)",
+      "location": "United States-California-Palmdale",
+      "apply_url": "https://zapply.jobs/l/d/workday-ngc-northrop-grumman-external-site-R10251375?s=gh-new-grad-jobs-2027",
       "source_name": "New Grad Jobs 2027",
       "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
       "source_section": "Business & Operations",
       "role_family": "Business Ops",
       "job_type": "Entry Level",
-      "posted": "5m",
+      "posted": "10m",
+      "posted_bucket": "Fresh now",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "not provided",
+      "sponsorship_evidence": "No sponsorship signal is provided by this source. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-11-11T22:42:33Z"
+    },
+    {
+      "id": "094ec545b9ebdf",
+      "company": "NVIDIA",
+      "role": "Product Management Space Compute MBA Intern - Summer 2027",
+      "location": "Santa Clara, CA",
+      "apply_url": "https://nvidia.wd5.myworkdayjobs.com/nvidiaexternalcareersite/job/US-CA-Santa-Clara/Product-Management-Space-Compute-MBA-Intern---Summer-2027_JR2029628",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Summer 2027",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "2d",
+      "posted_bucket": "Fresh now",
+      "sponsorship": "history",
+      "sponsorship_scope": "company-level USCIS history",
+      "sponsorship_evidence": "USCIS history shows 1,526 approved H-1B petitions for a confidently matched employer in FY2022–2023. This is company history, not a promise for this role; no explicit refusal appears in the source listing.",
+      "h1b_approvals": 1526,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-11-11T22:42:33Z"
+    },
+    {
+      "id": "1911c40817d10d",
+      "company": "Parspec",
+      "role": "Product Management Intern, Agentic AI",
+      "location": "San Mateo, CA",
+      "apply_url": "https://jobs.ashbyhq.com/parspec/aa7b7f63-b31f-47fa-a711-b76d93028e56",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Not specified",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "1d",
+      "posted_bucket": "Fresh now",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-11-11T22:42:33Z"
+    },
+    {
+      "id": "c7383ac4324ea8",
+      "company": "Rubrik Job Board",
+      "role": "Product Management Intern (RCV), Summer 2027",
+      "location": "Palo Alto, CA",
+      "apply_url": "https://www.rubrik.com/company/careers/departments/job.8350601?gh_jid=8350601",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Summer 2027",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "1d",
+      "posted_bucket": "Fresh now",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-11-11T22:42:33Z"
+    },
+    {
+      "id": "f1961fcd4dde85",
+      "company": "Salesforce",
+      "role": "Business Operations Coordinator",
+      "location": "California - San Francisco",
+      "apply_url": "https://zapply.jobs/l/d/workday-salesforce-external-career-site-JR366798?s=gh-new-grad-jobs-2027",
+      "source_name": "New Grad Jobs 2027",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
+      "source_section": "Business & Operations",
+      "role_family": "Business Ops",
+      "job_type": "Entry Level",
+      "posted": "2h",
+      "posted_bucket": "Fresh now",
+      "sponsorship": "source-signal",
+      "sponsorship_scope": "company-level source signal",
+      "sponsorship_evidence": "The source marks another current listing from this company with a Sponsor signal. This is company-level evidence only, not proof for this role; verify the employer posting.",
+      "h1b_approvals": 501,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-11-11T22:42:33Z"
+    },
+    {
+      "id": "17f434378d069e",
+      "company": "Snowflake",
+      "role": "Product Management Intern (Summer 2027)",
+      "location": "Menlo Park, California, United States",
+      "apply_url": "https://careers.snowflake.com/job/b282fc4c-d041-487a-8444-eab095749368",
+      "source_name": "SearchTern ATS Feed",
+      "source_url": "https://github.com/KSaifStack/SearchTern-Listings",
+      "source_section": "U.S. internships and new-grad roles",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "1d",
+      "posted_bucket": "Fresh now",
+      "sponsorship": "history",
+      "sponsorship_scope": "company-level USCIS history",
+      "sponsorship_evidence": "USCIS history shows 322 approved H-1B petitions for a confidently matched employer in FY2022–2023. This is company history, not a promise for this role; no explicit refusal appears in the source listing.",
+      "h1b_approvals": 322,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-11-11T22:42:33Z"
+    },
+    {
+      "id": "2a90e6b591599b",
+      "company": "TINT",
+      "role": "Associate Product Manager",
+      "location": "US - Remote",
+      "apply_url": "https://job-boards.greenhouse.io/tintai/jobs/4751433005",
+      "source_name": "SearchTern ATS Feed",
+      "source_url": "https://github.com/KSaifStack/SearchTern-Listings",
+      "source_section": "U.S. internships and new-grad roles",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "3d",
+      "posted_bucket": "Fresh now",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "SearchTern links directly to the employer ATS. Its captured description does not state a sponsorship refusal or U.S.-citizenship requirement; verify the live posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-11-11T22:42:33Z"
+    },
+    {
+      "id": "c6f41b5571f9a2",
+      "company": "Wbd",
+      "role": "WB Games Product Management Co-op: Needham, MA - January-May 2027",
+      "location": "Needham, Massachusetts, United States of America",
+      "apply_url": "https://careers.wbd.com/job/R000109850",
+      "source_name": "SearchTern ATS Feed",
+      "source_url": "https://github.com/KSaifStack/SearchTern-Listings",
+      "source_section": "U.S. internships and new-grad roles",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "2d",
+      "posted_bucket": "Fresh now",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "SearchTern links directly to the employer ATS. Its captured description does not state a sponsorship refusal or U.S.-citizenship requirement; verify the live posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-11-11T22:42:33Z"
+    },
+    {
+      "id": "d0658601740d17",
+      "company": "Wells Fargo",
+      "role": "Branch Operations Coordinator Centralia",
+      "location": "CENTRALIA, WA",
+      "apply_url": "https://zapply.jobs/l/d/workday-wf-wellsfargojobs-R-565277?s=gh-new-grad-jobs-2027",
+      "source_name": "New Grad Jobs 2027",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
+      "source_section": "Business & Operations",
+      "role_family": "Business Ops",
+      "job_type": "Entry Level",
+      "posted": "19m",
       "posted_bucket": "Fresh now",
       "sponsorship": "source-signal",
       "sponsorship_scope": "company-level source signal",
@@ -273,20 +483,62 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
+    },
+    {
+      "id": "52c68c1a7cd904",
+      "company": "Wells Fargo",
+      "role": "Branch Operations Coordinator Dickinson",
+      "location": "DICKINSON, ND",
+      "apply_url": "https://zapply.jobs/l/d/workday-wf-wellsfargojobs-R-584322?s=gh-new-grad-jobs-2027",
+      "source_name": "New Grad Jobs 2027",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
+      "source_section": "Business & Operations",
+      "role_family": "Business Ops",
+      "job_type": "Entry Level",
+      "posted": "9m",
+      "posted_bucket": "Fresh now",
+      "sponsorship": "source-signal",
+      "sponsorship_scope": "company-level source signal",
+      "sponsorship_evidence": "The source marks another current listing from this company with a Sponsor signal. This is company-level evidence only, not proof for this role; verify the employer posting.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-11-11T22:42:33Z"
+    },
+    {
+      "id": "b07f2ba95bda5c",
+      "company": "Wells Fargo",
+      "role": "Branch Operations Coordinator Tempe",
+      "location": "TEMPE, AZ",
+      "apply_url": "https://zapply.jobs/l/d/workday-wf-wellsfargojobs-R-586249?s=gh-new-grad-jobs-2027",
+      "source_name": "New Grad Jobs 2027",
+      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
+      "source_section": "Business & Operations",
+      "role_family": "Business Ops",
+      "job_type": "Entry Level",
+      "posted": "9m",
+      "posted_bucket": "Fresh now",
+      "sponsorship": "source-signal",
+      "sponsorship_scope": "company-level source signal",
+      "sponsorship_evidence": "The source marks another current listing from this company with a Sponsor signal. This is company-level evidence only, not proof for this role; verify the employer posting.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "d6d19b917eb44c",
       "company": "Zoetis",
       "role": "Data & Analytics Product Operations Intern",
       "location": "Parsippany, NJ",
-      "apply_url": "https://zoetis.wd5.myworkdayjobs.com/zoetis/job/Parsippany/Data---Analytics-Product-Operations-Intern_JR00022022-1",
+      "apply_url": "https://zoetis.wd5.myworkdayjobs.com/broadbean_external/job/Parsippany/Data---Analytics-Product-Operations-Intern_JR00022022",
       "source_name": "ApplyGuy 2027 Internships",
       "source_url": "https://github.com/ApplyGuy/2027-Internships",
       "source_section": "Not specified",
       "role_family": "Product Ops",
       "job_type": "Internship",
-      "posted": "1d",
+      "posted": "2d",
       "posted_bucket": "Fresh now",
       "sponsorship": "history",
       "sponsorship_scope": "company-level USCIS history",
@@ -294,7 +546,7 @@
       "h1b_approvals": 100,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "79ec2e8f5fe10e",
@@ -307,7 +559,7 @@
       "source_section": "Winter 2027",
       "role_family": "Product",
       "job_type": "Internship",
-      "posted": "18d",
+      "posted": "19d",
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
@@ -315,7 +567,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "46957518674f98",
@@ -336,7 +588,7 @@
       "h1b_approvals": 69,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "26b796ecfd7f1c",
@@ -357,7 +609,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "12b3052bbb7794",
@@ -378,7 +630,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "9c292c83db0f28",
@@ -399,7 +651,7 @@
       "h1b_approvals": 1026,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "ac654e9b4237af",
@@ -412,7 +664,7 @@
       "source_section": "Not specified",
       "role_family": "Product",
       "job_type": "Internship",
-      "posted": "26d",
+      "posted": "27d",
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
@@ -420,28 +672,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
-    },
-    {
-      "id": "ecc5f97b779d11",
-      "company": "Allison Transmission",
-      "role": "Business Analyst Intern - Summer 2027",
-      "location": "Indianapolis, IN",
-      "apply_url": "https://zapply.jobs/l/d/workday-allisontransmission-ati-external-R008356?s=gh-new-grad-jobs-2027",
-      "source_name": "New Grad Jobs 2027",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
-      "source_section": "Data, AI & Research",
-      "role_family": "Business Ops",
-      "job_type": "Internship",
-      "posted": "1w",
-      "posted_bucket": "Open roles",
-      "sponsorship": "history",
-      "sponsorship_scope": "company-level USCIS history",
-      "sponsorship_evidence": "USCIS history shows 10 approved H-1B petitions for a confidently matched employer in FY2022–2023. This is company history, not a promise for this role; no explicit refusal appears in the source listing.",
-      "h1b_approvals": 10,
-      "h1b_window": "FY2022–2023",
-      "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "0776e921295bd1",
@@ -454,7 +685,7 @@
       "source_section": "Not specified",
       "role_family": "Product",
       "job_type": "Internship",
-      "posted": "20d",
+      "posted": "21d",
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
@@ -462,7 +693,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "2a1e18390af932",
@@ -483,28 +714,7 @@
       "h1b_approvals": 23139,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
-    },
-    {
-      "id": "fe955b81492b8e",
-      "company": "American Bankers Association",
-      "role": "Intern, Salesforce Business Analyst",
-      "location": "Washington DC-Baltimore Area",
-      "apply_url": "https://www.linkedin.com/jobs/view/intern-salesforce-business-analyst-at-american-bankers-association-4478801059",
-      "source_name": "Summer 2027 Role Index",
-      "source_url": "https://github.com/NyXkim5/summer-2027-role-index",
-      "source_section": "Deep sweep auto-added, unvetted, wider net than the trackers",
-      "role_family": "Business Ops",
-      "job_type": "Internship",
-      "posted": "5 Nov",
-      "posted_bucket": "Open roles",
-      "sponsorship": "not-stated",
-      "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
-      "h1b_approvals": null,
-      "h1b_window": "FY2022–2023",
-      "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "02a844dfda16b7",
@@ -525,7 +735,7 @@
       "h1b_approvals": 133,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "80ea3aa99a8475",
@@ -538,7 +748,7 @@
       "source_section": "Summer 2027",
       "role_family": "Product",
       "job_type": "Internship",
-      "posted": "22d",
+      "posted": "23d",
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
@@ -546,7 +756,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "84792f0ab0ceb6",
@@ -567,7 +777,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "7509c081612f7e",
@@ -588,7 +798,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "4d3e4076f7e9d5",
@@ -609,7 +819,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "651a0b98a5a89b",
@@ -630,7 +840,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "7f026353cb8542",
@@ -651,7 +861,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "0857c413c65b8e",
@@ -672,7 +882,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "c0c832deebdb55",
@@ -693,7 +903,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "c5beefc8ab4c27",
@@ -714,7 +924,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "4b3d6247fd9914",
@@ -735,13 +945,13 @@
       "h1b_approvals": 44,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
-      "id": "c2749c1667584f",
+      "id": "003dafbd488f5f",
       "company": "Applied Materials",
       "role": "2027 Data Analytics & Business Operations Spring Co-Op or Summer Intern- Bachelor's/Master's (Austin, TX)",
-      "location": "Austin, TX, States",
+      "location": "Austin, TX",
       "apply_url": "https://appliedmaterials.eightfold.ai/careers/job/790317860275",
       "source_name": "SearchTern ATS Feed",
       "source_url": "https://github.com/KSaifStack/SearchTern-Listings",
@@ -756,13 +966,13 @@
       "h1b_approvals": 650,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
-      "id": "40cfb20ad78b52",
+      "id": "339c378aa7b4c0",
       "company": "Applied Materials",
       "role": "Summer 2027 Data Intelligence/Technical Program Management Intern- Master's (Santa Clara, CA)",
-      "location": "Santa Clara, CA, States",
+      "location": "Santa Clara, CA",
       "apply_url": "https://appliedmaterials.eightfold.ai/careers/job/790318279536",
       "source_name": "SearchTern ATS Feed",
       "source_url": "https://github.com/KSaifStack/SearchTern-Listings",
@@ -777,13 +987,13 @@
       "h1b_approvals": 650,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
-      "id": "b9fe3cadca73b2",
+      "id": "252778eba64c86",
       "company": "Applied Materials",
       "role": "Summer 2027 Technical Project/Program Management Intern- Master's (Santa Clara, CA)",
-      "location": "Santa Clara, CA, States",
+      "location": "Santa Clara, CA",
       "apply_url": "https://appliedmaterials.eightfold.ai/careers/job/790318279491",
       "source_name": "SearchTern ATS Feed",
       "source_url": "https://github.com/KSaifStack/SearchTern-Listings",
@@ -798,28 +1008,28 @@
       "h1b_approvals": 650,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
-      "id": "259ffb16f76e76",
-      "company": "Arcesium LLC",
-      "role": "Product Management Intern",
-      "location": "New York",
-      "apply_url": "https://job-boards.greenhouse.io/arcesiumllc/jobs/5257266007",
-      "source_name": "ApplyGuy 2027 Internships",
-      "source_url": "https://github.com/ApplyGuy/2027-Internships",
-      "source_section": "Not specified",
+      "id": "c218ace476e3ad",
+      "company": "ARCH",
+      "role": "Associate Product Manager (Summer 2027)",
+      "location": "New York City",
+      "apply_url": "https://jobs.ashbyhq.com/arch.com/68202fe2-5a4b-4d10-8e6e-04016c7d5076",
+      "source_name": "SearchTern ATS Feed",
+      "source_url": "https://github.com/KSaifStack/SearchTern-Listings",
+      "source_section": "U.S. internships and new-grad roles",
       "role_family": "Product",
       "job_type": "Internship",
-      "posted": "29d",
+      "posted": "Oct 28",
       "posted_bucket": "Open roles",
-      "sponsorship": "history",
-      "sponsorship_scope": "company-level USCIS history",
-      "sponsorship_evidence": "USCIS history shows 11 approved H-1B petitions for a confidently matched employer in FY2022–2023. This is company history, not a promise for this role; no explicit refusal appears in the source listing.",
-      "h1b_approvals": 11,
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "SearchTern links directly to the employer ATS. Its captured description does not state a sponsorship refusal or U.S.-citizenship requirement; verify the live posting before applying.",
+      "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "6032ff50cd42f2",
@@ -832,7 +1042,7 @@
       "source_section": "Not specified",
       "role_family": "Product",
       "job_type": "Internship",
-      "posted": "13d",
+      "posted": "14d",
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
@@ -840,7 +1050,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "b77cfa33b34c59",
@@ -853,7 +1063,7 @@
       "source_section": "Summer 2027",
       "role_family": "Product",
       "job_type": "Internship",
-      "posted": "27d",
+      "posted": "28d",
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
@@ -861,7 +1071,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "5f243eac5f5371",
@@ -882,7 +1092,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "f88abcb7b97fdf",
@@ -903,7 +1113,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "ce44723f84a608",
@@ -924,7 +1134,28 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
+    },
+    {
+      "id": "ab8884945eca4b",
+      "company": "ASUS",
+      "role": "Go-to-Market (GTM) Associate Product Manager, Gaming Peripherals",
+      "location": "City Of Industry, United States",
+      "apply_url": "https://jobs.jobvite.com/asus/job/oMw2AfwE",
+      "source_name": "SearchTern ATS Feed",
+      "source_url": "https://github.com/KSaifStack/SearchTern-Listings",
+      "source_section": "U.S. internships and new-grad roles",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "Nov 1",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "SearchTern links directly to the employer ATS. Its captured description does not state a sponsorship refusal or U.S.-citizenship requirement; verify the live posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "b9d0b1e92c05f2",
@@ -945,7 +1176,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "2cea09e75c8b9c",
@@ -966,7 +1197,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "583e776e3cbf1c",
@@ -987,7 +1218,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "ea0045bd400590",
@@ -1008,7 +1239,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "9de84eb04959d6",
@@ -1029,7 +1260,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "fd2a82ac21f058",
@@ -1042,7 +1273,7 @@
       "source_section": "Recent product new-grad roles",
       "role_family": "Product",
       "job_type": "New Grad",
-      "posted": "Nov 06",
+      "posted": "Nov 11",
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
@@ -1050,7 +1281,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "19b2c918946f5f",
@@ -1071,7 +1302,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "8c813bce94fcc0",
@@ -1092,7 +1323,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "e56260e0caf342",
@@ -1113,49 +1344,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
-    },
-    {
-      "id": "82953b6c2de95e",
-      "company": "Bobcat Company",
-      "role": "Business Analyst Student Experience - Spring 2027 Job Details / Doosan Corp",
-      "location": "West Fargo, ND, United States",
-      "apply_url": "https://jobright.ai/jobs/info/6a996f4690a313642c65048a?utm_campaign=Business%20Analyst&utm_source=1103",
-      "source_name": "Jobright Business Analyst New Grad",
-      "source_url": "https://github.com/jobright-ai/2026-Business-Analyst-New-Grad",
-      "source_section": "Recent business analyst new-grad roles",
-      "role_family": "Business Ops",
-      "job_type": "New Grad",
-      "posted": "Nov 06",
-      "posted_bucket": "Open roles",
-      "sponsorship": "not-stated",
-      "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "Jobright includes this role in its recent Product Management new-grad feed. Sponsorship is not stated; verify the employer posting and role requirements before applying.",
-      "h1b_approvals": null,
-      "h1b_window": "FY2022–2023",
-      "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
-    },
-    {
-      "id": "5bfe5f345d0375",
-      "company": "Bobcat Company",
-      "role": "Product Management Student Experience - Spring 2027 Job Details / Doosan Corp",
-      "location": "Bismarck, ND, United States",
-      "apply_url": "https://jobright.ai/jobs/info/6a996f4690a313642c650489?utm_campaign=Product%20Management&utm_source=1103",
-      "source_name": "Jobright Product Management New Grad",
-      "source_url": "https://github.com/jobright-ai/2026-Product-Management-New-Grad",
-      "source_section": "Recent product new-grad roles",
-      "role_family": "Product",
-      "job_type": "New Grad",
-      "posted": "Nov 06",
-      "posted_bucket": "Open roles",
-      "sponsorship": "not-stated",
-      "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "Jobright includes this role in its recent Product Management new-grad feed. Sponsorship is not stated; verify the employer posting and role requirements before applying.",
-      "h1b_approvals": null,
-      "h1b_window": "FY2022–2023",
-      "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "b0fdd7c8ae1e94",
@@ -1176,7 +1365,7 @@
       "h1b_approvals": 28,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "5a7156ebc97cb7",
@@ -1197,28 +1386,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
-    },
-    {
-      "id": "af420df9926f2a",
-      "company": "Boston Scientific",
-      "role": "Technical Communications & Project Management Intern",
-      "location": "Arden Hills, MN, States",
-      "apply_url": "https://bostonscientific.eightfold.ai/careers/job/563602813563529",
-      "source_name": "SearchTern ATS Feed",
-      "source_url": "https://github.com/KSaifStack/SearchTern-Listings",
-      "source_section": "U.S. internships and new-grad roles",
-      "role_family": "Program Management",
-      "job_type": "Internship",
-      "posted": "Nov 3",
-      "posted_bucket": "Open roles",
-      "sponsorship": "history",
-      "sponsorship_scope": "company-level USCIS history",
-      "sponsorship_evidence": "USCIS history shows 170 approved H-1B petitions for a confidently matched employer in FY2022–2023. This is company history, not a promise for this role; no explicit refusal appears in the source listing.",
-      "h1b_approvals": 170,
-      "h1b_window": "FY2022–2023",
-      "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "2a952b7b6a1b31",
@@ -1239,7 +1407,28 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
+    },
+    {
+      "id": "c7c4c61148174c",
+      "company": "Canadian Tire Corporation",
+      "role": "Business Operations Analyst Student (4 months) - Winter 2027",
+      "location": "Welland, ON, Canada",
+      "apply_url": "https://jobright.ai/jobs/info/6af4dcc52278454e18c39115?utm_campaign=Business%20Analyst&utm_source=1103",
+      "source_name": "Jobright Business Analyst New Grad",
+      "source_url": "https://github.com/jobright-ai/2026-Business-Analyst-New-Grad",
+      "source_section": "Recent business analyst new-grad roles",
+      "role_family": "Business Ops",
+      "job_type": "New Grad",
+      "posted": "Nov 10",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "Jobright includes this role in its recent Product Management new-grad feed. Sponsorship is not stated; verify the employer posting and role requirements before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "a18c5735c1c3c1",
@@ -1260,7 +1449,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "eb67e4d8a39d7a",
@@ -1281,28 +1470,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
-    },
-    {
-      "id": "dcb468caf70d92",
-      "company": "Cboe",
-      "role": "Technical Business Analyst Intern",
-      "location": "Chicago, IL",
-      "apply_url": "https://zapply.jobs/l/d/workday-cboe-external-career-cboe-R-4710?s=gh-new-grad-jobs-2027",
-      "source_name": "New Grad Jobs 2027",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
-      "source_section": "Data, AI & Research",
-      "role_family": "Business Ops",
-      "job_type": "Internship",
-      "posted": "1w",
-      "posted_bucket": "Open roles",
-      "sponsorship": "not-stated",
-      "sponsorship_scope": "not provided",
-      "sponsorship_evidence": "No sponsorship signal is provided by this source. Verify the employer posting before applying.",
-      "h1b_approvals": null,
-      "h1b_window": "FY2022–2023",
-      "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "2e620d876007dc",
@@ -1323,7 +1491,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "d356aa33b8d860",
@@ -1344,7 +1512,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "8abaf7711893f1",
@@ -1365,7 +1533,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "8675ab19a2b47c",
@@ -1386,7 +1554,7 @@
       "h1b_approvals": 112,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "fb60ba506803b4",
@@ -1407,7 +1575,7 @@
       "h1b_approvals": 112,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "ddf45ebed20a35",
@@ -1428,7 +1596,7 @@
       "h1b_approvals": 112,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "0211be6e025073",
@@ -1449,7 +1617,7 @@
       "h1b_approvals": 291,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "2dfe3edd19f2b8",
@@ -1470,7 +1638,28 @@
       "h1b_approvals": 291,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
+    },
+    {
+      "id": "31e63192aceadf",
+      "company": "Colonial Group",
+      "role": "ETRM IT Business Analyst",
+      "location": "Houston, TX, States",
+      "apply_url": "https://jobs.dayforcehcm.com/en-US/colonialgroup/candidateportal/jobs/13826",
+      "source_name": "SearchTern ATS Feed",
+      "source_url": "https://github.com/KSaifStack/SearchTern-Listings",
+      "source_section": "U.S. internships and new-grad roles",
+      "role_family": "Business Ops",
+      "job_type": "Internship",
+      "posted": "Oct 28",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "SearchTern links directly to the employer ATS. Its captured description does not state a sponsorship refusal or U.S.-citizenship requirement; verify the live posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "b371e9865c4769",
@@ -1491,7 +1680,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "a7eccdc081f49f",
@@ -1512,7 +1701,7 @@
       "h1b_approvals": 308,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "b4a71aca6aadc2",
@@ -1533,7 +1722,7 @@
       "h1b_approvals": 62,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "f34fad39c011ab",
@@ -1554,7 +1743,7 @@
       "h1b_approvals": 62,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "7c7f61dff40336",
@@ -1575,7 +1764,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "af38415c9d45fd",
@@ -1588,7 +1777,7 @@
       "source_section": "Not specified",
       "role_family": "Product",
       "job_type": "Internship",
-      "posted": "15d",
+      "posted": "16d",
       "posted_bucket": "Open roles",
       "sponsorship": "history",
       "sponsorship_scope": "company-level USCIS history",
@@ -1596,7 +1785,7 @@
       "h1b_approvals": 86,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "dbe0cb6cb36b6f",
@@ -1617,7 +1806,28 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
+    },
+    {
+      "id": "dcf38928258912",
+      "company": "Docusign",
+      "role": "Product Manager Intern",
+      "location": "San Francisco, California, United States",
+      "apply_url": "https://careers.docusign.com/jobs/30625?lang=en-us",
+      "source_name": "SearchTern ATS Feed",
+      "source_url": "https://github.com/KSaifStack/SearchTern-Listings",
+      "source_section": "U.S. internships and new-grad roles",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "Nov 6",
+      "posted_bucket": "Open roles",
+      "sponsorship": "history",
+      "sponsorship_scope": "company-level USCIS history",
+      "sponsorship_evidence": "USCIS history shows 283 approved H-1B petitions for a confidently matched employer in FY2022–2023. This is company history, not a promise for this role; no explicit refusal appears in the source listing.",
+      "h1b_approvals": 283,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "bb3ed6ef03a00d",
@@ -1638,7 +1848,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "12d6ff801a7b05",
@@ -1659,7 +1869,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "23667ee8ab7ad9",
@@ -1672,7 +1882,7 @@
       "source_section": "Not specified",
       "role_family": "Product",
       "job_type": "Internship",
-      "posted": "26d",
+      "posted": "27d",
       "posted_bucket": "Open roles",
       "sponsorship": "history",
       "sponsorship_scope": "company-level USCIS history",
@@ -1680,7 +1890,28 @@
       "h1b_approvals": 22,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
+    },
+    {
+      "id": "8d21ef23e12d06",
+      "company": "Duolingo University",
+      "role": "Product Manager, MBA Intern",
+      "location": "Pittsburgh, PA",
+      "apply_url": "https://job-boards.greenhouse.io/duolingounirecruitment/jobs/8888266002",
+      "source_name": "SearchTern ATS Feed",
+      "source_url": "https://github.com/KSaifStack/SearchTern-Listings",
+      "source_section": "U.S. internships and new-grad roles",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "Nov 2",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "SearchTern links directly to the employer ATS. Its captured description does not state a sponsorship refusal or U.S.-citizenship requirement; verify the live posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "d0c20dbe05e76c",
@@ -1693,7 +1924,7 @@
       "source_section": "Summer 2027",
       "role_family": "Product",
       "job_type": "Internship",
-      "posted": "22d",
+      "posted": "23d",
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
@@ -1701,7 +1932,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "d283b5926872ef",
@@ -1722,7 +1953,7 @@
       "h1b_approvals": 18,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "4b844c03f2f565",
@@ -1743,7 +1974,7 @@
       "h1b_approvals": 28,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "29798cc9926c5f",
@@ -1764,28 +1995,7 @@
       "h1b_approvals": 28,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T21:49:01Z"
-    },
-    {
-      "id": "cab319df5dd256",
-      "company": "Fa Eqcd Saasfaprod",
-      "role": "IT Business Analyst Intern - Summer 2027",
-      "location": "Dallas, TX, United States",
-      "apply_url": "https://fa-eqcd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1100",
-      "source_name": "SearchTern ATS Feed",
-      "source_url": "https://github.com/KSaifStack/SearchTern-Listings",
-      "source_section": "U.S. internships and new-grad roles",
-      "role_family": "Business Ops",
-      "job_type": "Internship",
-      "posted": "Oct 30",
-      "posted_bucket": "Open roles",
-      "sponsorship": "not-stated",
-      "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "SearchTern links directly to the employer ATS. Its captured description does not state a sponsorship refusal or U.S.-citizenship requirement; verify the live posting before applying.",
-      "h1b_approvals": null,
-      "h1b_window": "FY2022–2023",
-      "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "e77ff01bcb8790",
@@ -1806,7 +2016,7 @@
       "h1b_approvals": 39,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "12fd1b27bfa035",
@@ -1827,7 +2037,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "d0717e663c9ad9",
@@ -1840,7 +2050,7 @@
       "source_section": "Summer 2027",
       "role_family": "Product",
       "job_type": "Internship",
-      "posted": "20d",
+      "posted": "21d",
       "posted_bucket": "Open roles",
       "sponsorship": "history",
       "sponsorship_scope": "company-level USCIS history",
@@ -1848,7 +2058,7 @@
       "h1b_approvals": 11,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "b6ee6dfd4268dd",
@@ -1869,7 +2079,7 @@
       "h1b_approvals": 931,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "8377eee21bb111",
@@ -1890,7 +2100,49 @@
       "h1b_approvals": 931,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
+    },
+    {
+      "id": "5eb5d0b8c06918",
+      "company": "Hatch",
+      "role": "Transit Business Analyst Intern",
+      "location": "Denver, CO, States",
+      "apply_url": "https://jobs.hatch.com/job/Denver-Transit-Business-Analyst-Intern-CO-80002/1429750100/",
+      "source_name": "SearchTern ATS Feed",
+      "source_url": "https://github.com/KSaifStack/SearchTern-Listings",
+      "source_section": "U.S. internships and new-grad roles",
+      "role_family": "Business Ops",
+      "job_type": "Internship",
+      "posted": "Oct 31",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "SearchTern links directly to the employer ATS. Its captured description does not state a sponsorship refusal or U.S.-citizenship requirement; verify the live posting before applying.",
+      "h1b_approvals": 2,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-11-11T22:42:33Z"
+    },
+    {
+      "id": "d701bbd7500cbb",
+      "company": "Hewlett Packard Enterprise",
+      "role": "Campus Switching Product Manager Graduate",
+      "location": "Roseville, California",
+      "apply_url": "https://hpe.wd5.myworkdayjobs.com/ACJobSite/job/Roseville-California/Campus-Switching-Product-Manager-Graduate_1214267",
+      "source_name": "SearchTern ATS Feed",
+      "source_url": "https://github.com/KSaifStack/SearchTern-Listings",
+      "source_section": "U.S. internships and new-grad roles",
+      "role_family": "Product",
+      "job_type": "New Grad",
+      "posted": "Nov 6",
+      "posted_bucket": "Open roles",
+      "sponsorship": "history",
+      "sponsorship_scope": "company-level USCIS history",
+      "sponsorship_evidence": "USCIS history shows 499 approved H-1B petitions for a confidently matched employer in FY2022–2023. This is company history, not a promise for this role; no explicit refusal appears in the source listing.",
+      "h1b_approvals": 499,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "2425e4cfdfe7e5",
@@ -1911,7 +2163,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "30cc56d38b0b82",
@@ -1932,28 +2184,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
-    },
-    {
-      "id": "f8e6d52b25f645",
-      "company": "Honeywell",
-      "role": "Product Management Intern (MBA)",
-      "location": "Atlanta, GA, United States",
-      "apply_url": "https://ibqbjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/159658",
-      "source_name": "SearchTern ATS Feed",
-      "source_url": "https://github.com/KSaifStack/SearchTern-Listings",
-      "source_section": "U.S. internships and new-grad roles",
-      "role_family": "Product",
-      "job_type": "Internship",
-      "posted": "Nov 6",
-      "posted_bucket": "Open roles",
-      "sponsorship": "not-stated",
-      "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "SearchTern links directly to the employer ATS. Its captured description does not state a sponsorship refusal or U.S.-citizenship requirement; verify the live posting before applying.",
-      "h1b_approvals": null,
-      "h1b_window": "FY2022–2023",
-      "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "8940647a0a813b",
@@ -1966,7 +2197,7 @@
       "source_section": "Not specified",
       "role_family": "Product",
       "job_type": "Internship",
-      "posted": "11d",
+      "posted": "12d",
       "posted_bucket": "Open roles",
       "sponsorship": "history",
       "sponsorship_scope": "company-level USCIS history",
@@ -1974,70 +2205,7 @@
       "h1b_approvals": 167,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
-    },
-    {
-      "id": "a5d8d3969e4791",
-      "company": "HP",
-      "role": "Software Product Manager Graduate Roles - HP Solutions (HPS)",
-      "location": "Fort Collins, CO, United States",
-      "apply_url": "https://jobright.ai/jobs/info/6a8e11cbd34f700f87fd7bd5?utm_campaign=Product%20Management&utm_source=1103",
-      "source_name": "Jobright Product Management New Grad",
-      "source_url": "https://github.com/jobright-ai/2026-Product-Management-New-Grad",
-      "source_section": "Recent product new-grad roles",
-      "role_family": "Product",
-      "job_type": "New Grad",
-      "posted": "Nov 04",
-      "posted_bucket": "Open roles",
-      "sponsorship": "history",
-      "sponsorship_scope": "company-level USCIS history",
-      "sponsorship_evidence": "USCIS history shows 167 approved H-1B petitions for a confidently matched employer in FY2022–2023. This is company history, not a promise for this role; no explicit refusal appears in the source listing.",
-      "h1b_approvals": 167,
-      "h1b_window": "FY2022–2023",
-      "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
-    },
-    {
-      "id": "38e78c239e6ee3",
-      "company": "HPE",
-      "role": "Campus Switching Product Manager Graduate",
-      "location": "Roseville California",
-      "apply_url": "https://zapply.jobs/l/d/workday-hpe-acjobsite-1214267?s=gh-new-grad-jobs-2027",
-      "source_name": "New Grad Jobs 2027",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
-      "source_section": "Software Engineering",
-      "role_family": "Product",
-      "job_type": "New Grad",
-      "posted": "4d",
-      "posted_bucket": "Open roles",
-      "sponsorship": "history",
-      "sponsorship_scope": "company-level USCIS history",
-      "sponsorship_evidence": "USCIS history shows 499 approved H-1B petitions for a confidently matched employer in FY2022–2023. This is company history, not a promise for this role; no explicit refusal appears in the source listing.",
-      "h1b_approvals": 499,
-      "h1b_window": "FY2022–2023",
-      "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
-    },
-    {
-      "id": "b6c0d582fef584",
-      "company": "HPE",
-      "role": "Campus Switching Product Manager Graduate",
-      "location": "Roseville, California, United States of America",
-      "apply_url": "https://careers.hpe.com/job/1214267",
-      "source_name": "SearchTern ATS Feed",
-      "source_url": "https://github.com/KSaifStack/SearchTern-Listings",
-      "source_section": "U.S. internships and new-grad roles",
-      "role_family": "Product",
-      "job_type": "New Grad",
-      "posted": "Nov 6",
-      "posted_bucket": "Open roles",
-      "sponsorship": "history",
-      "sponsorship_scope": "company-level USCIS history",
-      "sponsorship_evidence": "USCIS history shows 499 approved H-1B petitions for a confidently matched employer in FY2022–2023. This is company history, not a promise for this role; no explicit refusal appears in the source listing.",
-      "h1b_approvals": 499,
-      "h1b_window": "FY2022–2023",
-      "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "aaadf4b2a5d3a4",
@@ -2058,28 +2226,70 @@
       "h1b_approvals": 499,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
-      "id": "e455b7083ed3db",
-      "company": "HPE (University)",
-      "role": "Campus Switching Product Manager Graduate",
-      "location": "Roseville California",
-      "apply_url": "https://zapply.jobs/l/d/workday-hpe-jobsathpe-1214267?s=gh-new-grad-jobs-2027",
-      "source_name": "New Grad Jobs 2027",
-      "source_url": "https://github.com/zapplyjobs/New-Grad-Jobs-2027",
-      "source_section": "Software Engineering",
-      "role_family": "Product",
-      "job_type": "New Grad",
-      "posted": "4d",
+      "id": "1d770823bab93d",
+      "company": "HUNT",
+      "role": "IT Business Analyst Intern - Summer 2027",
+      "location": "Dallas, TX, United States",
+      "apply_url": "https://fa-eqcd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX/job/1100",
+      "source_name": "SearchTern ATS Feed",
+      "source_url": "https://github.com/KSaifStack/SearchTern-Listings",
+      "source_section": "U.S. internships and new-grad roles",
+      "role_family": "Business Ops",
+      "job_type": "Internship",
+      "posted": "Oct 30",
       "posted_bucket": "Open roles",
-      "sponsorship": "source-signal",
-      "sponsorship_scope": "company-level source signal",
-      "sponsorship_evidence": "The source marks another current listing from this company with a Sponsor signal. This is company-level evidence only, not proof for this role; verify the employer posting.",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "SearchTern links directly to the employer ATS. Its captured description does not state a sponsorship refusal or U.S.-citizenship requirement; verify the live posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
+    },
+    {
+      "id": "52d1ac260649e1",
+      "company": "Hunt Energy Network",
+      "role": "IT Business Analyst Intern - Summer 2027",
+      "location": "Dallas, TX, United States",
+      "apply_url": "https://fa-eqcd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/jobsearch/job/1100",
+      "source_name": "SearchTern ATS Feed",
+      "source_url": "https://github.com/KSaifStack/SearchTern-Listings",
+      "source_section": "U.S. internships and new-grad roles",
+      "role_family": "Business Ops",
+      "job_type": "Internship",
+      "posted": "Oct 30",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "SearchTern links directly to the employer ATS. Its captured description does not state a sponsorship refusal or U.S.-citizenship requirement; verify the live posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-11-11T22:42:33Z"
+    },
+    {
+      "id": "60cb8221bb1f3d",
+      "company": "Hunt Oil Company",
+      "role": "IT Business Analyst Intern - Summer 2027",
+      "location": "Dallas, TX, United States",
+      "apply_url": "https://fa-eqcd-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/1100",
+      "source_name": "SearchTern ATS Feed",
+      "source_url": "https://github.com/KSaifStack/SearchTern-Listings",
+      "source_section": "U.S. internships and new-grad roles",
+      "role_family": "Business Ops",
+      "job_type": "Internship",
+      "posted": "Oct 30",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "SearchTern links directly to the employer ATS. Its captured description does not state a sponsorship refusal or U.S.-citizenship requirement; verify the live posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "37329bd656a7f3",
@@ -2100,7 +2310,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "81654e9a72f5f5",
@@ -2121,7 +2331,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "c38afcc5c12f1c",
@@ -2142,7 +2352,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "bef3018c486840",
@@ -2163,7 +2373,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "02c21f3355eb6a",
@@ -2176,7 +2386,7 @@
       "source_section": "Not specified",
       "role_family": "Product",
       "job_type": "Internship",
-      "posted": "11d",
+      "posted": "12d",
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
@@ -2184,7 +2394,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "e24485dac036d4",
@@ -2197,7 +2407,7 @@
       "source_section": "Summer",
       "role_family": "Product",
       "job_type": "Internship",
-      "posted": "16d",
+      "posted": "17d",
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
@@ -2205,7 +2415,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "e0623422b80642",
@@ -2218,7 +2428,7 @@
       "source_section": "Summer",
       "role_family": "Product",
       "job_type": "Internship",
-      "posted": "16d",
+      "posted": "17d",
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
@@ -2226,7 +2436,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "cc4c236f4076f1",
@@ -2239,7 +2449,7 @@
       "source_section": "Not specified",
       "role_family": "Product",
       "job_type": "Internship",
-      "posted": "5d",
+      "posted": "6d",
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
@@ -2247,7 +2457,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "810924af25b2bf",
@@ -2268,7 +2478,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "dd0baa24996084",
@@ -2289,7 +2499,7 @@
       "h1b_approvals": 23,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "e97e2f494e24cf",
@@ -2310,7 +2520,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "a9f2a7341e23c7",
@@ -2323,7 +2533,7 @@
       "source_section": "Not specified",
       "role_family": "Product",
       "job_type": "Internship",
-      "posted": "7d",
+      "posted": "8d",
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
@@ -2331,7 +2541,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "28ced2a1238c81",
@@ -2344,7 +2554,7 @@
       "source_section": "Summer",
       "role_family": "Product",
       "job_type": "Internship",
-      "posted": "9d",
+      "posted": "10d",
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
@@ -2352,28 +2562,7 @@
       "h1b_approvals": 5,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
-    },
-    {
-      "id": "f2c22deb0269ce",
-      "company": "Lifefitness",
-      "role": "Product Management Intern",
-      "location": "Rosemont, IL",
-      "apply_url": "https://lifefitness.wd1.myworkdayjobs.com/searchlfn/job/Rosemont-IL/Product-Management-Intern_JR-025280",
-      "source_name": "ApplyGuy 2027 Internships",
-      "source_url": "https://github.com/ApplyGuy/2027-Internships",
-      "source_section": "Not specified",
-      "role_family": "Product",
-      "job_type": "Internship",
-      "posted": "29d",
-      "posted_bucket": "Open roles",
-      "sponsorship": "not-stated",
-      "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
-      "h1b_approvals": null,
-      "h1b_window": "FY2022–2023",
-      "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "9e5d15abc1bc29",
@@ -2394,7 +2583,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "3fbf871b58a306",
@@ -2415,7 +2604,28 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
+    },
+    {
+      "id": "f9bee9a21d11ea",
+      "company": "National Grid",
+      "role": "Graduate Business Analyst, Customer & Network Development, Warwick Job Details / natgridProd",
+      "location": "Warwick, England, United Kingdom",
+      "apply_url": "https://jobright.ai/jobs/info/6af4d8a32278454e18c38ef0?utm_campaign=Business%20Analyst&utm_source=1103",
+      "source_name": "Jobright Business Analyst New Grad",
+      "source_url": "https://github.com/jobright-ai/2026-Business-Analyst-New-Grad",
+      "source_section": "Recent business analyst new-grad roles",
+      "role_family": "Business Ops",
+      "job_type": "New Grad",
+      "posted": "Nov 08",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "Jobright includes this role in its recent Product Management new-grad feed. Sponsorship is not stated; verify the employer posting and role requirements before applying.",
+      "h1b_approvals": 2,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "2bef2300737971",
@@ -2436,7 +2646,7 @@
       "h1b_approvals": 2,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "8d15a43bb028f4",
@@ -2457,28 +2667,70 @@
       "h1b_approvals": 2,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
-      "id": "5bcfc0f02ab370",
-      "company": "Nissan Motor Corporation",
-      "role": "Aftersales Business Planning Intern - Summer 2027 - Franklin, TN",
-      "location": "Franklin, TN",
-      "apply_url": "https://www.linkedin.com/jobs/view/aftersales-business-planning-intern-summer-2027-franklin-tn-at-nissan-motor-corporation-4479836438",
-      "source_name": "Summer 2027 Role Index",
-      "source_url": "https://github.com/NyXkim5/summer-2027-role-index",
-      "source_section": "Deep sweep auto-added, unvetted, wider net than the trackers",
-      "role_family": "Strategy & Ops",
+      "id": "f6b362fea81c90",
+      "company": "National Grid",
+      "role": "Graduate Development Program, Associate Product Manager, US Electric IT",
+      "location": "Syracuse, States",
+      "apply_url": "https://jobs-ats.nationalgrid.com/job/Waltham-Graduate-Development-Program%2C-Associate-Product-Manager%2C-US-Electric-IT-MA-02451/1448629300/",
+      "source_name": "SearchTern ATS Feed",
+      "source_url": "https://github.com/KSaifStack/SearchTern-Listings",
+      "source_section": "U.S. internships and new-grad roles",
+      "role_family": "Product",
       "job_type": "Internship",
-      "posted": "5 Nov",
+      "posted": "Nov 7",
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
+      "sponsorship_evidence": "SearchTern links directly to the employer ATS. Its captured description does not state a sponsorship refusal or U.S.-citizenship requirement; verify the live posting before applying.",
+      "h1b_approvals": 2,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-11-11T22:42:33Z"
+    },
+    {
+      "id": "30a292238c2126",
+      "company": "National Grid",
+      "role": "Graduate Development Program, Associate Product Manager, US Electric IT Job Details / natgridProd",
+      "location": "Syracuse, NY, United States",
+      "apply_url": "https://jobright.ai/jobs/info/6af4d8ce9144106c56a21ff3?utm_campaign=Product%20Management&utm_source=1103",
+      "source_name": "Jobright Product Management New Grad",
+      "source_url": "https://github.com/jobright-ai/2026-Product-Management-New-Grad",
+      "source_section": "Recent product new-grad roles",
+      "role_family": "Product",
+      "job_type": "New Grad",
+      "posted": "Nov 05",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "Jobright includes this role in its recent Product Management new-grad feed. Sponsorship is not stated; verify the employer posting and role requirements before applying.",
+      "h1b_approvals": 2,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-11-11T22:42:33Z"
+    },
+    {
+      "id": "60040354bde501",
+      "company": "Nestl",
+      "role": "Stage Business Analyst Supply Chain F/H",
+      "location": "Issy-les-Moulineaux, FR, 92130",
+      "apply_url": "https://jobdetails.nestle.com/job/Issy-les-Moulineaux-Stage-Business-Analyst-Supply-Chain-FH-92130/1451777833/",
+      "source_name": "SearchTern ATS Feed",
+      "source_url": "https://github.com/KSaifStack/SearchTern-Listings",
+      "source_section": "U.S. internships and new-grad roles",
+      "role_family": "Business Ops",
+      "job_type": "Internship",
+      "posted": "Oct 31",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "SearchTern links directly to the employer ATS. Its captured description does not state a sponsorship refusal or U.S.-citizenship requirement; verify the live posting before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "2b17efad837b9e",
@@ -2499,7 +2751,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "0f99a5fb5e13bf",
@@ -2520,7 +2772,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "0bb081ade3568f",
@@ -2533,7 +2785,7 @@
       "source_section": "Summer 2027",
       "role_family": "Product",
       "job_type": "Internship",
-      "posted": "28d",
+      "posted": "29d",
       "posted_bucket": "Open roles",
       "sponsorship": "history",
       "sponsorship_scope": "company-level USCIS history",
@@ -2541,7 +2793,7 @@
       "h1b_approvals": 1526,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "acc9c917055ee6",
@@ -2554,7 +2806,7 @@
       "source_section": "Summer 2027",
       "role_family": "Product",
       "job_type": "Internship",
-      "posted": "20d",
+      "posted": "21d",
       "posted_bucket": "Open roles",
       "sponsorship": "history",
       "sponsorship_scope": "company-level USCIS history",
@@ -2562,7 +2814,7 @@
       "h1b_approvals": 1526,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "e30ef5f318428e",
@@ -2575,7 +2827,7 @@
       "source_section": "Summer 2027",
       "role_family": "Product",
       "job_type": "Internship",
-      "posted": "26d",
+      "posted": "27d",
       "posted_bucket": "Open roles",
       "sponsorship": "history",
       "sponsorship_scope": "company-level USCIS history",
@@ -2583,7 +2835,7 @@
       "h1b_approvals": 1526,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "06adb83092c940",
@@ -2604,7 +2856,7 @@
       "h1b_approvals": 1526,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "5d65188c20dafa",
@@ -2617,7 +2869,7 @@
       "source_section": "Not specified",
       "role_family": "Product",
       "job_type": "Internship",
-      "posted": "8d",
+      "posted": "9d",
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
@@ -2625,7 +2877,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "6e9e0ff90b12dd",
@@ -2646,7 +2898,7 @@
       "h1b_approvals": 229,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "3d9fb03b0ef0e5",
@@ -2667,7 +2919,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "b6d6d495f8d579",
@@ -2688,7 +2940,7 @@
       "h1b_approvals": 15,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "fcfd92d6920f5d",
@@ -2709,28 +2961,7 @@
       "h1b_approvals": 15,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
-    },
-    {
-      "id": "674e674bac43c9",
-      "company": "Oracle",
-      "role": "GDI Business Analyst Intern - OVIP",
-      "location": "Reston, VA",
-      "apply_url": "https://www.linkedin.com/jobs/view/gdi-business-analyst-intern-ovip-at-oracle-4413661358",
-      "source_name": "Summer 2027 Role Index",
-      "source_url": "https://github.com/NyXkim5/summer-2027-role-index",
-      "source_section": "Deep sweep auto-added, unvetted, wider net than the trackers",
-      "role_family": "Business Ops",
-      "job_type": "Internship",
-      "posted": "9 Nov",
-      "posted_bucket": "Open roles",
-      "sponsorship": "not-stated",
-      "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
-      "h1b_approvals": null,
-      "h1b_window": "FY2022–2023",
-      "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "1338cc9d0a2076",
@@ -2751,7 +2982,7 @@
       "h1b_approvals": 2,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "f0c978dc3dbec6",
@@ -2772,7 +3003,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "b9ad62f7736c6a",
@@ -2793,7 +3024,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "44ac97f780ddeb",
@@ -2814,7 +3045,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "e42b9be8348ca7",
@@ -2827,7 +3058,7 @@
       "source_section": "Not specified",
       "role_family": "Product",
       "job_type": "Internship",
-      "posted": "15d",
+      "posted": "16d",
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
@@ -2835,7 +3066,7 @@
       "h1b_approvals": 2,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "4e234e46bf2278",
@@ -2848,7 +3079,7 @@
       "source_section": "Summer",
       "role_family": "Product",
       "job_type": "Internship",
-      "posted": "8d",
+      "posted": "9d",
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
@@ -2856,7 +3087,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "6ad25f60a02bad",
@@ -2869,7 +3100,7 @@
       "source_section": "Summer 2027",
       "role_family": "Product",
       "job_type": "Internship",
-      "posted": "19d",
+      "posted": "20d",
       "posted_bucket": "Open roles",
       "sponsorship": "history",
       "sponsorship_scope": "company-level USCIS history",
@@ -2877,7 +3108,7 @@
       "h1b_approvals": 22,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "c0ccb302f52e9c",
@@ -2890,7 +3121,7 @@
       "source_section": "Not specified",
       "role_family": "Product",
       "job_type": "Internship",
-      "posted": "25d",
+      "posted": "26d",
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
@@ -2898,7 +3129,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "f0ed3f36325124",
@@ -2919,7 +3150,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "5d0feda0779c30",
@@ -2940,7 +3171,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "cae1567719c5ff",
@@ -2961,7 +3192,28 @@
       "h1b_approvals": 343,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
+    },
+    {
+      "id": "465eb06646f7c9",
+      "company": "Plexus Scientific Corporation",
+      "role": "Junior Business Analyst",
+      "location": "Alexandria, VA, States",
+      "apply_url": "https://plexsci.isolvedhire.com/jobs/1892135",
+      "source_name": "SearchTern ATS Feed",
+      "source_url": "https://github.com/KSaifStack/SearchTern-Listings",
+      "source_section": "U.S. internships and new-grad roles",
+      "role_family": "Business Ops",
+      "job_type": "New Grad",
+      "posted": "Oct 27",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "SearchTern links directly to the employer ATS. Its captured description does not state a sponsorship refusal or U.S.-citizenship requirement; verify the live posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "3f0d4e0ddf6ca4",
@@ -2982,7 +3234,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "fd68296de13aef",
@@ -2995,7 +3247,7 @@
       "source_section": "Not specified",
       "role_family": "Product",
       "job_type": "Internship",
-      "posted": "28d",
+      "posted": "29d",
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
@@ -3003,7 +3255,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "e9b936729e05eb",
@@ -3016,7 +3268,7 @@
       "source_section": "Not specified",
       "role_family": "Product",
       "job_type": "Internship",
-      "posted": "26d",
+      "posted": "27d",
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
@@ -3024,7 +3276,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "d7f3ad0658375d",
@@ -3037,7 +3289,7 @@
       "source_section": "Summer 2027",
       "role_family": "Product Ops",
       "job_type": "Internship",
-      "posted": "26d",
+      "posted": "27d",
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
@@ -3045,7 +3297,28 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
+    },
+    {
+      "id": "c0d825e56d4047",
+      "company": "Qualcomm",
+      "role": "Product Management Internship - Summer 2027",
+      "location": "San Diego, California, United States of America",
+      "apply_url": "https://qualcomm.eightfold.ai/careers/job/446720741706",
+      "source_name": "SearchTern ATS Feed",
+      "source_url": "https://github.com/KSaifStack/SearchTern-Listings",
+      "source_section": "U.S. internships and new-grad roles",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "Sep 18",
+      "posted_bucket": "Open roles",
+      "sponsorship": "history",
+      "sponsorship_scope": "company-level USCIS history",
+      "sponsorship_evidence": "USCIS history shows 85 approved H-1B petitions for a confidently matched employer in FY2022–2023. This is company history, not a promise for this role; no explicit refusal appears in the source listing.",
+      "h1b_approvals": 85,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "7ca7dacf071d14",
@@ -3058,7 +3331,7 @@
       "source_section": "Not specified",
       "role_family": "Product",
       "job_type": "Internship",
-      "posted": "11d",
+      "posted": "12d",
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
@@ -3066,7 +3339,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "27b310306ef95d",
@@ -3087,7 +3360,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "a261fc2a7a6ee7",
@@ -3108,7 +3381,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "845f22ebd03aa9",
@@ -3129,7 +3402,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "a5819b92cbb972",
@@ -3142,7 +3415,7 @@
       "source_section": "Recent product new-grad roles",
       "role_family": "Product",
       "job_type": "New Grad",
-      "posted": "Nov 07",
+      "posted": "Nov 11",
       "posted_bucket": "Open roles",
       "sponsorship": "history",
       "sponsorship_scope": "company-level USCIS history",
@@ -3150,7 +3423,7 @@
       "h1b_approvals": 186,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "a57c51f9117d8c",
@@ -3171,7 +3444,7 @@
       "h1b_approvals": 186,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "9489ef6fd28a19",
@@ -3192,7 +3465,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "216ea6da248e0c",
@@ -3205,7 +3478,7 @@
       "source_section": "Not specified",
       "role_family": "Product",
       "job_type": "Internship",
-      "posted": "26d",
+      "posted": "27d",
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
@@ -3213,7 +3486,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "c107482bb19279",
@@ -3226,7 +3499,7 @@
       "source_section": "Not specified",
       "role_family": "Product",
       "job_type": "Internship",
-      "posted": "14d",
+      "posted": "15d",
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
@@ -3234,7 +3507,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "afdf1d9d5dd06d",
@@ -3255,7 +3528,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "ab00dcffe3490f",
@@ -3276,7 +3549,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "2ac98a02f30628",
@@ -3297,7 +3570,7 @@
       "h1b_approvals": 10,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "44108d1bb996c0",
@@ -3310,7 +3583,7 @@
       "source_section": "Spring 2027",
       "role_family": "Product",
       "job_type": "Internship",
-      "posted": "13d",
+      "posted": "14d",
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
@@ -3318,7 +3591,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "4a87fa93d57af0",
@@ -3339,7 +3612,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "0f87afda26f760",
@@ -3360,7 +3633,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "18983127136fbc",
@@ -3381,7 +3654,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "09196fb31ea82b",
@@ -3389,27 +3662,6 @@
       "role": "Product Management Intern, Cooper Lighting Solutions - Spring 2027",
       "location": "Aurora, CO",
       "apply_url": "https://lighting.wd3.myworkdayjobs.com/jobs-and-careers/job/Aurora/Product-Management-Intern--Cooper-Lighting-Solutions---Spring-2027_366897",
-      "source_name": "ApplyGuy 2027 Internships",
-      "source_url": "https://github.com/ApplyGuy/2027-Internships",
-      "source_section": "Spring 2027",
-      "role_family": "Product",
-      "job_type": "Internship",
-      "posted": "11d",
-      "posted_bucket": "Open roles",
-      "sponsorship": "not-stated",
-      "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
-      "h1b_approvals": null,
-      "h1b_window": "FY2022–2023",
-      "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
-    },
-    {
-      "id": "d936b0fac2b6a2",
-      "company": "Signify",
-      "role": "Product Management Intern, Cooper Lighting Solutions - Spring 2027",
-      "location": "Peachtree City, GA",
-      "apply_url": "https://lighting.wd3.myworkdayjobs.com/jobs-and-careers/job/Peachtree-City/Product-Management-Intern--Cooper-Lighting-Solutions---Spring-2027_366870",
       "source_name": "ApplyGuy 2027 Internships",
       "source_url": "https://github.com/ApplyGuy/2027-Internships",
       "source_section": "Spring 2027",
@@ -3423,7 +3675,28 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
+    },
+    {
+      "id": "d936b0fac2b6a2",
+      "company": "Signify",
+      "role": "Product Management Intern, Cooper Lighting Solutions - Spring 2027",
+      "location": "Peachtree City, GA",
+      "apply_url": "https://lighting.wd3.myworkdayjobs.com/jobs-and-careers/job/Peachtree-City/Product-Management-Intern--Cooper-Lighting-Solutions---Spring-2027_366870",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Spring 2027",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "13d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "d03b24e99e1a33",
@@ -3444,7 +3717,7 @@
       "h1b_approvals": 26,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "653fa392689538",
@@ -3465,7 +3738,7 @@
       "h1b_approvals": 26,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "60fbd65bc82eea",
@@ -3486,7 +3759,7 @@
       "h1b_approvals": 26,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "eaf0c6fe6c3c8b",
@@ -3499,7 +3772,7 @@
       "source_section": "Summer 2027",
       "role_family": "Product",
       "job_type": "Internship",
-      "posted": "11d",
+      "posted": "12d",
       "posted_bucket": "Open roles",
       "sponsorship": "history",
       "sponsorship_scope": "company-level USCIS history",
@@ -3507,28 +3780,7 @@
       "h1b_approvals": 322,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
-    },
-    {
-      "id": "17f434378d069e",
-      "company": "Snowflake",
-      "role": "Product Management Intern (Summer 2027)",
-      "location": "Menlo Park, California, United States",
-      "apply_url": "https://careers.snowflake.com/job/b282fc4c-d041-487a-8444-eab095749368",
-      "source_name": "SearchTern ATS Feed",
-      "source_url": "https://github.com/KSaifStack/SearchTern-Listings",
-      "source_section": "U.S. internships and new-grad roles",
-      "role_family": "Product",
-      "job_type": "Internship",
-      "posted": "Nov 5",
-      "posted_bucket": "Open roles",
-      "sponsorship": "history",
-      "sponsorship_scope": "company-level USCIS history",
-      "sponsorship_evidence": "USCIS history shows 322 approved H-1B petitions for a confidently matched employer in FY2022–2023. This is company history, not a promise for this role; no explicit refusal appears in the source listing.",
-      "h1b_approvals": 322,
-      "h1b_window": "FY2022–2023",
-      "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "c9a6a661e65412",
@@ -3541,7 +3793,7 @@
       "source_section": "Not specified",
       "role_family": "Product",
       "job_type": "Internship",
-      "posted": "12d",
+      "posted": "13d",
       "posted_bucket": "Open roles",
       "sponsorship": "history",
       "sponsorship_scope": "company-level USCIS history",
@@ -3549,7 +3801,7 @@
       "h1b_approvals": 54,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "516a8472162aca",
@@ -3570,7 +3822,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "c2429a51535c60",
@@ -3591,7 +3843,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "46ed31cc8fb4de",
@@ -3604,7 +3856,7 @@
       "source_section": "Summer",
       "role_family": "Product",
       "job_type": "Internship",
-      "posted": "5d",
+      "posted": "6d",
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
@@ -3612,7 +3864,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "90929ff7332eb8",
@@ -3633,7 +3885,49 @@
       "h1b_approvals": 441,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
+    },
+    {
+      "id": "dbe0e8ce81ec28",
+      "company": "Stripe",
+      "role": "Product Manager: New Grad Accelerator",
+      "location": "San Francisco, New York City, Seattle",
+      "apply_url": "https://stripe.com/jobs/search?gh_jid=7737124",
+      "source_name": "SearchTern ATS Feed",
+      "source_url": "https://github.com/KSaifStack/SearchTern-Listings",
+      "source_section": "U.S. internships and new-grad roles",
+      "role_family": "Product",
+      "job_type": "New Grad",
+      "posted": "Oct 29",
+      "posted_bucket": "Open roles",
+      "sponsorship": "history",
+      "sponsorship_scope": "company-level USCIS history",
+      "sponsorship_evidence": "USCIS history shows 441 approved H-1B petitions for a confidently matched employer in FY2022–2023. This is company history, not a promise for this role; no explicit refusal appears in the source listing.",
+      "h1b_approvals": 441,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-11-11T22:42:33Z"
+    },
+    {
+      "id": "2508db86dbb83a",
+      "company": "Superior Essex",
+      "role": "Associate Product Manager",
+      "location": "Atlanta, Georgia, United States",
+      "apply_url": "https://myjobs.adp.com/essex-solutions/cx/job/5001234612306",
+      "source_name": "SearchTern ATS Feed",
+      "source_url": "https://github.com/KSaifStack/SearchTern-Listings",
+      "source_section": "U.S. internships and new-grad roles",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "Nov 2",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "SearchTern links directly to the employer ATS. Its captured description does not state a sponsorship refusal or U.S.-citizenship requirement; verify the live posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "b35f7fc8581078",
@@ -3646,7 +3940,7 @@
       "source_section": "Not specified",
       "role_family": "Product",
       "job_type": "Internship",
-      "posted": "11d",
+      "posted": "12d",
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
@@ -3654,7 +3948,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "40b32c638b16cf",
@@ -3675,7 +3969,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "ee9f1c2635d025",
@@ -3688,7 +3982,7 @@
       "source_section": "Not specified",
       "role_family": "Product",
       "job_type": "Internship",
-      "posted": "11d",
+      "posted": "12d",
       "posted_bucket": "Open roles",
       "sponsorship": "history",
       "sponsorship_scope": "company-level USCIS history",
@@ -3696,28 +3990,7 @@
       "h1b_approvals": 52,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
-    },
-    {
-      "id": "cb83a8af4a99a6",
-      "company": "The Toro Company",
-      "role": "IT Business Analyst Intern - Ditch Witch",
-      "location": "Noble County, OK",
-      "apply_url": "https://www.linkedin.com/jobs/view/it-business-analyst-intern-ditch-witch-at-the-toro-company-4479809558",
-      "source_name": "Summer 2027 Role Index",
-      "source_url": "https://github.com/NyXkim5/summer-2027-role-index",
-      "source_section": "Deep sweep auto-added, unvetted, wider net than the trackers",
-      "role_family": "Business Ops",
-      "job_type": "Internship",
-      "posted": "6 Nov",
-      "posted_bucket": "Open roles",
-      "sponsorship": "not-stated",
-      "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "The source does not state that sponsorship is unavailable. Keep under the default eligibility rule, then verify the employer posting before applying.",
-      "h1b_approvals": 2,
-      "h1b_window": "FY2022–2023",
-      "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "bcaa7d18296d2c",
@@ -3738,7 +4011,112 @@
       "h1b_approvals": 442,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
+    },
+    {
+      "id": "80a640429a461f",
+      "company": "TikTok",
+      "role": "Product Manager Graduate (Ads Interface Platform) - 2027 Start",
+      "location": "Seattle, WA, United States",
+      "apply_url": "https://jobright.ai/jobs/info/6a7e7e470cd4a070325805df?utm_campaign=Product%20Management&utm_source=1103",
+      "source_name": "Jobright Product Management New Grad",
+      "source_url": "https://github.com/jobright-ai/2026-Product-Management-New-Grad",
+      "source_section": "Recent product new-grad roles",
+      "role_family": "Product",
+      "job_type": "New Grad",
+      "posted": "Nov 11",
+      "posted_bucket": "Open roles",
+      "sponsorship": "history",
+      "sponsorship_scope": "company-level USCIS history",
+      "sponsorship_evidence": "USCIS history shows 442 approved H-1B petitions for a confidently matched employer in FY2022–2023. This is company history, not a promise for this role; no explicit refusal appears in the source listing.",
+      "h1b_approvals": 442,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-11-11T22:42:33Z"
+    },
+    {
+      "id": "1e8bc1613945dc",
+      "company": "TikTok",
+      "role": "Product Manager Graduate (Ads Interface Platform) - 2027 Start",
+      "location": "San Jose, CA, United States",
+      "apply_url": "https://jobright.ai/jobs/info/6a7e7e51b56bea5779c063ac?utm_campaign=Product%20Management&utm_source=1103",
+      "source_name": "Jobright Product Management New Grad",
+      "source_url": "https://github.com/jobright-ai/2026-Product-Management-New-Grad",
+      "source_section": "Recent product new-grad roles",
+      "role_family": "Product",
+      "job_type": "New Grad",
+      "posted": "Nov 11",
+      "posted_bucket": "Open roles",
+      "sponsorship": "history",
+      "sponsorship_scope": "company-level USCIS history",
+      "sponsorship_evidence": "USCIS history shows 442 approved H-1B petitions for a confidently matched employer in FY2022–2023. This is company history, not a promise for this role; no explicit refusal appears in the source listing.",
+      "h1b_approvals": 442,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-11-11T22:42:33Z"
+    },
+    {
+      "id": "98c488f5295fdc",
+      "company": "TikTok",
+      "role": "Product Manager Graduate (Content and Service Ads) - 2027 Start",
+      "location": "San Jose, CA, United States",
+      "apply_url": "https://jobright.ai/jobs/info/6a7e7e560cd4a070325805e2?utm_campaign=Product%20Management&utm_source=1103",
+      "source_name": "Jobright Product Management New Grad",
+      "source_url": "https://github.com/jobright-ai/2026-Product-Management-New-Grad",
+      "source_section": "Recent product new-grad roles",
+      "role_family": "Product",
+      "job_type": "New Grad",
+      "posted": "Nov 11",
+      "posted_bucket": "Open roles",
+      "sponsorship": "history",
+      "sponsorship_scope": "company-level USCIS history",
+      "sponsorship_evidence": "USCIS history shows 442 approved H-1B petitions for a confidently matched employer in FY2022–2023. This is company history, not a promise for this role; no explicit refusal appears in the source listing.",
+      "h1b_approvals": 442,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-11-11T22:42:33Z"
+    },
+    {
+      "id": "720623d6a6114b",
+      "company": "TikTok",
+      "role": "Product Manager Graduate (Content and Service, Search Ads) - 2027 Start",
+      "location": "San Jose, CA, United States",
+      "apply_url": "https://jobright.ai/jobs/info/6a84f9b158ded76ad8fea2cf?utm_campaign=Product%20Management&utm_source=1103",
+      "source_name": "Jobright Product Management New Grad",
+      "source_url": "https://github.com/jobright-ai/2026-Product-Management-New-Grad",
+      "source_section": "Recent product new-grad roles",
+      "role_family": "Product",
+      "job_type": "New Grad",
+      "posted": "Nov 11",
+      "posted_bucket": "Open roles",
+      "sponsorship": "history",
+      "sponsorship_scope": "company-level USCIS history",
+      "sponsorship_evidence": "USCIS history shows 442 approved H-1B petitions for a confidently matched employer in FY2022–2023. This is company history, not a promise for this role; no explicit refusal appears in the source listing.",
+      "h1b_approvals": 442,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-11-11T22:42:33Z"
+    },
+    {
+      "id": "b5170ab4cd6864",
+      "company": "TikTok",
+      "role": "Product Manager Graduate (Scaled Growth ) - 2027 Start",
+      "location": "San Jose, CA, United States",
+      "apply_url": "https://jobright.ai/jobs/info/6a84f9b3c1a3fd7120f74105?utm_campaign=Product%20Management&utm_source=1103",
+      "source_name": "Jobright Product Management New Grad",
+      "source_url": "https://github.com/jobright-ai/2026-Product-Management-New-Grad",
+      "source_section": "Recent product new-grad roles",
+      "role_family": "Product",
+      "job_type": "New Grad",
+      "posted": "Nov 11",
+      "posted_bucket": "Open roles",
+      "sponsorship": "history",
+      "sponsorship_scope": "company-level USCIS history",
+      "sponsorship_evidence": "USCIS history shows 442 approved H-1B petitions for a confidently matched employer in FY2022–2023. This is company history, not a promise for this role; no explicit refusal appears in the source listing.",
+      "h1b_approvals": 442,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "fbe649c7308dda",
@@ -3759,7 +4137,7 @@
       "h1b_approvals": 442,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "f83f9a18f7a9a8",
@@ -3767,27 +4145,6 @@
       "role": "Summer 2027 Assoc Product Manager Internship",
       "location": "Overland Park, KS",
       "apply_url": "https://tmobile.wd1.myworkdayjobs.com/external/job/Overland-Park-Kansas/Summer-2027-Assoc-Product-Manager-Internship_REQ380746",
-      "source_name": "ApplyGuy 2027 Internships",
-      "source_url": "https://github.com/ApplyGuy/2027-Internships",
-      "source_section": "Summer 2027",
-      "role_family": "Product",
-      "job_type": "Internship",
-      "posted": "12d",
-      "posted_bucket": "Open roles",
-      "sponsorship": "not-stated",
-      "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
-      "h1b_approvals": null,
-      "h1b_window": "FY2022–2023",
-      "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
-    },
-    {
-      "id": "7e57ff64068390",
-      "company": "Tmobile",
-      "role": "Summer 2027 Associate Technical Product Manager Internship",
-      "location": "Frisco, TX",
-      "apply_url": "https://tmobile.wd1.myworkdayjobs.com/external/job/Frisco-Texas/Summer-2027-Associate-Technical-Product-Manager-Internship_REQ380499",
       "source_name": "ApplyGuy 2027 Internships",
       "source_url": "https://github.com/ApplyGuy/2027-Internships",
       "source_section": "Summer 2027",
@@ -3801,98 +4158,14 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
-      "id": "030116e7ebbfb9",
+      "id": "7e57ff64068390",
       "company": "Tmobile",
-      "role": "Summer 2027 Product Management Internship",
-      "location": "Philadelphia, PA",
-      "apply_url": "https://tmobile.wd1.myworkdayjobs.com/external/job/Philadelphia-Pennsylvania/Summer-2027-Product-Management-Internship_REQ380735",
-      "source_name": "ApplyGuy 2027 Internships",
-      "source_url": "https://github.com/ApplyGuy/2027-Internships",
-      "source_section": "Summer 2027",
-      "role_family": "Product",
-      "job_type": "Internship",
-      "posted": "8d",
-      "posted_bucket": "Open roles",
-      "sponsorship": "not-stated",
-      "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
-      "h1b_approvals": null,
-      "h1b_window": "FY2022–2023",
-      "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
-    },
-    {
-      "id": "b0cab5d6192cd9",
-      "company": "Tmobile",
-      "role": "Summer 2027 Product Operations Manager Internship",
-      "location": "Bellevue, WA",
-      "apply_url": "https://tmobile.wd1.myworkdayjobs.com/external/job/Bellevue-Washington/Summer-2027-Product-Operations-Manager-Internship_REQ380888",
-      "source_name": "ApplyGuy 2027 Internships",
-      "source_url": "https://github.com/ApplyGuy/2027-Internships",
-      "source_section": "Summer 2027",
-      "role_family": "Product Ops",
-      "job_type": "Internship",
-      "posted": "8d",
-      "posted_bucket": "Open roles",
-      "sponsorship": "not-stated",
-      "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
-      "h1b_approvals": null,
-      "h1b_window": "FY2022–2023",
-      "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
-    },
-    {
-      "id": "4c47e96ba93de0",
-      "company": "Travelpro Products, Inc.",
-      "role": "Design & Product Management Intern",
-      "location": "Boca Raton, FL",
-      "apply_url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4581780",
-      "source_name": "ApplyGuy 2027 Internships",
-      "source_url": "https://github.com/ApplyGuy/2027-Internships",
-      "source_section": "Not specified",
-      "role_family": "Product",
-      "job_type": "Internship",
-      "posted": "28d",
-      "posted_bucket": "Open roles",
-      "sponsorship": "not-stated",
-      "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
-      "h1b_approvals": null,
-      "h1b_window": "FY2022–2023",
-      "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
-    },
-    {
-      "id": "61f992403ce515",
-      "company": "Valmont",
-      "role": "Product Analyst Intern (Part Time)",
-      "location": "Valley, NE",
-      "apply_url": "https://valmont.wd1.myworkdayjobs.com/valmontcareers/job/Valley-NE/Product-Analyst-Intern--Part-Time-_R29081",
-      "source_name": "ApplyGuy 2027 Internships",
-      "source_url": "https://github.com/ApplyGuy/2027-Internships",
-      "source_section": "Not specified",
-      "role_family": "Product",
-      "job_type": "Internship",
-      "posted": "29d",
-      "posted_bucket": "Open roles",
-      "sponsorship": "not-stated",
-      "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
-      "h1b_approvals": null,
-      "h1b_window": "FY2022–2023",
-      "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
-    },
-    {
-      "id": "c2233ad8a8e997",
-      "company": "Visa",
-      "role": "Product Management Intern, Data and AI Team - Summer 2027",
-      "location": "Foster City, CA",
-      "apply_url": "https://visa.wd5.myworkdayjobs.com/visa/job/US---Foster-City-CA/Product-Management-Intern--Data-and-AI-Team---Summer-2027_REF089881W-1",
+      "role": "Summer 2027 Associate Technical Product Manager Internship",
+      "location": "Frisco, TX",
+      "apply_url": "https://tmobile.wd1.myworkdayjobs.com/external/job/Frisco-Texas/Summer-2027-Associate-Technical-Product-Manager-Internship_REQ380499",
       "source_name": "ApplyGuy 2027 Internships",
       "source_url": "https://github.com/ApplyGuy/2027-Internships",
       "source_section": "Summer 2027",
@@ -3906,7 +4179,91 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
+    },
+    {
+      "id": "030116e7ebbfb9",
+      "company": "Tmobile",
+      "role": "Summer 2027 Product Management Internship",
+      "location": "Philadelphia, PA",
+      "apply_url": "https://tmobile.wd1.myworkdayjobs.com/external/job/Philadelphia-Pennsylvania/Summer-2027-Product-Management-Internship_REQ380735",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Summer 2027",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "9d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-11-11T22:42:33Z"
+    },
+    {
+      "id": "b0cab5d6192cd9",
+      "company": "Tmobile",
+      "role": "Summer 2027 Product Operations Manager Internship",
+      "location": "Bellevue, WA",
+      "apply_url": "https://tmobile.wd1.myworkdayjobs.com/external/job/Bellevue-Washington/Summer-2027-Product-Operations-Manager-Internship_REQ380888",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Summer 2027",
+      "role_family": "Product Ops",
+      "job_type": "Internship",
+      "posted": "9d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-11-11T22:42:33Z"
+    },
+    {
+      "id": "4c47e96ba93de0",
+      "company": "Travelpro Products, Inc.",
+      "role": "Design & Product Management Intern",
+      "location": "Boca Raton, FL",
+      "apply_url": "https://recruiting.paylocity.com/Recruiting/Jobs/Details/4581780",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Not specified",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "29d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-11-11T22:42:33Z"
+    },
+    {
+      "id": "c2233ad8a8e997",
+      "company": "Visa",
+      "role": "Product Management Intern, Data and AI Team - Summer 2027",
+      "location": "Foster City, CA",
+      "apply_url": "https://visa.wd5.myworkdayjobs.com/visa/job/US---Foster-City-CA/Product-Management-Intern--Data-and-AI-Team---Summer-2027_REF089881W-1",
+      "source_name": "ApplyGuy 2027 Internships",
+      "source_url": "https://github.com/ApplyGuy/2027-Internships",
+      "source_section": "Summer 2027",
+      "role_family": "Product",
+      "job_type": "Internship",
+      "posted": "15d",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "5a7a673e208341",
@@ -3919,7 +4276,7 @@
       "source_section": "Summer 2027",
       "role_family": "Product Ops",
       "job_type": "Internship",
-      "posted": "5d",
+      "posted": "6d",
       "posted_bucket": "Open roles",
       "sponsorship": "history",
       "sponsorship_scope": "company-level USCIS history",
@@ -3927,7 +4284,7 @@
       "h1b_approvals": 73,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "fb14f00d9a0783",
@@ -3940,7 +4297,7 @@
       "source_section": "Summer 2027",
       "role_family": "Product Ops",
       "job_type": "Internship",
-      "posted": "5d",
+      "posted": "6d",
       "posted_bucket": "Open roles",
       "sponsorship": "history",
       "sponsorship_scope": "company-level USCIS history",
@@ -3948,28 +4305,49 @@
       "h1b_approvals": 73,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
-      "id": "21b1b12c1bbb04",
-      "company": "Wattswater",
-      "role": "Product Management Co-op, Jan-June 2027",
-      "location": "Menomonee Falls, WI",
-      "apply_url": "https://wattswater.wd5.myworkdayjobs.com/intern-external/job/Menomonee-Falls-WI/Product-Management-Co-op--Jan-June-2027_10017702",
-      "source_name": "ApplyGuy 2027 Internships",
-      "source_url": "https://github.com/ApplyGuy/2027-Internships",
-      "source_section": "2027",
-      "role_family": "Product",
-      "job_type": "Internship",
-      "posted": "29d",
+      "id": "b5621578e216be",
+      "company": "Volkswagen Financial Services (UK)",
+      "role": "Junior Business Analyst",
+      "location": "Delaware Drive",
+      "apply_url": "https://jobright.ai/jobs/info/6af45e6155dfd18e245c4284?utm_campaign=Business%20Analyst&utm_source=1103",
+      "source_name": "Jobright Business Analyst New Grad",
+      "source_url": "https://github.com/jobright-ai/2026-Business-Analyst-New-Grad",
+      "source_section": "Recent business analyst new-grad roles",
+      "role_family": "Business Ops",
+      "job_type": "New Grad",
+      "posted": "Nov 11",
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
-      "sponsorship_evidence": "ApplyGuy reports this listing as open and links to the employer posting, but does not provide a role-specific sponsorship decision. Verify the employer posting before applying.",
+      "sponsorship_evidence": "Jobright includes this role in its recent Product Management new-grad feed. Sponsorship is not stated; verify the employer posting and role requirements before applying.",
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
+    },
+    {
+      "id": "af1ba11f79f5da",
+      "company": "Volkswagen Financial Services (UK)",
+      "role": "Junior Business Analyst",
+      "location": "Milton Keynes, England, United Kingdom",
+      "apply_url": "https://jobright.ai/jobs/info/6af4591642ec235b83f13f05?utm_campaign=Business%20Analyst&utm_source=1103",
+      "source_name": "Jobright Business Analyst New Grad",
+      "source_url": "https://github.com/jobright-ai/2026-Business-Analyst-New-Grad",
+      "source_section": "Recent business analyst new-grad roles",
+      "role_family": "Business Ops",
+      "job_type": "New Grad",
+      "posted": "Nov 11",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "Jobright includes this role in its recent Product Management new-grad feed. Sponsorship is not stated; verify the employer posting and role requirements before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "e6867413e6af4d",
@@ -3990,7 +4368,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "d34e6f304548cd",
@@ -4003,7 +4381,7 @@
       "source_section": "Not specified",
       "role_family": "Product",
       "job_type": "Internship",
-      "posted": "15d",
+      "posted": "16d",
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
@@ -4011,7 +4389,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "f8fc3c0a0f008c",
@@ -4024,7 +4402,7 @@
       "source_section": "Summer 2027",
       "role_family": "Product",
       "job_type": "Internship",
-      "posted": "15d",
+      "posted": "16d",
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
@@ -4032,7 +4410,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "b553258fb09617",
@@ -4045,7 +4423,7 @@
       "source_section": "Summer 2027",
       "role_family": "Product",
       "job_type": "Internship",
-      "posted": "21d",
+      "posted": "22d",
       "posted_bucket": "Open roles",
       "sponsorship": "not-stated",
       "sponsorship_scope": "source does not state a refusal",
@@ -4053,7 +4431,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "e7df6b37e0add8",
@@ -4074,7 +4452,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "af561e472599ec",
@@ -4095,7 +4473,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "c06c11c76f2e6c",
@@ -4116,7 +4494,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "b635d3a609e70a",
@@ -4137,7 +4515,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "a59a39a3ae8938",
@@ -4158,7 +4536,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "f628ce34a6dbd8",
@@ -4179,7 +4557,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "814ea32e5640df",
@@ -4200,7 +4578,28 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
+    },
+    {
+      "id": "5d2e6963361686",
+      "company": "Zipline",
+      "role": "Technical Program Manager Intern (Summer 2027)",
+      "location": "South San Francisco, California, USA",
+      "apply_url": "https://www.zipline.com/open-roles/7904471003?gh_jid=7904471003",
+      "source_name": "SearchTern ATS Feed",
+      "source_url": "https://github.com/KSaifStack/SearchTern-Listings",
+      "source_section": "U.S. internships and new-grad roles",
+      "role_family": "Program Management",
+      "job_type": "Internship",
+      "posted": "Oct 29",
+      "posted_bucket": "Open roles",
+      "sponsorship": "not-stated",
+      "sponsorship_scope": "source does not state a refusal",
+      "sponsorship_evidence": "SearchTern links directly to the employer ATS. Its captured description does not state a sponsorship refusal or U.S.-citizenship requirement; verify the live posting before applying.",
+      "h1b_approvals": null,
+      "h1b_window": "FY2022–2023",
+      "status": "open",
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "68b514dce00457",
@@ -4221,7 +4620,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "closed",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "d01917f375d506",
@@ -4242,7 +4641,7 @@
       "h1b_approvals": 280,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "4574555406fc89",
@@ -4263,7 +4662,7 @@
       "h1b_approvals": 133,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "d5c55fbb05088c",
@@ -4284,7 +4683,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "d6ca9db784dd82",
@@ -4305,7 +4704,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "97bf4c89acbf52",
@@ -4326,7 +4725,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "ecf3c220bd694a",
@@ -4347,7 +4746,7 @@
       "h1b_approvals": 44,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "46185a5b22af90",
@@ -4368,7 +4767,7 @@
       "h1b_approvals": 28,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "affd776e68bae8",
@@ -4389,7 +4788,7 @@
       "h1b_approvals": 308,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "053d562cfcb3ff",
@@ -4410,7 +4809,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "cb8573578dd11c",
@@ -4431,7 +4830,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "35bde60fcb223e",
@@ -4452,7 +4851,7 @@
       "h1b_approvals": 66,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "5107ec15235812",
@@ -4473,7 +4872,7 @@
       "h1b_approvals": 931,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "76459439832caa",
@@ -4494,7 +4893,7 @@
       "h1b_approvals": 150,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "0239a60c28585a",
@@ -4515,7 +4914,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "37a41f6f24a443",
@@ -4536,7 +4935,7 @@
       "h1b_approvals": 9275,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "fcd39f483457b4",
@@ -4557,7 +4956,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "22f7e68cf04832",
@@ -4578,7 +4977,7 @@
       "h1b_approvals": 186,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "fda5c0c6ac24b1",
@@ -4599,7 +4998,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "83ba7918013735",
@@ -4620,7 +5019,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "d5ffb0910b6ed0",
@@ -4641,7 +5040,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "caf597a8b3690b",
@@ -4662,7 +5061,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "34c4c6d2d2129a",
@@ -4683,7 +5082,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "7baf80d403898f",
@@ -4704,7 +5103,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "c14b7ad96de4fd",
@@ -4725,7 +5124,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "a2f569d54c8d0e",
@@ -4746,7 +5145,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     },
     {
       "id": "ecd505661f3039",
@@ -4767,7 +5166,7 @@
       "h1b_approvals": null,
       "h1b_window": "FY2022–2023",
       "status": "open",
-      "verified_at": "2026-11-10T21:49:01Z"
+      "verified_at": "2026-11-11T22:42:33Z"
     }
   ]
 }
